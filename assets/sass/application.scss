@@ -1,0 +1,14 @@
+---
+# Front Matter
+---
+
+// Import THe Web Design Standards
+@import "../css/uswds.min.css";
+
+.clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
