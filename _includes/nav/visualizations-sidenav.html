@@ -1,0 +1,7 @@
+<li>
+  {% assign current = nil %}
+  {% if page.path == 'pages/visualizations/overview.md' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{ site.baseurl }/visualizations" {% if current %}class="usa-current"{% endif %}>Visualization Types</a>
+</li>

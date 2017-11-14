@@ -9,10 +9,8 @@
   <body class="{% if page.title %}page-{{ page.title | slugify }} {% endif %}layout-{{ page.layout }}">
 
     {% include header.html %}
-
-    <div class="page-container usa-grid">
-      {{ content }}
-    </div>
+    
+    {{ content }}
 
     <script src="{{ site.baseurl }}/assets/js/application.js"></script>
 

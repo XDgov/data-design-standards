@@ -1,0 +1,21 @@
+.usa-sidenav-list {
+  
+  a {
+    color: $census-grey;
+
+    &:hover {
+      color: $census-grey;
+      background-color: lighten($census-grey-lightest, 25%);
+    }
+
+
+    &.usa-current {
+      border-left: 0.4rem solid $census-orange;
+      color: $census-grey;
+    }
+  }
+
+  li {
+    border-top: 1px solid $census-grey-lightest;
+  }
+}
