@@ -28,6 +28,10 @@
     z-index: $z-nav-secondary;
   }
 
+  &.sticky {
+    @extend %sticky;
+  }
+
   ul {
 
     li {

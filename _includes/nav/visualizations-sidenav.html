@@ -1,14 +1,14 @@
 <li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/overview.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations" {% if current %}class="usa-current"{% endif %}>Visualization Types</a>
+  {%
+    include nav/link-item.html
+    href="/visualizations"
+    text="Visualization Types"
+  %}
 </li>
 <li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/example.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations/example" {% if current %}class="usa-current"{% endif %}>Example Viz Page</a>
+  {%
+    include nav/link-item.html
+    href="/visualizations/example"
+    text="Example Viz page"
+  %}
 </li>
