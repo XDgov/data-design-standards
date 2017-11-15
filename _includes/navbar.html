@@ -1,6 +1,6 @@
 <header class="usa-header site-header" role="banner">
   {% include banner.html %}
-  <div class="site-header-navbar usa-grid">
+  <div class="site-header-navbar usa-navbar">
     <button class="usa-menu-btn">Menu</button>
     <div class="usa-logo site-logo" id="logo">
       <em class="usa-logo-text">
@@ -10,5 +10,8 @@
       </em>
     </div>
   </div>
-</header>  
+</header>
+<nav class="site-nav-secondary sticky">
+  {% include nav/top.html %}
+</nav>
 <div class="usa-overlay"></div>

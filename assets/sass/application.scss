@@ -4,6 +4,10 @@
 
 // Import THe Web Design Standards
 @import "../css/uswds.min.css";
+@import "variables";
+@import "base/all";
+@import "includes/all";
+@import "layouts/all";
 
 .clearfix {
   &::after {

@@ -1,0 +1,136 @@
+.main-content {
+  display: inline-block; // starting: not scrolled
+  margin-top: 4rem; // starting: not scrolled
+  position: relative;
+  width: 100%;
+  top: 6.3rem; // height of disclaimer + navbar on mobile
+
+  @media(min-width: $nav-width) {
+    width: calc(100% - #{$width-nav-sidebar});
+    top: 0;
+  }
+
+  .lt-ie9 & {
+    width: 75%;
+  }
+}
+
+.page-guidance {
+
+  &.guidance-always,
+  &.guidance-recommended {
+    
+    i {
+      color: #01B020;
+    }
+  }
+
+  &.guidance-never,
+  &.guidance-not-recommended {
+    
+    i {
+      color: #FB412E;
+    }
+  }
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  li {
+    margin-bottom: 0.1rem;
+  }
+}
+
+.page-tags {
+  margin-top: 1rem;
+  
+  li {
+    background: $census-teal;
+    border-radius: 0.75rem;
+    color: $color-white;
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height: 2rem;
+    margin-right: 1rem;
+    padding: 0.25rem 1rem 0.45rem;
+  }
+}
+
+.sidenav {
+  @extend %sticky;
+  display: none;
+
+  @media(min-width: $nav-width) {
+    display: block;
+    float: left;
+    margin-bottom: 525px;
+    margin-top: 50px;
+    padding-right: 1rem;
+    padding-left: 3rem;
+    overflow-y: auto;
+    top: 5rem;
+    width: $width-nav-sidebar;
+  }
+
+  .lt-ie9 & {
+    width: 25%;
+  }
+
+  .usa-navigation-submenu {
+    &[aria-hidden="false"] {
+      display: block;
+    }
+  }
+}
+
+.site-subheading {
+  font-size: 1.2rem;
+  color: $census-grey;
+  display: block;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.6rem;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.styleguide-content {
+  margin-bottom: 5em;
+  max-width: $site-max-width;
+  position: relative;
+  header > h1 {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.styleguide-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 5em;
+  max-width: $site-max-width;
+  position: relative;
+
+  @media (min-width: $nav-width) {
+    padding-left: 3rem;
+    padding-right: 3 rem;
+  }
+
+  header {
+    > h1 {
+      display: block;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  section {
+    > h2 {
+      display: inline-block;
+    }
+
+    > .tooltip {
+      margin-top: 56px;
+    }
+  }
+}

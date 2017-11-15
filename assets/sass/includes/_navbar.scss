@@ -1,0 +1,56 @@
+.site-header {
+  background-color: $census-navy;
+}
+
+.site-header-navbar {
+  height: auto;
+  padding: 2rem 0;
+}
+
+.site-logo {
+  margin-left: 3rem;
+
+  a {
+    color: $color-white;
+  }
+}
+
+.site-nav-secondary {
+  display: none;
+
+  @media(min-width: $nav-width) {
+    background-color: $color-white;
+    border-bottom: 1px solid $census-grey-lightest;
+    clear: both;
+    display: block;
+    height: $height-nav-secondary;
+    padding-left: 3rem;
+    z-index: $z-nav-secondary;
+  }
+
+  ul {
+
+    li {
+      display: inline;
+      padding-right: 3rem;
+    }
+  }
+
+  a {
+    color: $census-grey;
+    font-size: $site-nav-font-size;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    line-height: $height-nav-secondary;
+    text-decoration: none;
+
+    &:hover {
+      color: $census-orange-dark;
+      text-decoration: underline;
+    }
+
+    &.usa-current {
+      color: $census-orange-dark;
+    }
+  }
+}

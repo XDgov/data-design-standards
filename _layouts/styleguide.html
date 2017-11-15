@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<aside class="sidenav sticky">
+  <ul class="usa-sidenav-list">
+    {% include nav/visualizations-sidenav.html %}
+  </ul>
+</aside>
+
+<main id="main-content" class="main-content">
+
+  <div class="styleguide-content usa-content">
+    <header>
+      {% if page.category != null %}
+        {% unless page.path contains 'overview' %}
+          <p class="site-subheading">{{ page.category }}</p>
+        {% endunless %}
+      {% endif %}
+      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+      {% if page.tags != null %}
+        <ul class="usa-unstyled-list page-tags">
+          {% for tag in page.tags %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </header>
+
+    {% include lead.html text=page.lead %}
+
+    {{ content }}
+    {% if page.guidance-always != null %}
+      <h4>Always</h4>
+      <ul class="page-guidance guidance-always">
+        {% for guidance in page.guidance-always %}
+          <li><i class="fa fa-check-circle"></i>{{ guidance }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if page.guidance-recommended != null %}
+      <h4>Recommended</h4>
+      <ul class="page-guidance guidance-recommended">
+        {% for guidance in page.guidance-recommended %}
+          <li><i class="fa fa-info-circle"></i>{{ guidance }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if page.guidance-not-recommended != null %}
+      <h4>Not Recommended</h4>
+      <ul class="page-guidance guidance-not-recommended">
+        {% for guidance in page.guidance-not-recommended %}
+          <li><i class="fa fa-minus-circle"></i>{{ guidance }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if page.guidance-never != null %}
+      <h4>Never</h4>
+      <ul class="page-guidance guidance-never">
+        {% for guidance in page.guidance-never %}
+          <li><i class="fa fa-times-circle"></i>{{ guidance }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+
+  </div>
+
+</main>

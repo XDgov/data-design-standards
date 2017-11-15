@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.usa-font-lead {
+  font-family: $font-sans;
+}
+
+.usa-accordion-button {
+  font-family: $font-sans;
+}
+
+.usa-sidenav-list,
+.usa-serif {
+  a {
+    font-family: $font-sans;
+  }
+  li {
+    font-family: $font-sans;
+  }
+  p {
+    font-family: $font-sans;
+  }
+
+  span {
+    font-family: $font-sans;
+  }
+}
+
+html {
+  font-family: $font-sans;
+}
