@@ -1,0 +1,5 @@
+{% assign sanitized_page_url = page.url | remove: "/" %}
+{% assign sanitized_href = include.href | remove: "/" %}
+<a href="{{ site.baseurl | append: include.href }}" {% if sanitized_page_url == sanitized_href %}class="usa-current"{% endif %}>
+  {{ include.text }}
+</a>
