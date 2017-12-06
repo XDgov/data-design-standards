@@ -33,7 +33,11 @@ layout: default
       <h4>Always</h4>
       <ul class="page-guidance guidance-always">
         {% for guidance in page.guidance-always %}
-          <li><i class="usa-icon usa-icon-check-circle"></i>{{ guidance }}</li>
+          <li>
+            {% include svg/success.html %}
+            {{ guidance }}
+            }
+          </li>
         {% endfor %}
       </ul>
     {% endif %}
@@ -41,7 +45,11 @@ layout: default
       <h4>Recommended</h4>
       <ul class="page-guidance guidance-recommended">
         {% for guidance in page.guidance-recommended %}
-          <li><i class="usa-icon usa-icon-check-circle"></i>{{ guidance }}</li>
+          <li>
+            {% include svg/success.html %}
+            {{ guidance }}
+            }
+          </li>
         {% endfor %}
       </ul>
     {% endif %}
@@ -49,7 +57,11 @@ layout: default
       <h4>Not Recommended</h4>
       <ul class="page-guidance guidance-not-recommended">
         {% for guidance in page.guidance-not-recommended %}
-          <li><i class="usa-icon usa-icon-warning-circle"></i>{{ guidance }}</li>
+          <li>
+            {% include svg/warning.html %}
+            {{ guidance }}
+            }
+          </li>
         {% endfor %}
       </ul>
     {% endif %}
@@ -57,7 +69,11 @@ layout: default
       <h4>Never</h4>
       <ul class="page-guidance guidance-never">
         {% for guidance in page.guidance-never %}
-          <li><i class="usa-icon usa-icon-warning-circle"></i>{{ guidance }}</li>
+          <li>
+            {% include svg/warning.html %}
+            {{ guidance }}
+            }
+          </li>
         {% endfor %}
       </ul>
     {% endif %}
