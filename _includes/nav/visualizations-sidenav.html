@@ -26,3 +26,10 @@
   {% endif %}
   <a href="{{ site.baseurl }}/visualizations/population-pyramid" {% if current %}class="usa-current"{% endif %}>Population Pyramid</a>
 </li>
+<li>
+  {% assign current = nil %}
+  {% if page.path == 'pages/visualizations/stacked-bar-chart.md' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/visualizations/stacked-bar-chart" {% if current %}class="usa-current"{% endif %}>Stacked Bar Chart</a>
+</li>
