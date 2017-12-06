@@ -7,6 +7,13 @@
 </li>
 <li>
   {% assign current = nil %}
+  {% if page.path == 'pages/visualizations/histogram.md' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/visualizations/histogram" {% if current %}class="usa-current"{% endif %}>Histogram</a>
+</li>
+<li>
+  {% assign current = nil %}
   {% if page.path == 'pages/visualizations/population-pyramid.md' %}
     {% assign current = "current" %}
   {% endif %}

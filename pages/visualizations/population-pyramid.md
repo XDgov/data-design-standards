@@ -5,12 +5,12 @@ title: Population Pyramid
 category: Visualization types
 lead: A population pyramid is a graphical illustration that displays the distribution of population across different age groups and genders.
 tags:
-- comparitive
+- Comparitive
 guidance-always:
-- Place the Y-axis in the middle of the X-axis at the zero marker.
+- Place the Y-axis in the middle of the x-axis at the zero marker.
 - Display continuous ages or continuous age groups.
 - Display males on the left and females on the right for consistency.
-- Represent age groups in the Y-axis and population size in the X-axis.
+- Represent age groups in the y-axis and population size in the x-axis.
 - Use different colors to represent male and female.
 guidance-recommended:
 - Alternate between two shades of color for each row to improve the legibility of the rows.

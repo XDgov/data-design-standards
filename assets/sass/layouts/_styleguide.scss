@@ -140,4 +140,16 @@
   display: inline-block;
   height: 1em;
   width: 1em;
+
+  &.usa-icon-success {
+    .background {
+      fill: darken($dds-color-green, 5);
+    }
+  }
+
+  &.usa-icon-warning {
+    .background {
+    fill: $usa-color-secondary-dark;
+    }
+  }
 }
