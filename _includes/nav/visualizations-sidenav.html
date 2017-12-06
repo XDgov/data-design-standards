@@ -14,6 +14,13 @@
 </li>
 <li>
   {% assign current = nil %}
+  {% if page.path == 'pages/visualizations/line-graph.md' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/visualizations/line-graph" {% if current %}class="usa-current"{% endif %}>Line Graph</a>
+</li>
+<li>
+  {% assign current = nil %}
   {% if page.path == 'pages/visualizations/population-pyramid.md' %}
     {% assign current = "current" %}
   {% endif %}

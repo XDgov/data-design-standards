@@ -10,6 +10,10 @@
     top: 0;
   }
 
+  ul {
+    max-width: 77rem;
+  }
+
   .lt-ie9 & {
     width: 75%;
   }
@@ -142,14 +146,16 @@
   width: 1em;
 
   &.usa-icon-success {
+    
     .background {
       fill: darken($dds-color-green, 5);
     }
   }
 
   &.usa-icon-warning {
+    
     .background {
-    fill: $usa-color-secondary-dark;
+      fill: $usa-color-secondary-dark;
     }
   }
 }
