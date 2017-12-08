@@ -7,14 +7,14 @@ lead: A histogram is a chart that displays numeric data in ranges, where each ba
 tags:
 - Distribution
 guidance-always:
-- Include the frequency measurement on the y-axis and ranges on the x-axis.
-- Start the y-axis at 0.
-- Use a single color for all bars, except when using one additional color to highlight a single bar.
-- Contain at lease 3 intervals/ranges.
+- Always include the frequency measurement on the y-axis and ranges on the x-axis.
+- Always start the y-axis at zero.
+- Always use a single color for all bars, except when using one additional color to highlight a single bar.
+- Always use at least three intervals/ranges.
 guidance-not-recommended:
-- Orienting the chart upside down, where the 0 value of the y-axis is at the top of the chart.
+- It is not recommended that you orient a histogram upside down.
 guidance-never:
-- Add space between bars as the bars span an entire range of values.
+- Never add space between bars as the bars span an entire range of values.
 ---
 
 Like a bar chart, histograms consist of a series of vertical bars along the x-axis. Histograms are most commonly used to depict what a set of data looks like in aggregate. At a quick glance, histograms tell whether a dataset has values that are clustered around a small number of ranges or are more spread out.
