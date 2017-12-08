@@ -5,7 +5,7 @@ title: Stacked Bar Chart
 category: Visualization types
 lead: A stacked bar chart is a bar chart that stacks subgroups of data to form each bar.
 tags:
-- Comparitive
+- Comparative
 guidance-always:
 - Stacked Bar graphs must have horizontal and vertical axes.
 - The bar lengths must begin at 0.
