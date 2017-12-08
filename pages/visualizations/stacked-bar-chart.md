@@ -3,25 +3,24 @@ permalink: /visualizations/stacked-bar-chart
 layout: styleguide
 title: Stacked Bar Chart
 category: Visualization types
-lead: A stacked bar chart is a bar chart that stacks subgroups of data to form each bar.
+lead: A stacked bar chart is a bar chart that includes subgroups of data in each bar.
 tags:
 - Comparative
 guidance-always:
-- Stacked Bar graphs must have horizontal and vertical axes.
-- The bar lengths must begin at 0.
-- Include a legend along with labels.
-- Maintain an even amount of space between bars.
+- Always begin the bar lengths at zero.
+- Always include a legend along with labels.
+- Always maintain an even amount of space between bars.
 
 guidance-recommended:
-- The bars should be ordered by the values of the groups or one of the subgroups.
-- Limit the number of subgroups to 5.
-- If the subgroups have an order, use a sequential or diverging color scheme.
-- If the subgroups do not have an order, use a qualitative color scheme.
+- It is recommended that you order groups by their total value or the values of a selected subgroup.
+- It is recommended that you include no more than five subgroups.
+- It is recommended that you use a sequential or diverging color scheme if the subgroups have an order.
+- It is recommended that you use a qualitative color scheme if the subgroups do not have an order.
 
 guidance-not-recommended:
-- Ordering bars by their alphabetical label. Instead, order by the value of the groups or a specific subgroup.
+- It is not recommended that you order groups by their alphabetical label.
 guidance-never:
-- Depict more than 5 subgroups.
+- Never depict more than five subgroups.
 ---
 
-The length of each bar communicates the total value of the subgroups, and the length of each subgroup represents their individual values. Stacked bar charts are best used to compare data between bars and subgroups.
+The length of each bar communicates the total value of a group which is a sum of it’s subgroup values, and the length of each subgroup represents their individual values. Stacked bar charts are best used to compare data between groups and between subgroups.
