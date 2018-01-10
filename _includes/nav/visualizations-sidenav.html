@@ -28,6 +28,13 @@
 </li>
 <li>
   {% assign current = nil %}
+  {% if page.path == 'pages/visualizations/scatter-plot.md' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/visualizations/scatter-plot" {% if current %}class="usa-current"{% endif %}>Scatter Plot</a>
+</li>
+<li>
+  {% assign current = nil %}
   {% if page.path == 'pages/visualizations/stacked-bar-chart.md' %}
     {% assign current = "current" %}
   {% endif %}
