@@ -1,42 +1,6 @@
-<li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/overview.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations" {% if current %}class="usa-current"{% endif %}>Visualization Types</a>
-</li>
-<li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/histogram.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations/histogram" {% if current %}class="usa-current"{% endif %}>Histogram</a>
-</li>
-<li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/line-graph.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations/line-graph" {% if current %}class="usa-current"{% endif %}>Line Graph</a>
-</li>
-<li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/population-pyramid.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations/population-pyramid" {% if current %}class="usa-current"{% endif %}>Population Pyramid</a>
-</li>
-<li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/scatter-plot.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations/scatter-plot" {% if current %}class="usa-current"{% endif %}>Scatter Plot</a>
-</li>
-<li>
-  {% assign current = nil %}
-  {% if page.path == 'pages/visualizations/stacked-bar-chart.md' %}
-    {% assign current = "current" %}
-  {% endif %}
-  <a href="{{ site.baseurl }}/visualizations/stacked-bar-chart" {% if current %}class="usa-current"{% endif %}>Stacked Bar Chart</a>
-</li>
+{% include nav/visualization-list-item.html name="Bar Chart" %}
+{% include nav/visualization-list-item.html name="Histogram" %}
+{% include nav/visualization-list-item.html name="Line Graph" %}
+{% include nav/visualization-list-item.html name="Population Pyramid" %}
+{% include nav/visualization-list-item.html name="Scatter Plot" %}
+{% include nav/visualization-list-item.html name="Stacked Bar Chart" %}
