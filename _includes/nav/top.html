@@ -1,9 +1,16 @@
 <ul class="usa-unstyled-list">
   <li>
     {% assign current = nil %}
-    {% if page.path == 'pages/visualizations/overview.md' %}
+    {% if page.path == 'pages/visualizations/visualizations.md' %}
       {% assign current = "current" %}
     {% endif %}
     <a href="{{ site.baseurl }}/visualizations" {% if current %}class="usa-current"{% endif %}>Visualization Types</a>
+  </li>
+  <li>
+    {% assign current = nil %}
+    {% if page.path == 'pages/components/components.md' %}
+      {% assign current = "current" %}
+    {% endif %}
+    <a href="{{ site.baseurl }}/components" {% if current %}class="usa-current"{% endif %}>Components</a>
   </li>
 </ul>

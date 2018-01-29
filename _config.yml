@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Data Design Standards
+title: Data Visualization Standards
 baseurl: /data-design-standards
 description: > # this means to ignore newlines until "baseurl:"
-  A site for documenting the Data Design Standards.
+  A site for documenting the Data Visualization Standards.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -35,13 +35,6 @@ collections:
   components:
     output: true
     permalink: /:path/
-
-defaults:
-  - scope:
-      path: ''
-      type: components
-    values:
-      layout: component
 
 exclude:
   - /node_modules/
