@@ -1,0 +1,8 @@
+{% assign hexArray = include.hexValues | split: "," %}
+{% assign nameArray = include.nameValues | split: "," %}
+
+{% for hex in hexArray %}
+  {% assign num = forloop.index | minus: 1 %}
+  {% assign colorName = nameArray[num] %}
+  {% include colors/color-sequence-block.html hex=hex name=colorName %}
+{% endfor %}

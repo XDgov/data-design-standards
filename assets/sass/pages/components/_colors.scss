@@ -1,0 +1,293 @@
+.census-color-blue {
+  background-color: $census-color-blue;
+}
+
+.census-color-blue-dark {
+  background-color: $census-color-blue-dark;
+}
+
+.census-color-blue-dark-text {
+  color: $census-color-blue-dark;
+}
+
+.census-color-blue-darker {
+  background-color: $census-color-blue-darker;
+}
+
+.census-color-blue-darker-text {
+  color: $census-color-blue-darker;
+}
+
+.census-color-blue-darkest {
+  background-color: $census-color-blue-darkest;
+}
+.census-color-blue-darkest-text {
+  color: $census-color-blue-darkest;
+}
+
+.census-color-blue-light {
+  background-color: $census-color-blue-light;
+}
+
+.census-color-blue-lighter {
+  background-color: $census-color-blue-lighter;
+}
+
+.census-color-blue-lightest {
+  background-color: $census-color-blue-lightest;
+}
+
+.census-color-grey {
+  background-color: $census-color-grey;
+}
+
+.census-color-grey-dark {
+  background-color: $census-color-grey-dark;
+}
+
+.census-color-grey-dark-text {
+  color: $census-color-grey-dark;
+}
+
+.census-color-grey-darker {
+  background-color: $census-color-grey-darker;
+}
+
+.census-color-grey-darker-text {
+  color: $census-color-grey-darker;
+}
+
+.census-color-grey-darkest {
+  background-color: $census-color-grey-darkest;
+}
+
+.census-color-grey-darkest-text {
+  color: $census-color-grey-darkest;
+}
+
+.census-color-grey-light {
+  background-color: $census-color-grey-light;
+}
+
+.census-color-grey-lighter {
+  background-color: $census-color-grey-lighter;
+}
+
+.census-color-grey-lightest {
+  background-color: $census-color-grey-lightest;
+}
+
+.census-color-navy {
+  background-color: $census-color-navy;
+}
+
+.census-color-orange {
+  background-color: $census-color-orange;
+}
+
+.census-color-orange-dark {
+  background-color: $census-color-orange-dark;
+}
+
+.census-color-orange-dark-text {
+  color: $census-color-orange-dark;
+}
+
+.census-color-orange-darker {
+  background-color: $census-color-orange-darker;
+}
+
+.census-color-orange-darker-text {
+  color: $census-color-orange-darker;
+}
+
+.census-color-orange-darkest {
+  background-color: $census-color-orange-darkest;
+}
+
+.census-color-orange-darkest-text {
+  color: $census-color-orange-darkest;
+}
+
+.census-color-orange-light {
+  background-color: $census-color-orange-light;
+}
+
+.census-color-orange-lighter {
+  background-color: $census-color-orange-lighter;
+}
+
+.census-color-orange-lightest {
+  background-color: $census-color-orange-lightest;
+}
+
+
+.census-color-teal {
+  background-color: $census-color-teal;
+}
+
+.census-color-teal-dark {
+  background-color: $census-color-teal-dark;
+}
+
+.census-color-teal-dark-text {
+  color: $census-color-teal-dark;
+}
+
+.census-color-teal-darker {
+  background-color: $census-color-teal-darker;
+}
+
+.census-color-teal-darker-text {
+  color: $census-color-teal-darker;
+}
+
+.census-color-teal-darkest {
+  background-color: $census-color-teal-darkest;
+}
+
+.census-color-teal-darkest-text {
+  color: $census-color-teal-darkest;
+}
+
+.census-color-teal-light {
+  background-color: $census-color-teal-light;
+}
+
+.census-color-teal-lighter {
+  background-color: $census-color-teal-lighter;
+}
+
+.census-color-teal-lightest {
+  background-color: $census-color-teal-lightest;
+}
+
+.usa-color-hex {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.usa-color-inner-content {
+  position: absolute;
+  top: 100%;
+}
+
+.usa-color-name {
+  color: $census-color-grey-dark;
+  font-size: 1.25rem;
+  margin: 0.25rem 0 0;
+}
+
+.usa-color-card {
+  @extend %card;
+  padding: 1rem;
+}
+
+.usa-color-card-inner {
+  float: left;
+  width: 25%;
+}
+
+.usa-color-card-sequence {
+  @extend %card;
+  margin: 0 0 3rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.usa-color-container {
+  display: block;
+  float: left;
+  margin: 0 1.333332% 3rem 0;
+  width: 24%;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+.usa-color-container-small {
+  display: block;
+  float: left;
+  margin: 0 1.333332% 1.5rem 0;
+  min-height: 152px;
+  width: 24%;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  &:nth-child(5n) {
+    clear: left;
+  }
+
+  @media (min-width: $small-screen) {
+    margin: 0 1% 0 0;
+    width: 13.428571%;
+
+    &:nth-child(4n) {
+      margin-right: 1%;
+    }
+
+    &:nth-child(5n) {
+      clear: none;
+    }
+
+    &:nth-child(7n) {
+      margin-right: 0;
+    }
+  }
+
+  &.usa-color-card {
+    padding: 0.75rem;
+  }
+
+  p {
+    line-height: 1.75rem;
+  }
+
+  .usa-color-name {
+    font-size: 1.25rem;
+  }
+}
+
+.usa-color-heading {
+  color: $census-color-grey-darker;
+}
+
+.usa-color-square {
+  padding-bottom: 60%;
+}
+
+.usa-color-text {
+
+  &.usa-color-text-dark {
+    color: $color-white;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+
+.usa-grid-colors {
+  margin-bottom: 3rem;
+}
+
+.usa-text-examples {
+  font-weight: bold;
+  margin-bottom: 3rem;
+
+  &:last-child {
+    margin-bottom: 2rem;
+  }
+
+  h6 {
+    margin-top: 1rem;
+  }
+
+  ul {
+    @extend %card;
+    padding: 1rem;
+  }
+}

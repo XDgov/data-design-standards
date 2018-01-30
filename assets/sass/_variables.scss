@@ -1,12 +1,38 @@
+//Borders
+$census-border-radius: 3px;
+
 // Census Colors
-$census-grey: #4B636E; // nav text
-$census-grey-light: #78909C;
-$census-grey-lightest: #A7C0CD; // divider lines
-$census-navy: #112E51; // background
-$census-orange: #ff7043;
-$census-orange-dark: #c25432;
-$census-teal: #008393; // link color
-$census-teal-light: #26C6DA;
+$census-color-blue: #2e78d2;
+$census-color-blue-dark: #205493;
+$census-color-blue-darker: #112E51;
+$census-color-blue-darkest: #081627;
+$census-color-blue-light: #6DA1E0;
+$census-color-blue-lighter: #97BCE9;
+$census-color-blue-lightest: #C1D7F2;
+$census-color-grey: #78909C;
+$census-color-grey-dark: #4B636E; // nav text
+$census-color-grey-darker: #364850;
+$census-color-grey-darkest: #222C31;
+$census-color-grey-light: #A7C0CD; // divider lines
+$census-color-grey-lighter: #C8D7DF;
+$census-color-grey-lightest: #E8EFF2;
+$census-color-navy: #112E51; // background
+$census-color-orange: #FF7043;
+$census-color-orange-dark: #C25432;
+$census-color-orange-darker: #853A22;
+$census-color-orange-darkest: #5D2818;
+$census-color-orange-light: #FF9776;
+$census-color-orange-lighter: #FFBEA9;
+$census-color-orange-lightest: #FFE4DC;
+$census-color-teal: #26C6DA; // liFnk color
+$census-color-teal-dark: #008393; // link color
+$census-color-teal-darker: #005660; // link color
+$census-color-teal-darkest: #00282D; // link color
+$census-color-teal-light: #7DDDE9;
+$census-color-teal-lighter: #A9E8F0;
+$census-color-teal-lightest: #D4F4F8;
+
+$census-background-color: #f8fafa;
 
 // Census Typography
 $font-sans: Roboto, Helvetica, sans-serif;
@@ -23,6 +49,7 @@ $color-black: #000000;
 $color-white: #FFFFFF;
 
 //  Grid
+$small-screen: 600px;
 $nav-width: 951px !default;
 $site-max-width: 1040px !default;
 $width-nav-sidebar: 250px;

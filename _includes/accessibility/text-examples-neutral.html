@@ -1,0 +1,11 @@
+<div class="usa-text-examples">
+<h6>{{ include.colorName }} Examples</h6>
+<ul class="usa-unstyled-list">
+  {% assign colorSlug = include.colorName | slugify %}
+  {% assign colorArray = "darkest,darker,dark" | split: "," %}
+  {% for color in colorArray %}
+    {% assign fullColorSlug="census-color-" | append: colorSlug | append: "-" | append: color %}
+    {% include accessibility/text-example-neutral.html colorName=fullColorSlug %}
+  {% endfor %}
+</ul>
+</div>

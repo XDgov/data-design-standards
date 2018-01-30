@@ -6,8 +6,9 @@
   top: 6.3rem; // height of disclaimer + navbar on mobile
 
   @media(min-width: $nav-width) {
-    width: calc(100% - #{$width-nav-sidebar});
+    padding-right: 3rem;
     top: 0;
+    width: calc(100% - #{$width-nav-sidebar});
   }
 
   ul {
@@ -51,8 +52,8 @@
   margin-top: 1rem;
   
   li {
-    background: $census-teal;
-    border-radius: 0.75rem;
+    background: $census-color-teal-dark;
+    border-radius: $census-border-radius;
     color: $color-white;
     font-size: 1.2rem;
     display: inline-block;
@@ -91,7 +92,7 @@
 
 .site-subheading {
   font-size: 1.2rem;
-  color: $census-grey;
+  color: $census-color-grey-dark;
   display: block;
   letter-spacing: 0.5px;
   margin-bottom: 0.6rem;

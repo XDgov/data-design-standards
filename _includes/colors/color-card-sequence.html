@@ -1,0 +1,11 @@
+{% assign hexArray = include.hexValues | split: "," %}
+{% assign colorArray = "-darkest,-darker,-dark,,-light,-lighter,-lightest" | split: "," %}
+
+{% for hex in hexArray %}
+  {% assign num = forloop.index | minus: 1 %}
+  {% assign colorName = include.name | append: colorArray[num] %}
+  {% if colorName == "census-color-blue-darker" %}
+    {% assign colorName = "census-color-navy" %}
+  {% endif %}
+  {% include colors/color-sequence-block.html hex=hex name=colorName %}
+{% endfor %}

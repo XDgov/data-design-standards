@@ -1,0 +1,10 @@
+<li>
+  {% assign current = nil %}
+  {% assign path = include.name | slugify %}
+  {% if page.path == 'pages/{{ include.section }}/{{ path }}.md' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/{{ include.section }}/{{ path }}" {% if current %}class="usa-current"{% endif %}>
+    {{ include.name }}
+  </a>
+</li>
