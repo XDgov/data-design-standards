@@ -55,20 +55,15 @@ lead: The colors featured in this section adhere to U.S. Census Bureau’s brand
 <div class="usa-grid-full usa-grid-colors">
   {% include colors/color-card-sequence.html hexValues="081627,112E51,205493,2e78d2,6DA1E0,97BCE9,C1D7F2" name="census-color-grey" %}
 </div>
-<h4>Categorical Colors</h4>
+<h4>Qualitative Colors</h4>
 <p>
-  The four primary colors can also be used to create a categorical color
+  The four primary colors can also be used to create a qualitative color
   palette. This is useful when a data visualization contains a legend and each
-  category of data is associated with a color. 
+  category of data is represented by a color. 
 </p>
 <p>
-  Categorical colors are most commonly used when rendering several categories
-  of data, such as in a stacked bar chart or a grouped bar chart. When selecting
-  colors for a categorical data visualization, be sure to choose colors that
-  represent the relationship of each category to another.
-</p>
-<p>
-  For more information, visit xxxxx.
+  Qualitative colors are most commonly used when rendering several categories
+  of data, such as in a stacked bar chart or a grouped bar chart.
 </p>
 <h5 class="usa-color-heading">Example Palette</h5>
 <div class="usa-grid-full usa-grid-colors">
