@@ -31,13 +31,14 @@ lead: The colors featured in this section adhere to U.S. Census Bureau’s brand
 <h4>Sequential Colors</h4>
 <p>
   Each of the four primary colors can be used to create a data visualization
-  with a sequential color palette. This is useful when a data visualization uses
-  color to designate changes in values, particularly within a numeric range.
+  with a sequential color palette. This type of palette can be used when data
+  values can be ordered from low to high, with darker colors representing higher
+  values.
 </p>
 <p>
-  Sequential colors are most commonly used when rendering a single category of
-  data in a visualization, such as a bar chart, or when visualizing a complex
-  set of data with many categories, such as a choropleth map.
+  Sequential colors are most commonly used to render a single category of data,
+  such as a bar chart, or when visualizing a complex set of data with many
+  categories, such as a choropleth map.
 </p>
 <h5 class="usa-color-heading">Teal Palette</h5>
 <div class="usa-grid-full usa-grid-colors">
@@ -58,16 +59,34 @@ lead: The colors featured in this section adhere to U.S. Census Bureau’s brand
 <h4>Qualitative Colors</h4>
 <p>
   The four primary colors can also be used to create a qualitative color
-  palette. This is useful when a data visualization contains a legend and each
-  category of data is represented by a color. 
+  palette. Qualitative colors are most commonly used when rendering categorical
+  data, such as gender or race.
 </p>
 <p>
-  Qualitative colors are most commonly used when rendering several categories
-  of data, such as in a stacked bar chart or a grouped bar chart.
+  When using this type of palette, try using colors with just enough variance
+  in their hue brightness to ensure all of the categories are represented
+  similarly. Alternatively, a highlight color with a brighter hue can be used to
+  draw attention to a particular category of data.
 </p>
 <h5 class="usa-color-heading">Example Palette</h5>
 <div class="usa-grid-full usa-grid-colors">
   {% include colors/color-card-categorical.html hexValues="26C6DA,112E51,FF7043,78909C,2E78D2,008393,FFBEA9" nameValues="census-color-teal,census-color-navy,census-color-orange,census-color-grey,census-color-blue,census-color-teal-dark,census-color-orange-lighter" %}
+</div>
+<h5 class="usa-color-heading">Example Palette with Highlight</h5>
+<div class="usa-grid-full usa-grid-colors">
+  {% include colors/color-card-categorical.html hexValues="A9E8F0,97BCE9,26C6DA,97BCE9,D4F4F8" nameValues="census-color-teal-lighter,census-color-blue-lighter,census-color-orange,census-color-grey-lighter,census-color-teal-lightest" %}
+</div>
+<h4>Diverging Colors</h4>
+<p>
+  Like sequential colors, diverging colors are commonly used to render a single
+  category of data when data values can be ordered from low to high. The key
+  difference however is that diverging colors have a breakpoint in values. To
+  illustrate this, a different color is used on each end of the value scale and
+  the middle value, or breakpoint, is represented as a neutral color.
+</p>
+<h5 class="usa-color-heading">Example Palette</h5>
+<div class="usa-grid-full usa-grid-colors">
+  {% include colors/color-card-categorical.html hexValues="112E51,97BCE9,C1D7F2,FFBEA9,853A22" nameValues="census-color-navy,census-color-blue-lighter,census-color-grey-lightest,census-color-orange-lighter,census-color-orange-darker" %}
 </div>
 <h2>Text Accessibility</h2>
 <p>
@@ -79,7 +98,7 @@ lead: The colors featured in this section adhere to U.S. Census Bureau’s brand
 <p>
   If you choose to customize beyond this palette, this <a href="http://webaim.org/resources/contrastchecker/" target="_blank"> color contrast tool</a> is a useful resource for testing the compliance of any color combination.
 </p>
-<h4>Accessible Combinations</h4>
+<h4>Accessible Text Combinations</h4>
 <h5>Colors on White Background</h5>
 <div class="usa-grid-full">
   <div class="usa-width-one-half">
