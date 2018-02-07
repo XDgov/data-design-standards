@@ -145,6 +145,12 @@
   @extend %card;
   max-width: 77rem;
   padding: 1rem;
+
+  .usa-source-container {
+    color: $census-color-grey;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
 }
 
 .usa-icon {

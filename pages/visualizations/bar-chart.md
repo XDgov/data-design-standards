@@ -28,4 +28,7 @@ guidance-never:
 <div class="usa-chart-card">
   <h4>Types of Languages Spoken at Home</h4>
   <canvas id="barChart"></canvas>
+  <div class="usa-source-container">
+    Survey/Program: <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">2016 American Community Survey 1-Year Estimates</a>
+  </div>
 </div>
