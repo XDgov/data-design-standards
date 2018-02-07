@@ -26,5 +26,6 @@ guidance-never:
 </p>
 
 <div class="usa-chart-card">
+  <h4>Types of Languages Spoken at Home</h4>
   <canvas id="barChart"></canvas>
 </div>
