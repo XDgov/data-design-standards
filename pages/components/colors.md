@@ -50,7 +50,7 @@ lead: The colors featured in this section adhere to U.S. Census Bureau’s brand
 </div>
 <h5 class="usa-color-heading">Orange Palette</h5>
 <div class="usa-grid-full usa-grid-colors">
-  {% include colors/color-card-sequence.html hexValues="5D2818,853A22,C25432,26C6DA,FF9776,FFBEA9,FFE4DC" name="census-color-orange" %}
+  {% include colors/color-card-sequence.html hexValues="5D2818,853A22,C25432,FF7043,FF9776,FFBEA9,FFE4DC" name="census-color-orange" %}
 </div>
 <h5 class="usa-color-heading">Grey Palette</h5>
 <div class="usa-grid-full usa-grid-colors">

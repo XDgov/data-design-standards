@@ -141,6 +141,12 @@
   }
 }
 
+.usa-chart-card {
+  @extend %card;
+  max-width: 77rem;
+  padding: 1rem;
+}
+
 .usa-icon {
   display: inline-block;
   height: 1em;

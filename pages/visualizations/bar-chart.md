@@ -21,4 +21,10 @@ guidance-never:
 - Never omit the space between bars – otherwise the bar chart will appear to be a histogram.
 ---
 
-Bar charts can be displayed vertically in what’s called a column bar chart or they can be displayed horizontally. Bar charts are best used to compare a single category of data or several. When comparing more than one category of data, the bars can be grouped together to created a grouped bar chart.
+<p>
+  Bar charts can be displayed vertically in what’s called a column bar chart or they can be displayed horizontally. Bar charts are best used to compare a single category of data or several. When comparing more than one category of data, the bars can be grouped together to created a grouped bar chart.
+</p>
+
+<div class="usa-chart-card">
+  <canvas id="barChart"></canvas>
+</div>
