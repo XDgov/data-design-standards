@@ -32,3 +32,17 @@ h6,
 html {
   font-family: $font-sans;
 }
+
+[href^="http"]:not([href*=".gov"])::after {
+  background: url("../img/external-link.png") no-repeat 0 0;
+  background: url("../img/external-link.svg") no-repeat 0 0;
+  background-size: 100%;
+  content: '';
+  display: inline-block;
+  height: 0.65em;
+  margin-bottom: -1px;
+  margin-left: 4px;
+  width: 0.65em; }
+[href^="http"]:not([href*=".gov"]):hover::after {
+  background-image: url("../img/external-link-hover.png");
+  background-image: url("../img/external-link-hover.svg"); }
