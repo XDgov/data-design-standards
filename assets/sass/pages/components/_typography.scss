@@ -1,0 +1,21 @@
+.page-typography {
+  
+  .text-huge {
+    font-size: 140px;
+    line-height: 0.5;
+  }
+  
+  .text-tiny {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .usa-font-samples {
+    margin-top: 4rem;
+
+    @media(min-width: $small-screen) {
+      margin-top: 0;
+    }
+  }
+}
