@@ -1,3 +1,10 @@
+.sidenav-mobile {
+  
+  @media(min-width: $usds-medium-screen) {
+    display: none;
+  }
+}
+
 .site-header {
   background-color: $census-color-navy;
 }
@@ -71,4 +78,22 @@
 
 .usa-menu-btn {
   margin-right: 1.5rem;
+}
+
+.usa-nav-close + * {
+  clear: both;
+}
+
+.sidenav-mobile {
+
+  .usa-sidenav-list {
+
+    > li {
+      border-top: 1px solid #5b616b;
+
+      &:first-child {
+        border-top: 0;
+      }
+    }
+  }
 }
