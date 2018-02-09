@@ -1,0 +1,26 @@
+.layout-page {
+
+  main {
+    padding-bottom: 5em;
+    
+    @media(min-width: $usds-medium-screen) {
+      margin-left: 250px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  .no-subheading {
+    margin-top: 22px;
+  }
+
+  .page-container {
+    margin-left: 1.5rem;
+
+    @media(min-width: $usds-medium-screen) {
+      margin-left: 3rem;
+    }
+  }
+}

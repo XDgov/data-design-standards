@@ -1,0 +1,9 @@
+<li>
+  {% assign current = nil %}
+  {% if page.path == 'pages/{{ include.file_path }}' %}
+    {% assign current = "current" %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/{{ include.url }}" {% if current %}class="usa-current"{% endif %}>
+    {{ include.name }}
+  </a>
+</li>

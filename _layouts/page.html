@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="page-container">
+  <main class="main-content">
+    <header class="no-subheading">
+      <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+    </header>
+    {% include lead.html text=page.lead %}
+    {{ content }}
+  </main>
+</div>

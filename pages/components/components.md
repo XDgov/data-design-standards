@@ -1,7 +1,7 @@
 ---
 permalink: /components/
 layout: components
-title: Visualization components
+title: Components
 category: Components
 lead: Our system of visualization components are designed to help you create beautiful, user-friendly data visualizations for novices and experts alike.
 ---
