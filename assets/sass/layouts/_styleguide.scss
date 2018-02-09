@@ -3,11 +3,10 @@
   margin-top: 4rem; // starting: not scrolled
   position: relative;
   width: 100%;
-  top: 6.3rem; // height of disclaimer + navbar on mobile
+  top: 0; // height of disclaimer + navbar on mobile
 
   @media(min-width: $nav-width) {
     padding-right: 3rem;
-    top: 0;
     width: calc(100% - #{$width-nav-sidebar});
   }
 
@@ -144,13 +143,21 @@
 .usa-chart-card {
   @extend %card;
   max-width: 77rem;
-  padding: 1rem;
+  padding: 1.5rem;
 
   .usa-source-container {
     color: $census-color-grey;
     font-size: 1.2rem;
     margin-top: 1rem;
   }
+}
+
+.usa-chart-header {
+  margin-bottom: 2rem;
+}
+
+.usa-chart-title {
+  margin-top: 0
 }
 
 .usa-icon {

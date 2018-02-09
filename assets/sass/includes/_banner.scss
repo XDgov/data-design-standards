@@ -2,6 +2,38 @@
   margin-left: 0;
 }
 
-.usa-banner-header {
-  margin-left: 3rem;
+.usa-banner {
+  padding-bottom: 0.7rem;
 }
+
+.usa-banner-button {
+  display: none;
+
+  @media(min-width: $small-screen) {
+    display: inline-block;
+  }
+}
+
+.usa-banner-header {
+  margin-left: 1.5rem;
+  padding-bottom: 0;
+  padding-top: 0;
+
+  @media(min-width: $usds-small-screen) {
+    padding-top: 0.25rem;
+  }
+
+  @media(min-width: $usds-medium-screen) {
+    margin-left: 3rem;
+  }
+
+  img {
+    margin-right: 0.7rem;
+    width: 20px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+

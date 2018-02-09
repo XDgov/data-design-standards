@@ -3,12 +3,17 @@
 }
 
 .site-header-navbar {
+  @extend %clearfix;
   height: auto;
   padding: 2rem 0;
 }
 
 .site-logo {
-  margin-left: 3rem;
+  margin-left: 1.5rem;
+
+  @media(min-width: $usds-medium-screen) {
+    margin-left: 3rem;
+  }
 
   a {
     color: $color-white;
@@ -53,4 +58,16 @@
       color: $census-color-orange-dark;
     }
   }
+}
+
+.usa-logo-text {
+  font-size: 1.75rem;
+
+  @media(min-width: $usds-small-screen) {
+    font-size: 2.25rem;
+  }
+}
+
+.usa-menu-btn {
+  margin-right: 1.5rem;
 }
