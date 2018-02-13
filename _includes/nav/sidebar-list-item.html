@@ -1,10 +1,18 @@
 <li>
   {% assign current = nil %}
   {% assign path = include.name | slugify %}
-  {% if page.path == 'pages/{{ include.section }}/{{ path }}.md' %}
+  {% assign link_path = 'pages/' | append: include.section | append: "/" | append: path | append: ".md" %}
+  {% if page.path == link_path %}
     {% assign current = "current" %}
   {% endif %}
   <a href="{{ site.baseurl }}/{{ include.section }}/{{ path }}" {% if current %}class="usa-current"{% endif %}>
     {{ include.name }}
   </a>
+
+  {% if current %}
+    {% assign _links = page.subnav %}
+    {% if _links %}
+      {% include nav/sidebar-subnav.html links=_links %}
+    {% endif %}
+  {% endif %}
 </li>
