@@ -1,6 +1,7 @@
 <li>
   {% assign current = nil %}
-  {% if page.path == 'pages/{{ include.file_path }}' %}
+  {% assign link_path = 'pages/' | append: include.file_path %}
+  {% if page.path == link_path %}
     {% assign current = "current" %}
   {% endif %}
   <a href="{{ site.baseurl }}/{{ include.url }}" {% if current %}class="usa-current"{% endif %}>
