@@ -9,7 +9,7 @@
         data: {
             labels: ["English Only", "Spanish", ["Other", "Indo-European"], ["Asian and Pacific", "Islander"], "Other"],
             datasets: [{
-                label: '# of Votes',
+                label: 'Percentage',
                 data: [69, 15.2, 8.8, 5.2, 1.8],
                 backgroundColor: [
                     'rgba(38, 198, 218, 1)',
@@ -30,7 +30,7 @@
                       min: 0,
                       max: 100,
                       callback: function(value) {
-                          return value + "%"
+                          return value;
                       }
                     },
                     scaleLabel: {

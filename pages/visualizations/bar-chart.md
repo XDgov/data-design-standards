@@ -27,7 +27,7 @@ guidance-never:
 
 <div class="usa-chart-card">
   <div class="usa-chart-header">
-    <h3 class="usa-chart-title">Types of Languages Spoken at Home</h3>
+    <h3 class="usa-chart-title">Types of Languages Spoken at Home in New York</h3>
   </div>
   <canvas id="barChart"></canvas>
   <div class="usa-source-container">
