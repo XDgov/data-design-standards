@@ -10,3 +10,4 @@
 
  {% include_relative charts/chartjs-plugin-usdvs.js %}
  {% include_relative charts/bar-charts.js %}
+ {% include_relative charts/typography-chart.js %}

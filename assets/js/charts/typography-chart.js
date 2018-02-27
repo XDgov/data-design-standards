@@ -1,5 +1,5 @@
 (function() {
-  var barChart = document.getElementById("barChart");
+  var barChart = document.getElementById("typography-chart");
 
   if(barChart != null) {
     ctx = barChart.getContext('2d');
@@ -12,11 +12,11 @@
                 label: 'Percentage',
                 data: [69, 15.2, 8.8, 5.2, 1.8],
                 backgroundColor: [
-                    'rgba(120,144,156, 1)',
-                    'rgba(120,144,156, 1)',
-                    'rgba(120,144,156, 1)',
-                    'rgba(120,144,156, 1)',
-                    'rgba(120,144,156, 1)'
+                    'rgba(38, 198, 218, 0.25)',
+                    'rgba(38, 198, 218, 0.25)',
+                    'rgba(38, 198, 218, 0.25)',
+                    'rgba(38, 198, 218, 0.25)',
+                    'rgba(38, 198, 218, 0.25)',
                 ]
             }]
         },
@@ -48,6 +48,7 @@
                     },
                     ticks: {
                         autoSkip: false,
+                        fontColor: "#364850",
                         maxRotation: 0,
                         minRotation: 0
                     }

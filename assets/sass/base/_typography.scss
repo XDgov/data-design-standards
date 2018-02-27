@@ -5,6 +5,10 @@ a {
   }
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 h1,
 h2,
 h3,
@@ -15,8 +19,18 @@ h6,
   font-family: $font-sans;
 }
 
+.typography-card {
+  margin-bottom: 2rem;
+}
+
 .usa-accordion-button {
   font-family: $font-sans;
+}
+
+.usa-font-lead {
+  margin-bottom: 1.25em;
+  line-height: 1.5em;
+  margin-top: 0.5em;
 }
 
 .usa-sidenav-list,

@@ -48,7 +48,7 @@
 }
 
 .page-tags {
-  margin-top: 1rem;
+  margin: 0.5rem 0 1.25rem;
   
   li {
     background: $census-color-teal-dark;
@@ -144,19 +144,18 @@
   @extend %card;
   max-width: 77rem;
   padding: 1.5rem;
-
-  .usa-source-container {
-    color: $census-color-grey;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-  }
 }
 
 .usa-chart-header {
   margin-bottom: 2rem;
 }
 
-.usa-chart-title {
+.usa-chart-subtitle {
+  font-weight: normal;
+}
+
+.usa-chart-title,
+.usa-chart-subtitle {
   margin-top: 0
 }
 
@@ -178,4 +177,10 @@
       fill: $usa-color-secondary-dark;
     }
   }
+}
+
+.usa-source-container {
+  color: $census-color-grey-dark;
+  font-size: 1.3rem;
+  margin-top: 1rem;
 }
