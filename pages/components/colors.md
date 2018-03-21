@@ -7,6 +7,8 @@ lead: The colors featured in this section adhere to U.S. Census Bureau’s brand
 subnav:
 - text: Palette
   href: "#palette"
+- text: Color Accessibility
+  href: "#color-accessibility"
 - text: Text Accessibility
   href: "#text-accessibility"
 ---
@@ -38,8 +40,10 @@ subnav:
   <p>
     Each of the four primary colors can be used to create a data visualization
     with a sequential color palette. This type of palette can be used when data
-    values can be ordered from low to high, with darker colors representing higher
-    values.
+    values can be ordered from low to high. To reflect that the data is
+    sequential (also known as continous), all of the data values should be
+    variations of the same color hue, where lower values are lighter and higher
+    values are darker.
   </p>
   <p>
     Sequential colors are most commonly used to render a single category of data,
@@ -65,8 +69,8 @@ subnav:
   <h4>Qualitative Colors</h4>
   <p>
     The four primary colors can also be used to create a qualitative color
-    palette. Qualitative colors are most commonly used when rendering categorical
-    data, such as gender or race.
+    palette. Qualitative colors are used to render categorical data, such as
+    gender or race, that has no inherent sequential order.
   </p>
   <p>
     When using this type of palette, try using colors with just enough variance
@@ -86,20 +90,64 @@ subnav:
   <p>
     Like sequential colors, diverging colors are commonly used to render a single
     category of data when data values can be ordered from low to high. The key
-    difference however is that diverging colors have a breakpoint in values. To
-    illustrate this, a different color is used on each end of the value scale and
-    the middle value, or breakpoint, is represented as a neutral color.
+    difference however is that diverging colors bring attention to a significant
+    break point in the data. To illustrate this, a different color is used on
+    each end of the value scale and the breakpoint, or middle value, is
+    represented as a neutral color. Data values that are furthest from the break
+    point are shaded darker, while values that are closer are shaded lighter.
   </p>
   <h5 class="usa-color-heading">Example Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
     {% include colors/color-card-categorical.html hexValues="112E51,97BCE9,C1D7F2,FFBEA9,853A22" nameValues="census-color-navy,census-color-blue-lighter,census-color-grey-lightest,census-color-orange-lighter,census-color-orange-darker" %}
   </div>
+  <h4>No Data Colors</h4>
+  <p>
+    Occasionally, it is necessary to color in elements of a data visualization
+    where no data exists, such as in maps. In these cases, a neutral color
+    should be used to represent a “No Data” class. This class should be added to
+    the visualization’s corresponding legend.
+  </p>
 </div>
-<div id="text-accessibility">
-  <h2>Text Accessibility</h2>
+<div id="color-accessibility">
+  <h2>Color Accessibility</h2>
   <p>
     The WCAG (Web Content Accessibility Guidelines) ensure that content is accessible by everyone. To meet these standards, text and interactive elements should have a color contrast ratio of <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">at least 4.5:1</a>. This ensures that viewers who cannot see the full color spectrum are able to read the text.
   </p>
+  <h3>Best Practices</h3>
+  <p>
+    In general, any steps taken to improve the color accessibility of a data
+    visualization improves the user experience for everyone. Below are a list of
+    recommendations for how to make data visualizations more user-friendly: 
+  </p>
+  <ul>
+    <li>
+      Use text elements to label data directly to rely less on color.
+    </li>
+    <li>
+      Use tools such as <a href="http://colorbrewer2.org/" target="_blank">color
+      brewer</a> to select a palette that is 508-compliant.
+    </li>
+    <li>
+      When using sequential and diverging colors, adjust your color palette to
+      ensure there is enough contrast between colors.
+    </li>
+    <li>
+      When using a qualitative color palette where contrasting is not encouraged,
+      try to avoid conflicting color combinations. Some examples include:
+      <ul>
+        <li>red & green</li>
+        <li>green & brown</li>
+        <li>green & blue</li>
+        <li>blue & grey</li>
+        <li>blue & purple</li>
+        <li>green & grey</li>
+        <li>green & black</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div id="text-accessibility">
+  <h2>Text Accessibility</h2>
   <p>
     The options below offer color palette combinations that fall within the range of Section 508 compliant foreground/background color contrast ratios. To ensure that text remains accessible, use only these permitted color combinations.
   </p>
