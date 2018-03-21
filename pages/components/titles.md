@@ -22,6 +22,10 @@ subnav:
     two lines of text. A title should broadly describe what is contained in a
     data visualization without identifying any trends or highlights in the data.
   </p>
+  <p>
+    Titles should appear above a visualization or as the first element directly
+    adjacent to it.
+  </p>
   <h3>Title Examples</h3>
   <div class="usa-chart-card typography-card">
     <h3 class="usa-chart-title">First Chart Title</h3>
@@ -35,6 +39,9 @@ subnav:
     visualization. Subtitles can also be used to indicate the unit of 
     measurement if preferable to an Axis Title. While subtitles are optional,
     their presence helps to clarify the purpose of a visualization to users.
+  </p>
+  <p>
+    Subtitles should appear directly below the Title of a visualization.
   </p>
   <h3>Subtitle Examples</h3>
   <div class="usa-chart-card typography-card">

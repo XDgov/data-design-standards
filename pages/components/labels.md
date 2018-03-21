@@ -21,7 +21,7 @@ subnav:
   <p>
     Data labels are applied directly to elements inside of a visualization to
     show the value of a datapoint or the category of the data. When using data
-    labels for values, you can omit the corresponding axis to reduce redundancies.
+    labels, you can omit the corresponding axis to reduce redundancies.
   </p>
   <p>
     When using data labels for categories, such as in a line graph, you can omit

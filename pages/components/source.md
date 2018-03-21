@@ -3,7 +3,7 @@ permalink: /components/source
 layout: components
 title: Source
 category: Components
-lead: Source data should be cited with all data visualizations to allow users to access the original data source.
+lead: Sources should be cited with all data visualizations to ensure users can access the underlying data.
 ---
 <p>
   Where possible, sources should include the frequency of data collection, the
