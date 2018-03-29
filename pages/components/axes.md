@@ -20,7 +20,7 @@ subnav:
   Axes aren't always necessary in data visualizations, but should be considered
   for use by default. When using
   <a href="{{ site.baseurl }}/components/labels#data-labels">data labels</a>,
-  you can omit including the axis being used for interval labels.
+  you can omit the axis being used for interval labels.
 </p>
 
 <div id="axis-title">
