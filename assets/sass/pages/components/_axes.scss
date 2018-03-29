@@ -1,0 +1,52 @@
+.axis-title-example {
+  h4 {
+    margin-top: 0;
+  }
+}
+
+.axis-title-example-canvas {
+  float: left;
+  display: block;
+  margin-right: 25px;
+  max-width: 90px
+}
+
+.axis-title-example-desc {
+  overflow: auto;
+}
+
+.axis-title-examples {
+  margin-bottom: 2rem;
+}
+
+.axis-tick-example {
+  margin-top: 2rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  @media(min-width: $usds-medium-screen) {
+    float: left;
+    display: block;
+    margin-right: 6%;
+    margin-top: 0;
+    width: 47%;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  canvas {
+    margin-top: 1rem;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
