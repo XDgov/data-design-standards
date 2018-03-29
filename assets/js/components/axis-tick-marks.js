@@ -10,8 +10,9 @@
 
     ctx.beginPath();
     ctx.lineWidth = 0.5;
-    ctx.strokeStyle = '#000000';
-    ctx.font = "normal 8pt sans-serif";
+    ctx.strokeStyle = '#666666';
+    ctx.fillStyle = "#666666";
+    ctx.font = "normal 8pt Roboto";
 
     var count = 0,
         offset = 0;
@@ -46,8 +47,9 @@
 
     ctx.beginPath();
     ctx.lineWidth = 0.5;
-    ctx.strokeStyle = '#000000';
-    ctx.font = "normal 8pt sans-serif";
+    ctx.strokeStyle = '#666666';
+    ctx.fillStyle = "#666666";
+    ctx.font = "normal 8pt Roboto";
 
     var count = 0,
         offset = 0;
