@@ -37,8 +37,10 @@
     ctx.stroke();
     ctx.lineWidth = 1;
 
+    var lineEnd = tickMarksCluttered.parentElement.offsetWidth - (tickMarksCluttered.parentElement.offsetWidth / 26) + 3;
+
     ctx.moveTo(3, 0.5);
-    ctx.lineTo(tickMarksCluttered.width, 0.5);
+    ctx.lineTo(lineEnd, 0.5);
     ctx.stroke();
   }
 
@@ -78,10 +80,14 @@
     }
 
     ctx.stroke();
-    ctx.lineWidth = 1;
+
+    var lineEnd = tickMarksGood.parentElement.offsetWidth - (tickMarksGood.parentElement.offsetWidth / 26) + 3;
+
+
+    console.log(lineEnd);
 
     ctx.moveTo(3, 0.5);
-    ctx.lineTo(tickMarksCluttered.width, 0.5);
+    ctx.lineTo(lineEnd, 0.5);
     ctx.stroke();
   }
 
