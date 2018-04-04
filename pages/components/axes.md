@@ -36,7 +36,7 @@ subnav:
       <h4>{% include svg/warning.html %} Bad Example</h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
-          <canvas id="axis-title-bad-example"></canvas>
+          <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
         </div>
         <div class="axis-title-example-desc">
           <h5 class="usa-color-heading">Why it’s Bad</h5>
@@ -53,7 +53,7 @@ subnav:
       <h4>{% include svg/success.html %} Good Example</h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
-          <canvas id="axis-title-good-example"></canvas>
+          <canvas id="axis-title-good-example" role="img" aria-label="Percentage of Voters. 40, 45, 50, 55, 60"></canvas>
         </div>
         <div class="axis-title-example-desc">
           <h5 class="usa-color-heading">Why it’s Better</h5>
@@ -86,7 +86,7 @@ subnav:
     <div class="usa-chart-card axis-tick-example">
       <h4>{% include svg/warning.html %} Bad Example</h4>
       <div>
-        <canvas id="tick-marks-cluttered" class="dvs-canvas"></canvas>
+        <canvas id="tick-marks-cluttered" class="dvs-canvas" role="img" aria-label="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"></canvas>
       </div>
       <h5 class="usa-color-heading">Why it’s Bad</h5>
       <p>
@@ -98,7 +98,7 @@ subnav:
     <div class="usa-chart-card axis-tick-example">
       <h4>{% include svg/success.html %} Good Example</h4>
       <div>
-        <canvas id="tick-marks-good"></canvas>
+        <canvas id="tick-marks-good" role="img" aria-label="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"></canvas>
       </div>
       <h5 class="usa-color-heading">Why it’s Better</h5>
       <p>
