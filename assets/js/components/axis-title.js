@@ -7,6 +7,7 @@
   renderBadAxisTitle = function() {
     makeHiDPICanvas(axisBadTitle, canvasHeight);
     ctx = axisBadTitle.getContext('2d');
+    var pixRatio = pixelRatio(axisBadTitle);
 
     ctx.beginPath();
     ctx.lineWidth = 0.5;
@@ -18,7 +19,7 @@
         offset = 0,
         xOffset = 75;
 
-    var tickOffset = axisBadTitle.height / 55;
+    var tickOffset = axisBadTitle.height / (26 * pixRatio);
     
     for( var i = 0; i < 26; i += 1) {
 
@@ -57,6 +58,7 @@
   renderGoodAxisTitle = function() {
     makeHiDPICanvas(axisGoodTitle, canvasHeight);
     ctx = axisGoodTitle.getContext('2d');
+    var pixRatio = pixelRatio(axisBadTitle);
 
     ctx.beginPath();
     ctx.lineWidth = 0.5;
@@ -68,7 +70,7 @@
         offset = 0,
         xOffset = 75;
 
-    var tickOffset = axisGoodTitle.height / 55;
+    var tickOffset = axisGoodTitle.height / (26 * pixRatio);
     
     for( var i = 0; i < 26; i += 1) {
 

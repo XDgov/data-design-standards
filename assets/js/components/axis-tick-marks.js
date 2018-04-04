@@ -7,6 +7,7 @@
   renderBadTickMarks = function() {
     makeHiDPICanvas(tickMarksCluttered, canvasHeight);
     ctx = tickMarksCluttered.getContext('2d');
+    var pixRatio = pixelRatio(tickMarksCluttered);
 
     ctx.beginPath();
     ctx.lineWidth = 0.5;
@@ -17,7 +18,7 @@
     var count = 0,
         offset = 0;
 
-    var tickOffset = tickMarksCluttered.width / 52;
+    var tickOffset = tickMarksCluttered.width / (26 * pixRatio);
     
     for( var i = 0; i < 26; i += 1) {
 
@@ -44,6 +45,7 @@
   renderGoodTickMarks = function() {
     makeHiDPICanvas(tickMarksGood, canvasHeight);
     ctx = tickMarksGood.getContext('2d');
+    var pixRatio = pixelRatio(tickMarksGood);
 
     ctx.beginPath();
     ctx.lineWidth = 0.5;
@@ -54,7 +56,7 @@
     var count = 0,
         offset = 0;
 
-    var tickOffset = tickMarksCluttered.width / 52;
+    var tickOffset = tickMarksCluttered.width / (26 * pixRatio);
     
     for( var i = 0; i < 26; i += 1) {
 
