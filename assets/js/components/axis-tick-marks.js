@@ -37,7 +37,7 @@
     ctx.lineWidth = 1;
 
     ctx.moveTo(3, 0.5);
-    ctx.lineTo(tickMarksCluttered.width - 449, 0.5);
+    ctx.lineTo(tickMarksCluttered.width, 0.5);
     ctx.stroke();
   }
 
@@ -79,7 +79,7 @@
     ctx.lineWidth = 1;
 
     ctx.moveTo(3, 0.5);
-    ctx.lineTo(tickMarksCluttered.width - 449, 0.5);
+    ctx.lineTo(tickMarksCluttered.width, 0.5);
     ctx.stroke();
   }
 

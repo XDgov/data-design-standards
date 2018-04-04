@@ -23,7 +23,7 @@ subnav:
   you can omit the axis being used for interval labels.
 </p>
 
-<div id="axis-title">
+<div id="axis-titles">
   <h2>Titles</h2>
   <p>
     Axis titles provide helpful contextual information about the tick marks of
