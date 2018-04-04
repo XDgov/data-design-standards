@@ -2,6 +2,7 @@
   makeHiDPICanvas = function(elem, fixedHeight) {
       fixedHeight = fixedHeight || null;
       ratio = pixelRatio(elem);
+      console.log(ratio);
       var can = elem,
           container = can.parentElement,
           containerWidth = container.offsetWidth,
