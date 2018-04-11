@@ -1,0 +1,25 @@
+.page-legends {
+
+  .dvs-legend-numbers {
+    border: 1px solid $census-color-grey-light;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75em 0.75em 1em;
+
+    h6 {
+      @extend %legend-title;
+    }
+  }
+
+  .legend-title-example {
+
+    h6 {
+      @extend %legend-title;
+      border-left: 1px solid $census-color-grey-light;
+      border-top: 1px solid $census-color-grey-light;
+      margin: 2rem 0 0 0;
+      max-width: 225px;
+      padding: 1em;
+    }
+  }
+}

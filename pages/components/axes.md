@@ -31,8 +31,8 @@ subnav:
     conjunction with titles and subtitles, users will be able to more easily
     understand what a visualization is about.
   </p>
-  <div class="axis-title-examples clearfix">
-    <div class="usa-chart-card axis-tick-example">
+  <div class="component-examples clearfix">
+    <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/warning.html %} Bad Example</h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
@@ -49,7 +49,7 @@ subnav:
         </div>
       </div>
     </div>
-    <div class="usa-chart-card axis-tick-example">
+    <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/success.html %} Good Example</h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
@@ -82,8 +82,8 @@ subnav:
     able to determine the value of various datapoints.
   </p>
   <h3>Examples</h3>
-  <div class="clearfix">
-    <div class="usa-chart-card axis-tick-example">
+  <div class="clearfix component-examples">
+    <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/warning.html %} Bad Example</h4>
       <div>
         <canvas id="tick-marks-cluttered" class="dvs-canvas" role="img" aria-label="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"></canvas>
@@ -95,7 +95,7 @@ subnav:
         when viewed on smaller screen sizes.
       </p>
     </div>
-    <div class="usa-chart-card axis-tick-example">
+    <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/success.html %} Good Example</h4>
       <div>
         <canvas id="tick-marks-good" role="img" aria-label="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"></canvas>

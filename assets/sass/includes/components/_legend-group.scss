@@ -1,0 +1,33 @@
+.dvs-legend-group {
+  .dvs-legend-label {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+
+  .dvs-legend-square {
+    display: inline-block;
+    height: 12px; 
+    margin-right: 0.5rem;
+    width: 12px;
+
+    &.census-blue-darkest {
+      background-color: $census-color-blue-darkest;
+    }
+
+    &.census-blue-darker {
+      background-color: $census-color-blue-darker;
+    }
+
+    &.census-blue-dark {
+      background-color: $census-color-blue-dark;
+    }
+
+    &.census-blue {
+      background-color: $census-color-blue;
+    }
+
+    &.census-blue-light {
+      background-color: $census-color-blue-light;
+    }
+  }
+}
