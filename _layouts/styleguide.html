@@ -31,18 +31,25 @@ layout: default
     {{ content }}
     {% if page.guidance-always != null %}
       <h4>Always</h4>
-      <ul class="page-guidance guidance-always">
+      <ul class="page-guidance usa-unstyled-list guidance-always">
         {% for guidance in page.guidance-always %}
           <li>
             {% include svg/success.html %}
             {{ guidance }}
+            {% if guidance.sub_guidance != null %}
+              <ul class="page-guidance guidance-always">
+                {% for sub_guidance in guidance.sub_guidance %}
+                  <li>{{ sub_guidance }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
     {% endif %}
     {% if page.guidance-recommended != null %}
       <h4>Recommended</h4>
-      <ul class="page-guidance guidance-recommended">
+      <ul class="page-guidance usa-unstyled-list guidance-recommended">
         {% for guidance in page.guidance-recommended %}
           <li>
             {% include svg/success.html %}
@@ -53,7 +60,7 @@ layout: default
     {% endif %}
     {% if page.guidance-not-recommended != null %}
       <h4>Not Recommended</h4>
-      <ul class="page-guidance guidance-not-recommended">
+      <ul class="page-guidance usa-unstyled-list guidance-not-recommended">
         {% for guidance in page.guidance-not-recommended %}
           <li>
             {% include svg/warning.html %}
@@ -64,7 +71,7 @@ layout: default
     {% endif %}
     {% if page.guidance-never != null %}
       <h4>Never</h4>
-      <ul class="page-guidance guidance-never">
+      <ul class="page-guidance usa-unstyled-list guidance-never">
         {% for guidance in page.guidance-never %}
           <li>
             {% include svg/warning.html %}
