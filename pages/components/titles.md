@@ -26,26 +26,45 @@ subnav:
     Titles should appear above a visualization or as the first element directly
     adjacent to it.
   </p>
-  <h3>Title Examples</h3>
-  <div class="usa-chart-card typography-card">
-    <h3 class="usa-chart-title">First Chart Title</h3>
-    <h3 class="usa-chart-title">Second Chart Title</h3>
-  </div>
 </div>
 <div id="subtitles">
   <h2>Subtitle</h2>
   <p>
     Subtitles can be used to describe any trends or highlights in a data
     visualization. Subtitles can also be used to indicate the unit of 
-    measurement if preferable to an Axis Title. While subtitles are optional,
+    measurement if preferable to an axis title. While subtitles are optional,
     their presence helps to clarify the purpose of a visualization to users.
   </p>
   <p>
     Subtitles should appear directly below the Title of a visualization.
   </p>
-  <h3>Subtitle Examples</h3>
-  <div class="usa-chart-card typography-card">
-    <h4 class="usa-chart-subtitle">First Chart Subitle</h4>
-    <h4 class="usa-chart-subtitle">Second Chart Subtitle</h4>
+</div>
+<div id="examples">
+  <h2>Examples</h2>
+  <div class="component-examples clearfix">
+    <div class="usa-chart-card example-side-by-side">
+      <h4>{% include svg/warning.html %} Bad Example</h4>
+      <div class="usa-chart-header">
+        <h3 class="usa-chart-title">Age in the United States</h3>
+      </div>
+      <h5 class="usa-color-heading">Why it’s Bad</h5>
+      <p>
+        While the title is short and to the point, it also doesn’t reveal much
+        about what’s inside the data visualization. This title could be paired
+        with a subtitle to contextualize the data visualization more.
+      </p>
+    </div>
+    <div class="usa-chart-card example-side-by-side">
+      <h4>{% include svg/success.html %} Good Example</h4>
+      <div class="usa-chart-header">
+        <h3 class="usa-chart-title">Age in the United States</h3>
+        <h4 class="usa-chart-subtitle">Older adults are projected to outnumber children by 2035.</h4>
+        <h5 class="usa-color-heading">Why it’s Better</h5>
+        <p>
+          Now that the title has been paired with a subtitle, users will better
+          understand what the data visualization is trying to communicate.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
