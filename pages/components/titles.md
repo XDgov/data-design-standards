@@ -49,7 +49,7 @@ subnav:
       </div>
       <h5 class="usa-color-heading">Why it’s Bad</h5>
       <p>
-        While the title is short and to the point, it also doesn’t reveal much
+        While the title is short and to the point, it doesn’t reveal much
         about what’s inside the data visualization. This title could be paired
         with a subtitle to contextualize the data visualization more.
       </p>

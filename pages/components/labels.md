@@ -9,6 +9,8 @@ subnav:
   href: "#data-labels"
 - text: Annotations
   href: "#annotations"
+- text: Map Labels
+  href: "#map-labels"
 ---
 <p> 
   Labels are traditionally used to label axes and legends, however, they can
@@ -35,5 +37,26 @@ subnav:
     Annotations can be used to help tell the story of a data visualization. Before
     choosing to use annotations, make sure they do not reduce a user’s ability
     to understand the data inside of your data visualization.
+  </p>
+</div>
+<div id="map-labels">
+  <h2>Map Labels</h2>
+  <p>
+    Depending on the type of map being used, labels may or may not be necessary.
+    For example, a United States-based thematic map may not need labels if the
+    map is showing general trends.
+  </p>
+  <h3>Labeling States</h3>
+  <p>
+    When labeling states in a United States-based map, always use the 2-letter
+    USPS abbreviation. Each label should be easy to ready without interfering
+    with the map’s content.
+  </p>
+  <h3>Styling Map Labels</h3>
+  <p>
+    When labeling different geographic area types in a map, try using different
+    fonts, colors, and text properties to differentiate each label type. Using
+    identical typography for different geographic labels may result in users
+    confusing different types of labels.
   </p>
 </div>

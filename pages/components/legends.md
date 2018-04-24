@@ -56,7 +56,7 @@ lead: Legends identify the meaning of various elements in a data visualization a
     <div class="usa-chart-card example-side-by-side legend-number-example">
       <h4>{% include svg/warning.html %} Bad Example</h4>
       <div class="dvs-legend-numbers">
-        <h6 class="legend-title">Perecentage of Voters</h6>
+        <h6 class="legend-title">Percentage of Voters</h6>
         {% include components/legend-group.html color="census-blue-darkest" label="100.35 - 91.25" %}
         {% include components/legend-group.html color="census-blue-darker" label="91.25 - 81.44" %}
         {% include components/legend-group.html color="census-blue-dark" label="81.44 - 71.14" %}
@@ -71,7 +71,7 @@ lead: Legends identify the meaning of various elements in a data visualization a
     <div class="usa-chart-card example-side-by-side legend-number-example">
       <h4>{% include svg/success.html %} Good Example</h4>
       <div class="dvs-legend-numbers">
-        <h6 class="legend-title">Perecentage of Voters</h6>
+        <h6 class="legend-title">Percentage of Voters</h6>
         {% include components/legend-group.html color="census-blue-darkest" label="100-91" %}
         {% include components/legend-group.html color="census-blue-darker" label="90-81" %}
         {% include components/legend-group.html color="census-blue-dark" label="80-71" %}
