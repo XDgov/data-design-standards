@@ -162,12 +162,6 @@
   background-color: $census-color-teal-lightest;
 }
 
-.usa-color-hex {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0.5rem 0 0.25rem;
-}
-
 .usa-color-inner-content {
   position: absolute;
   top: 100%;
@@ -181,7 +175,7 @@
 
 .usa-color-card {
   @extend %card;
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .usa-color-card-inner {
@@ -192,27 +186,22 @@
 .usa-color-card-sequence {
   @extend %card;
   margin: 0 0 3rem;
-  padding: 1rem;
+  padding: 0.75rem;
   width: 100%;
+}
+
+.usa-color-class {
+  color: $census-color-grey-dark;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: 0.5rem 0 0;
 }
 
 .usa-color-container {
   display: block;
   float: left;
-  margin: 0 1.333332% 3rem 0;
-  width: 24%;
-
-  &:nth-child(4n) {
-    margin-right: 0;
-  }
-}
-
-.usa-color-container-small {
-  display: block;
-  float: left;
   margin: 0 1.333332% 1.5rem 0;
-  min-height: 152px;
-  width: 24%;
+  width: 48%;
 
   &:nth-child(4n) {
     margin-right: 0;
@@ -223,37 +212,85 @@
   }
 
   @media (min-width: $small-screen) {
-    margin: 0 1% 0 0;
-    width: 13.428571%;
-
-    &:nth-child(4n) {
-      margin-right: 1%;
-    }
-
-    &:nth-child(5n) {
-      clear: none;
-    }
-
-    &:nth-child(7n) {
-      margin-right: 0;
-    }
+    margin-right: 1.333332%;
+    width: 24%;
   }
 
   &.usa-color-card {
-    padding: 0.75rem;
-  }
-
-  p {
-    line-height: 1.75rem;
+    padding: 0.5rem;
   }
 
   .usa-color-name {
     font-size: 1.25rem;
   }
+
+  .usa-color-hover-text {
+    font-size: 1.3rem;
+    margin-top: 0.1rem;
+  }
+
+  .usa-color-link {
+    font-size: 1.1rem;
+
+    @media (min-width: $usds-small-screen) {
+      font-size: 1.25rem;
+    }
+  }
 }
 
 .usa-color-heading {
   color: $census-color-grey-darker;
+}
+
+.usa-color-hover {
+  opacity: 0;
+  padding-top: 15%;
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+
+  @media (min-width: $usds-medium-screen) {
+    padding-top: 10%;
+  }
+
+  .icon-copy {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+
+    @media (min-width: $usds-medium-screen) {
+      width: 20%;
+    }
+
+    path {
+      fill: $color-white;
+    }
+  }
+}
+
+.usa-color-hover-text {
+  color: $color-white;
+  display: none;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: center;
+
+  @media (min-width: $usds-medium-screen) {
+    display: block;
+  }
+}
+
+.usa-color-link {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+
+  @media (min-width: $usds-small-screen) {
+    font-size: 1.5rem;
+  }
 }
 
 .usa-color-secondary {
@@ -264,6 +301,7 @@
 
 .usa-color-square {
   padding-bottom: 60%;
+  position: relative;
 }
 
 .usa-color-text {
@@ -273,6 +311,18 @@
     margin-bottom: 0.5rem;
     padding: 1rem;
   }
+}
+
+.usa-color-value {
+  font-size: 1.35rem;
+  margin: 0 0 0.25rem;
+  line-height: 1.5rem;
+}
+
+.usa-color-vanity-name {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 1.5rem 0 0.5rem;
 }
 
 

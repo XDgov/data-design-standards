@@ -1,11 +1,17 @@
+{% assign cmykArray = include.cmykValues | split: ";" %}
 {% assign hexArray = include.hexValues | split: "," %}
+{% assign rgbArray = include.rgbValues | split: ";" %}
+{% assign vanityNameArray = include.vanityNames | split: "," %}
 {% assign colorArray = "-darkest,-darker,-dark,,-light,-lighter,-lightest" | split: "," %}
 
 {% for hex in hexArray %}
   {% assign num = forloop.index | minus: 1 %}
   {% assign colorName = include.name | append: colorArray[num] %}
+  {% assign cmyk = cmykArray[num] %}
+  {% assign rgb = rgbArray[num] %}
+  {% assign vanity_name = vanityNameArray[num] %}
   {% if colorName == "census-color-blue-darker" %}
     {% assign colorName = "census-color-navy" %}
   {% endif %}
-  {% include colors/color-sequence-block.html hex=hex name=colorName %}
+  {% include colors/color-card.html cmyk=cmyk hex=hex name=colorName rgb=rgb vanity_name=vanity_name %}
 {% endfor %}

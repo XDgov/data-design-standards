@@ -31,10 +31,10 @@ subnav:
     This palette’s primary colors are teal, navy, orange, and grey.
   </p>
   <div class="usa-grid-full">
-    {% include colors/color-card.html hex="26C6DA" name="census-color-teal" %}
-    {% include colors/color-card.html hex="112E51" name="census-color-navy" %}
-    {% include colors/color-card.html hex="FF7043" name="census-color-orange" %}
-    {% include colors/color-card.html hex="78909C" name="census-color-grey" %}
+    {% include colors/color-card.html cmyk="81, 24, 31, 0" hex="0095A8" name="census-color-teal" rgb="0, 149, 168" vanity_name="Teal" %}
+    {% include colors/color-card.html cmyk="79, 43, 0, 68" hex="112E51" name="census-color-navy" rgb="17, 46, 81" vanity_name="Navy" %}
+    {% include colors/color-card.html cmyk="0, 56, 74, 0" hex="FF7043" name="census-color-orange" rgb="255, 112, 67" vanity_name="Orange" %}
+    {% include colors/color-card.html cmyk="23, 8, 0, 39" hex="78909C" name="census-color-grey" rgb="120, 144, 156" vanity_name="Grey" %}
   </div>
   <h4>Sequential Colors</h4>
   <p>
@@ -52,19 +52,19 @@ subnav:
   </p>
   <h5 class="usa-color-heading">Teal Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-sequence.html hexValues="00282D,005660,008393,26C6DA,7DDDE9,A9E8F0,D4F4F8" name="census-color-teal" %}
+    {% include colors/color-card-sequence.html cmykValues="100, 13, 0, 82;100, 11, 0, 68;100, 11, 0, 52;100, 11, 0, 34;100, 11, 0, 16;58, 4, 0, 8;34, 4, 0, 0" hexValues="00282E,004851,006C7A,26C6DA,00BED6,6BEFF9,D4F4F8" name="census-color-teal" rgbValues="0, 40, 46;0, 72, 81;0, 108, 122;0, 149, 168;0, 190, 214;99, 225, 234;168, 245, 255" vanityNames="Darkest Teal, Darker Teal, Dark Teal, Teal, Light Teal, Lighter Teal, Lightest Teal" %}
   </div>
   <h5 class="usa-color-heading">Blue Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-sequence.html hexValues="081627,112E51,205493,2E78D2,6DA1E0,97BCE9,C1D7F2" name="census-color-blue" %}
+    {% include colors/color-card-sequence.html cmykValues="79, 44, 0, 85;79, 43, 0, 68;78, 43, 0, 42;78, 43, 0, 18;51, 28, 0, 12;35, 19, 0, 9;20, 11, 0, 5" hexValues="081627,112E51,205493,2E78D2,6DA1E0,97BCE9,C1D7F2" name="census-color-blue" rgbValues="8, 22, 39;17, 46, 81;32, 84, 147;46, 120, 210;109, 161, 224;151, 188, 233;193, 215, 242" vanityNames="Darkest Blue, Navy, Dark Blue, Blue, Light Blue, Lighter Blue, Lightest Blue" %}
   </div>
   <h5 class="usa-color-heading">Orange Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-sequence.html hexValues="5D2818,853A22,C25432,FF7043,FF9776,FFBEA9,FFE4DC" name="census-color-orange" %}
+    {% include colors/color-card-sequence.html cmykValues="0, 57, 74, 64;0, 56, 74, 48;0, 57, 74, 24;0, 56, 74, 0;0, 41, 54, 0;0, 25, 34, 0;0, 11, 14, 0" hexValues="5D2818,853A22,C25432,FF7043,FF9776,FFBEA9,FFE4DC" name="census-color-orange" rgbValues="93, 40, 24;133, 58, 34;194, 84, 50;255, 112, 67;255, 151, 118;255, 190, 169;255, 228, 220" vanityNames="Darkest Orange, Darker Orange, Dark Orange, Orange, Light Orange, Lighter Orange, Lightest Orange" %}
   </div>
   <h5 class="usa-color-heading">Grey Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-sequence.html hexValues="081627,112E51,205493,2e78d2,6DA1E0,97BCE9,C1D7F2" name="census-color-grey" %}
+    {% include colors/color-card-sequence.html cmykValues="31, 10, 0, 81;32, 10, 0, 69;32, 10, 0, 57;23, 8, 0, 39;19, 6, 0, 20;10, 4, 0, 13;4, 1, 0, 5" hexValues="222C31,364850,4B636E,78909C,A7C0CD,C8D7DF,E8EFF2" name="census-color-grey" rgbValues="34, 44, 49;54, 72, 80;75, 99, 110;120, 144, 156;167, 192, 205;200, 215, 223;232, 239, 242" vanityNames="Darkest Grey, Darker Grey, Dark Grey, Grey, Light Grey, Lighter Grey, Lightest Grey" %}
   </div>
   <h4>Qualitative Colors</h4>
   <p>
@@ -80,11 +80,11 @@ subnav:
   </p>
   <h5 class="usa-color-heading">Example Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-categorical.html hexValues="26C6DA,112E51,FF7043,78909C,2E78D2,008393,FFBEA9" nameValues="census-color-teal,census-color-navy,census-color-orange,census-color-grey,census-color-blue,census-color-teal-dark,census-color-orange-lighter" %}
+    {% include colors/color-card-categorical.html cmykValues="100, 11, 0, 34;79, 43, 0, 68;0, 56, 74, 0;23, 8, 0, 39;78, 43, 0, 18;100, 11, 0, 52;0, 41, 54, 0" hexValues="26C6DA,112E51,FF7043,78909C,2E78D2,006C7A,FFBEA9" nameValues="census-color-teal,census-color-navy,census-color-orange,census-color-grey,census-color-blue,census-color-teal-dark,census-color-orange-lighter" rgbValues="0, 149, 168;17, 46, 81;255, 112, 67;120, 144, 156;46, 120, 210;0, 108, 122;255, 151, 118" vanityNames="Teal, Navy, Orange, Grey, Blue, Dark Teal, Light Orange" %}
   </div>
   <h5 class="usa-color-heading">Example Palette with Highlight</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-categorical.html hexValues="A9E8F0,97BCE9,26C6DA,97BCE9,D4F4F8" nameValues="census-color-teal-lighter,census-color-blue-lighter,census-color-orange,census-color-grey-lighter,census-color-teal-lightest" %}
+    {% include colors/color-card-categorical.html cmykValues="0, 25, 34, 0;35, 19, 0, 9;0, 56, 74, 0;10, 4, 0, 13;34, 4, 0, 0" hexValues="FFBEA9,97BCE9,26C6DA,97BCE9,D4F4F8" nameValues="census-color-orange-lighter,census-color-blue-lighter,census-color-orange,census-color-grey-lighter,census-color-teal-lightest" rgbValues="255, 190, 169;151, 188, 233;255, 112, 67;200, 215, 223;168, 245, 255" vanityNames="Lighter Orange, Lighter Blue, Orange, Lighter Grey, Lightest Teal" %}
   </div>
   <h4>Diverging Colors</h4>
   <p>
@@ -98,7 +98,7 @@ subnav:
   </p>
   <h5 class="usa-color-heading">Example Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
-    {% include colors/color-card-categorical.html hexValues="112E51,97BCE9,C1D7F2,FFBEA9,853A22" nameValues="census-color-navy,census-color-blue-lighter,census-color-grey-lightest,census-color-orange-lighter,census-color-orange-darker" %}
+    {% include colors/color-card-categorical.html cmykValues="79, 43, 0, 68;35, 19, 0, 9;4, 1, 0, 5;0, 25, 34, 0;0, 56, 74, 48" hexValues="112E51,97BCE9,C1D7F2,FFBEA9,853A22" nameValues="census-color-navy,census-color-blue-lighter,census-color-grey-lightest,census-color-orange-lighter,census-color-orange-darker" rgbValues="17, 46, 81;151, 188, 233;232, 239, 242;255, 190, 169;133, 58, 34" vanityNames="Navy, Lighter Blue, Lightest Grey, Lighter Orange, Darker Orange" %}
   </div>
   <h4>No Data Colors</h4>
   <p>

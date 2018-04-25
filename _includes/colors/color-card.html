@@ -1,5 +1,8 @@
 <div class="usa-color-container usa-color-card">
   <div class="usa-color-square {{ include.name }}"></div>
-  <p class="usa-color-hex">#{{ include.hex }}</p>
-  <p class="usa-color-name">${{ include.name}}</p>
+  <p class="usa-color-vanity-name">{{ include.vanity_name }}</p>
+  <p class="usa-color-rgb usa-color-value">RGB ({{ include.rgb }})</p>
+  <p class="usa-color-cmyk usa-color-value">CMYK ({{ include.cmyk }})</p>
+  <p class="usa-color-hex usa-color-value">HEX #{{ include.hex }}</p>
+  <p class="usa-color-class">${{ include.name }}</p>
 </div>

@@ -1,8 +1,14 @@
+{% assign cmykArray = include.cmykValues | split: ";" %}
 {% assign hexArray = include.hexValues | split: "," %}
 {% assign nameArray = include.nameValues | split: "," %}
+{% assign rgbArray = include.rgbValues | split: ";" %}
+{% assign vanityNameArray = include.vanityNames | split: "," %}
 
 {% for hex in hexArray %}
   {% assign num = forloop.index | minus: 1 %}
   {% assign colorName = nameArray[num] %}
-  {% include colors/color-sequence-block.html hex=hex name=colorName %}
+  {% assign cmyk = cmykArray[num] %}
+  {% assign rgb = rgbArray[num] %}
+  {% assign vanity_name = vanityNameArray[num] %}
+  {% include colors/color-card.html cmyk=cmyk hex=hex name=colorName rgb=rgb vanity_name=vanity_name %}
 {% endfor %}
