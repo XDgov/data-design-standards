@@ -176,7 +176,7 @@
 .usa-color-name {
   color: $census-color-grey-dark;
   font-size: 1.25rem;
-  margin: 0.25rem 0 0;
+  margin: 0.1rem 0 0.75rem;
 }
 
 .usa-color-card {
@@ -254,6 +254,12 @@
 
 .usa-color-heading {
   color: $census-color-grey-darker;
+}
+
+.usa-color-secondary {
+  color: $census-color-grey-dark;
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .usa-color-square {
