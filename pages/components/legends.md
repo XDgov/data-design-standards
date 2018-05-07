@@ -46,26 +46,22 @@ lead: Legends identify the meaning of various elements in a data visualization a
   <p>
     When using sequential data, ensure that the highest number appears first at the top of the legend and the lowest number appears last at the bottom of the legend. For diverging data, a vertical legend is also recommended, with the most extreme values at opposite ends of the legend.
   </p>
-</div>
-<div id="legend-numbers">
-  <h2>Formatting Numbers</h2>
-  <p>
-    When displaying numeric data in a legend, numbers should be rounded for improved legibility.
-  </p>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side legend-number-example">
       <h4>{% include svg/warning.html %} Bad Example</h4>
       <div class="dvs-legend-numbers">
         <h6 class="legend-title">Percentage of Voters</h6>
-        {% include components/legend-group.html color="census-blue-darkest" label="100.35 - 91.25" %}
-        {% include components/legend-group.html color="census-blue-darker" label="91.25 - 81.44" %}
-        {% include components/legend-group.html color="census-blue-dark" label="81.44 - 71.14" %}
-        {% include components/legend-group.html color="census-blue" label="71.14 - 61.19" %}
-        {% include components/legend-group.html color="census-blue-light" label="61.19 - 51.02" %}
+        {% include components/legend-group.html color="census-blue-light" label="60-51" %}
+        {% include components/legend-group.html color="census-blue" label="70-61" %}
+        {% include components/legend-group.html color="census-blue-dark" label="80-71" %}
+        {% include components/legend-group.html color="census-blue-darker" label="90-81" %}
+        {% include components/legend-group.html color="census-blue-darkest" label="100-91" %}
       </div>
       <h5 class="usa-color-heading">Why it‘s Bad</h5>
       <p>
-        By displaying decimal values instead of integers, the legend is more difficult to read for users. Instead, decimal values should be rounded to the nearest integer for improved usability.
+        By displaying the data in ascending order, the lowers numbers appear at
+        the top of the legend. This type of order deviates from best practicies
+        and will result in inconsistent ordering across legends.
       </p>
     </div>
     <div class="usa-chart-card example-side-by-side legend-number-example">
@@ -80,7 +76,10 @@ lead: Legends identify the meaning of various elements in a data visualization a
       </div>
       <h5 class="usa-color-heading">Why it‘s Better</h5>
       <p>
-        Now that each number has been rounded, the legend is much easier for users to understand. Notice that in both examples the unit of measurement has been left out. Like <a href="{{ site.baseurl }}/components/axes#axis-titles">axis tick marks</a>, omitting the unit of measurement make legends less cluttered and more user-friendly.
+        Now that the data is displayed in descending order, the legend adheres
+        to best practices and will result in more consistent and therefore more
+        user-friendly data visualizations.
       </p>
     </div>
+  </div>
 </div>

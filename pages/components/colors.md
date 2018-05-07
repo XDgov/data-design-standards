@@ -74,14 +74,19 @@ subnav:
   </p>
   <p>
     When using this type of palette, try using colors with just enough variance
-    in their hue brightness to ensure all of the categories are represented
-    similarly. Alternatively, a highlight color with a brighter hue can be used to
-    draw attention to a particular category of data.
+    in their hue and brightness to ensure all of the categories are represented
+    similarly.
   </p>
   <h5 class="usa-color-heading">Example Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
     {% include colors/color-card-categorical.html cmykValues="100, 11, 0, 34;79, 43, 0, 68;0, 56, 74, 0;23, 8, 0, 39;78, 43, 0, 18;100, 11, 0, 52;0, 41, 54, 0" hexValues="26C6DA,112E51,FF7043,78909C,2E78D2,006C7A,FFBEA9" nameValues="census-color-teal,census-color-navy,census-color-orange,census-color-grey,census-color-blue,census-color-teal-dark,census-color-orange-lighter" rgbValues="0, 149, 168;17, 46, 81;255, 112, 67;120, 144, 156;46, 120, 210;0, 108, 122;255, 151, 118" vanityNames="Teal, Navy, Orange, Grey, Blue, Dark Teal, Light Orange" %}
   </div>
+  <p>
+    Alternatively, a highlight color can be used with a qualitative palette to
+    draw attention to a particular category of data. With this type of palette,
+    a bias is shown towards the highlight color so use this type of palette
+    with caution. 
+  </p>
   <h5 class="usa-color-heading">Example Palette with Highlight</h5>
   <div class="usa-grid-full usa-grid-colors">
     {% include colors/color-card-categorical.html cmykValues="0, 25, 34, 0;35, 19, 0, 9;0, 56, 74, 0;10, 4, 0, 13;34, 4, 0, 0" hexValues="FFBEA9,97BCE9,26C6DA,97BCE9,D4F4F8" nameValues="census-color-orange-lighter,census-color-blue-lighter,census-color-orange,census-color-grey-lighter,census-color-teal-lightest" rgbValues="255, 190, 169;151, 188, 233;255, 112, 67;200, 215, 223;168, 245, 255" vanityNames="Lighter Orange, Lighter Blue, Orange, Lighter Grey, Lightest Teal" %}
