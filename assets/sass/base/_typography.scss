@@ -5,6 +5,10 @@ a {
   }
 }
 
+code {
+  color: darken($census-color-orange, 10);
+}
+
 h1 {
   font-size: 5rem;
 }
