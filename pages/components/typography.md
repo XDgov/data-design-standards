@@ -6,8 +6,14 @@ category: Components
 lead: Typography is one of the most effective tools for communicating the meaning of data to users. When building data visualizations, establishing a clear hierarchy of typographic elements and using easy-to-read font families will help users better understand and interact with your data.
 ---
 <div id="typeface">
-  <h2>Typeface</h2>
-  <h4>Roboto</h4>
+  <h2>Typefaces</h2>
+  <p>
+    The typefaces presented in this section adhere to 2018 U.S. Census Bureau
+    Identity and Branding Standards. If you are not a member of the U.S. Census
+    Bureau, we recommend referencing your agency’s latest brand guidance for
+    typeface recommendations. 
+  </p>
+  <h3>Roboto</h3>
   <div class="usa-grid-full">
     <div class="usa-width-one-half">
       <p>
@@ -27,6 +33,32 @@ lead: Typography is one of the most effective tools for communicating the meanin
       </div>
     </div>
   </div>
+  <h3 class="serif">Lora</h3>
+  <div class="usa-grid-full">
+    <div class="usa-width-one-half">
+      <p>
+        Lora is a serif typeface developed by Google. It is a well-balanced contemporary serif with roots in calligraphy. Lora is a text typeface with moderate contrast well suited for body text.
+      </p>
+      <p>
+        Technically Lora is optimised for screen appearance, and works equally well in print.
+      </p>
+      <p>Lora is licensed under the <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web" target="_blank">Open Font License 1.1</a>.</p>
+    </div>
+    <div class="usa-width-one-half usa-end-row usa-font-samples serif">
+      <span class="text-huge">Aa</span>
+      <div>
+        <p class="text-tiny">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+        <p class="text-tiny">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+        <p class="text-tiny">0 1 2 3 4 5 6 7 8 9</p>
+      </div>
+    </div>
+  </div>
+  <h3>Choosing a Typeface for Screens</h3>
+  <p>
+    When designing data visualizations, we generally recommend using sans-serif
+    fonts for data visualizations intended for display on screens. This is
+    because sans-serif fonts tend to scale better in lower-resolution screens.
+  </p>
 </div>
 <div id="typesetting">
   <h2>Typesetting</h2>
