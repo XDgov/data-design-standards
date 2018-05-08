@@ -40,7 +40,7 @@ lead: Typography is one of the most effective tools for communicating the meanin
         Lora is a serif typeface developed by Google. It is a well-balanced contemporary serif with roots in calligraphy. Lora is a text typeface with moderate contrast well suited for body text.
       </p>
       <p>
-        Technically Lora is optimised for screen appearance, and works equally well in print.
+        Technically Lora is optimized for screen appearance, and works equally well in print.
       </p>
       <p>Lora is licensed under the <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web" target="_blank">Open Font License 1.1</a>.</p>
     </div>
@@ -55,9 +55,9 @@ lead: Typography is one of the most effective tools for communicating the meanin
   </div>
   <h3>Choosing a Typeface for Screens</h3>
   <p>
-    When designing data visualizations, we generally recommend using sans-serif
-    fonts for data visualizations intended for display on screens. This is
-    because sans-serif fonts tend to scale better in lower-resolution screens.
+    When designing data visualizations for screens, we generally recommend using
+    sans-serif fonts. Sans-serif fonts tend to scale better in lower-resolution
+    screens and are more commonly used in websites.
   </p>
 </div>
 <div id="typesetting">
