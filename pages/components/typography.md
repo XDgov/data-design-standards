@@ -7,8 +7,10 @@ lead: Typography is one of the most effective tools for communicating the meanin
 subnav:
 - text: Typefaces
   href: "#typefaces"
-- text: Type Sizing
+- text: Font Sizing
   href: "#sizing"
+- text: Letter Spacing
+  href: "#spacing"
 - text: Typesetting
   href: "#typesetting"
 ---
