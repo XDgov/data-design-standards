@@ -62,9 +62,10 @@ subnav:
   </div>
   <h3>Choosing a Typeface for Screens</h3>
   <p>
-    When designing data visualizations for screens, we generally recommend using
-    sans-serif fonts. Sans-serif fonts tend to scale better in lower-resolution
-    screens and are more commonly used in websites.
+    When designing data visualizations for screens, such as mobile, web, or
+    presentation, we generally recommend using sans-serif fonts. Sans-serif
+    fonts tend to scale better in lower-resolution screens and are more commonly
+    used in websites.
   </p>
 </div>
 <div id="sizing">
@@ -76,9 +77,7 @@ subnav:
   </p>
   <p>
     Readability of type depends on the display quality and
-    <a href="http://www.hf.faa.gov/webtraining/visualdisplays/text/size1a.htm" target="_blank">
-    viewing distance
-    </a>
+    <a href="http://www.hf.faa.gov/webtraining/visualdisplays/text/size1a.htm" target="_blank">viewing distance</a>
     for presenting a data visualization. For example, websites often use a 16pt
     font size as it is optimized for legibility given the average view distance
     and screen quality.
@@ -105,6 +104,14 @@ subnav:
     </div>
   </div>
 </div>
+<div id="spacing">
+  <h2>Letter Spacing</h2>
+  <p>
+    Letter spacing, or kerning, is the spacing between individual characters. We
+    recommend using the default letter spacing of whichever typeface you choose
+    to maximize the readability of text in your data visualization.
+  </p>
+</div>
 <div id="typesetting">
   <h2>Typesetting</h2>
   <p>
@@ -114,25 +121,14 @@ subnav:
     principles to external elements, such as the title, description, and source
     information of the data visualization.
   </p>
-  <div class="usa-chart-card typography-card">
-    <h3 class="usa-chart-title">
-      Chart Title
-    </h3>
-    <h4 class="usa-chart-subtitle">
-      Chart Subtitle
-    </h4>
-    <div class="usa-source-container">
-      Source or Program Information
-    </div>
-  </div>
-  <h3>Examples</h3>
+  <h3>Example</h3>
   <div class="usa-chart-card">
     <div class="usa-chart-header">
       <h3 class="usa-chart-title">
-        Types of Languages Spoken at Home in New York
+        Languages Spoken at Home in New York
       </h3>
       <h4 class="usa-chart-subtitle">
-        English-only is the most spoken language at home.
+        English-only is the most commonly spoken language at home.
       </h4>
     </div>
     <canvas id="typography-chart"></canvas>
