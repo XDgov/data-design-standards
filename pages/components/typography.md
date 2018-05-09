@@ -42,6 +42,11 @@ subnav:
       </div>
     </div>
   </div>
+  <h4>Roboto Alternatives</h4>
+  <p>
+    When creating visualizations for print or when Roboto is unavailable, you
+    can use <em>Gotham</em> or <em>Calibri</em> as alternatives.
+  </p>
   <h3 class="serif">Lora</h3>
   <div class="usa-grid-full">
     <div class="usa-width-one-half">
@@ -62,6 +67,13 @@ subnav:
       </div>
     </div>
   </div>
+  <h4>Lora Alternatives</h4>
+  <p>
+    When creating visualizations for print or when Lora is unavailable, you
+    can use <em>Chronicle</em> or <em>Cambria</em> as
+    alternatives.
+  </p>
+
   <h3>Choosing a Typeface for Screens</h3>
   <p>
     When designing data visualizations for screens, such as mobile, web, or
