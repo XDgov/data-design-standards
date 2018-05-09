@@ -1,14 +1,38 @@
 .page-typography {
+
+  .serif {
+    .text-huge {
+      line-height: 0.8em;
+    }
+  }
   
   .text-huge {
     font-size: 140px;
-    line-height: 0.5;
+    line-height: 0.7em;
   }
   
   .text-tiny {
     font-size: 15px;
     margin-bottom: 0;
     margin-top: 5px;
+  }
+
+  .type-example {
+    display: inline-block;
+    margin-right: 0.5em;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .type-size {
+    font-size: 1.4rem;
+  }
+
+  .usa-chart-card {
+    padding: 1em;
   }
 
   .usa-font-samples {

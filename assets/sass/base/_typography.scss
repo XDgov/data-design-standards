@@ -85,3 +85,13 @@ html {
 .serif {
   font-family: $font-serif;
 }
+
+$font-sizes: 6,7,8,9,10,11,12,14,16,18,21,24,28,32,36,42,48,60;
+
+@each $size in $font-sizes {
+  $font-size: $size + unquote("pt");
+
+  .size-#{$size} {
+    font-size: $font-size;
+  }
+}

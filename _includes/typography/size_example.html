@@ -1,0 +1,6 @@
+{% assign class = include.font_size | prepend: "size-" %}
+
+<div class="type-example">
+  <div class="{{ class }}">a</div>
+  <div class="type-size">{{ include.font_size }}</div>
+</div>

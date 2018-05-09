@@ -4,8 +4,15 @@ layout: components
 title: Typography
 category: Components
 lead: Typography is one of the most effective tools for communicating the meaning of data to users. When building data visualizations, establishing a clear hierarchy of typographic elements and using easy-to-read font families will help users better understand and interact with your data.
+subnav:
+- text: Typefaces
+  href: "#typefaces"
+- text: Type Sizing
+  href: "#sizing"
+- text: Typesetting
+  href: "#typesetting"
 ---
-<div id="typeface">
+<div id="typefaces">
   <h2>Typefaces</h2>
   <p>
     The typefaces presented in this section adhere to 2018 U.S. Census Bureau
@@ -59,6 +66,44 @@ lead: Typography is one of the most effective tools for communicating the meanin
     sans-serif fonts. Sans-serif fonts tend to scale better in lower-resolution
     screens and are more commonly used in websites.
   </p>
+</div>
+<div id="sizing">
+  <h2>Font Sizing</h2>
+  <p>
+    Data visualizations use a blend of font sizes to establish a clear hierarchy
+    of elements, known as typesetting. To maximize the usability of a data
+    visualization, font sizes should be optimized for readability.
+  </p>
+  <p>
+    Readability of type depends on the display quality and
+    <a href="http://www.hf.faa.gov/webtraining/visualdisplays/text/size1a.htm" target="_blank">
+    viewing distance
+    </a>
+    for presenting a data visualization. For example, websites often use a 16pt
+    font size as it is optimized for legibility given the average view distance
+    and screen quality.
+  </p>
+  <h3>Accessibility</h3>
+  <p>
+    As a general rule, we recommend using a minimum font size of 9pt for screens
+    and 6pt for print. Though there are no rigid requirements for 508 compliance
+    regarding font sizes, striving for font sizes as close to 16pt as possible
+    will ensure your data visualizations are as readable and user-friendly as
+    possible.
+  </p>
+  <p>
+    Below is a spectrum of font sizes that demonstrates the difficulty of
+    reading text below the 9pt threshold.
+  </p> 
+  <div>
+    <div class="type-sizes">
+      {% assign sizes="6,7,8,9,10,11,12,14,16,18,21,24,28,32,36,42,48,60" %}
+      {% assign sizesArray = sizes | split: "," %}
+      {% for size in sizesArray %}
+        {% include typography/size_example.html font_size=size %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 <div id="typesetting">
   <h2>Typesetting</h2>
