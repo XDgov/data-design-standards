@@ -9,6 +9,8 @@ subnav:
   href: "#titles"
 - text: Subtitle
   href: "#subtitles"
+- text: Accessibility
+  href: "#accessibility"
 ---
 <p>
   In addition to a traditional title element, data visualizations can also
@@ -107,5 +109,16 @@ subnav:
     so we recommend including a visualization’s title and subtitle content
     inside the <code>aria-label</code> attribute.
   </p>
-
+  <h3>Title Fallbacks for Documents and Presentations</h3>
+  <p>
+    Did you know that documents and presentations must also be
+    508 compliant? Similar to the guidance for web-based visualizations,
+    documents and presentations support alt-text fallbacks for static images
+    and interactive elements.
+  </p>
+  <p>
+    For guidance on creating 508-compliant documents and presentations, refer to
+    Section 508’s
+    <a href="https://www.section508.gov/content/build/create-accessible-documents">guide for creating accessible electronic documents</a>.
+  </p>
 </div>

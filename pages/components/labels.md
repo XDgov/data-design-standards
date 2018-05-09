@@ -11,6 +11,8 @@ subnav:
   href: "#annotations"
 - text: Map Labels
   href: "#map-labels"
+- text: Accessibility
+  href: "#accessibility"
 ---
 <p> 
   Labels are traditionally used to label axes and legends, however, they can
@@ -110,5 +112,17 @@ subnav:
   <p>
     In addition to the above methods, tables may also be included as a fallback
     method for representing data belonging to a data visualization.
+  </p>
+  <h3>Label Fallbacks for Documents and Presentations</h3>
+  <p>
+    Did you know that documents and presentations must also be
+    508 compliant? Similar to the guidance for web-based visualizations,
+    documents and presentations support alt-text fallbacks for static images
+    and interactive elements.
+  </p>
+  <p>
+    For guidance on creating 508-compliant documents and presentations, refer to
+    Section 508’s
+    <a href="https://www.section508.gov/content/build/create-accessible-documents">guide for creating accessible electronic documents</a>.
   </p>
 </div>
