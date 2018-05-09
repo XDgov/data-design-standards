@@ -60,7 +60,7 @@ lead: Legends identify the meaning of various elements in a data visualization a
       <h5 class="usa-color-heading">Why it‘s Bad</h5>
       <p>
         By displaying the data in ascending order, the lowers numbers appear at
-        the top of the legend. This type of order deviates from best practicies
+        the top of the legend. This type of order deviates from best practices
         and will result in inconsistent ordering across legends.
       </p>
     </div>
