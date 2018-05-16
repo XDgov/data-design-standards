@@ -9,7 +9,7 @@ subnav:
   href: "#types"
 ---
 <p>
-  While scale can be indicated via a ratio or in words (i.e. 1:10, or “One inch to ten miles”), scale bars are common graphical alternative for indicating scale. The primary benefit of using a scale bar to indicate scale are that scale bars can be more easily used to allow users to measure distances in maps.
+  While scale can be indicated via a ratio or in words (i.e. 1:10, or “One inch to ten miles”), scale bars are a common graphical alternative for indicating scale. The primary benefit of using a scale bar to indicate scale are that scale bars can be more easily used to allow users to measure distances in maps.
 </p>
 
 <div id="types">
