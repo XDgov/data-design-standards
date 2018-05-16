@@ -123,6 +123,6 @@ subnav:
   <p>
     For guidance on creating 508-compliant documents and presentations, refer to
     Section 508’s
-    <a href="https://www.section508.gov/content/build/create-accessible-documents">guide for creating accessible electronic documents</a>.
+    <a href="https://www.section508.gov/content/build/create-accessible-documents" target="_blank">guide for creating accessible electronic documents</a>.
   </p>
 </div>
