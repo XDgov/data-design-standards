@@ -13,7 +13,7 @@ guidance-always:
 - Always choose an appropriate method of grouping your data if it is numeric.
 
 guidance-recommended:
-- It is recommended to use limit the number of categories to five or fewer.
+- It is recommended to limit the number of categories to five or fewer.
 - It is recommended to round numbers in a legend for improved legibility.
 - It is recommended that a national average or median for comparison be placed close to the legend if it is being used.
 - It is recommended that county boundaries be less prominent than state boundaries when creating a county-level choropleth map.
