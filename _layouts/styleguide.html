@@ -29,6 +29,9 @@ layout: default
     {% include lead.html text=page.lead %}
 
     {{ content }}
+    {% if page.guidance-always != null or page.guidance-recommended != null or page.guidance-not-recommended != null or page.guidance-never != null %}
+      <h2>Guidance</h2>
+    {% endif %}
     {% if page.guidance-always != null %}
       <h4>Always</h4>
       <ul class="page-guidance usa-unstyled-list guidance-always">

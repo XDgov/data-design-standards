@@ -185,3 +185,21 @@
   font-size: 1.3rem;
   margin-top: 1rem;
 }
+
+.usa-viz-warning {
+  background-color: lighten($usa-color-gold, 7);
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  max-width: 550px;
+  padding: 1rem 1.5rem;
+
+  a {
+    color: $color-black;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
