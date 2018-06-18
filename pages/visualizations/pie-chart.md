@@ -16,9 +16,9 @@ guidance-never:
 - Never use a 3D pie chart.
 ---
 <div class="usa-viz-warning">
-  Before considering a pie chart, we recommend considering using 
-  <a href="{{ site.baseurl }}/visualizations/bar-chart">bar charts</a>
-  or displaying numeric values directly.
+  Before using a pie chart, consider using a
+  <a href="{{ site.baseurl }}/visualizations/bar-chart">bar chart</a>
+  or displaying numeric values directly for improved usability.
 </div>
 
 <p>
