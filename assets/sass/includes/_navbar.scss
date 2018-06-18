@@ -3,6 +3,12 @@
   @media(min-width: $usds-medium-screen) {
     display: none;
   }
+
+  .usa-sidenav-sub_list {
+    &[aria-hidden=true] {
+      display: none;
+    }
+  }
 }
 
 .site-header {
@@ -86,7 +92,29 @@
 
 .sidenav-mobile {
 
+  .usa-accordion-button {
+    &[aria-expanded=false] {
+      background-size: 1.1rem;
+    }
+
+    &[aria-expanded=true] {
+      background-size: 1.1rem;
+    }
+  }
+
+  .usa-current {
+    padding-left: 2.4rem;
+  }
+
   .usa-sidenav-list {
+
+    button {
+      background-color: transparent;
+      background-position: right 1rem center;
+      color: #4B636E; 
+      font-weight: normal;
+      padding: .85rem 1rem .85rem 1.8rem;
+    }
 
     > li {
       border-top: 1px solid #5b616b;
@@ -94,6 +122,12 @@
       &:first-child {
         border-top: 0;
       }
+    }
+  }
+
+  .usa-sidenav-sub_list {
+    .usa-sidenav-sub_list {
+      display: none;
     }
   }
 }

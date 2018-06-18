@@ -1,13 +1,3 @@
-{% include nav/sidebar-list-item.html name="Bar Chart" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Box and Whisker" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Bubble Chart" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Choropleth Map" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Dot Distribution Map" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Histogram" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Line Graph" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Pie Chart" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Population Pyramid" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Proportional Symbol Map" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Scatter Plot" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Stacked Bar Chart" section="visualizations" %}
-{% include nav/sidebar-list-item.html name="Treemap" section="visualizations" %}
+{% for visualization_type in site.data.visualization_types %}
+  {% include nav/sidebar-list-item.html name=visualization_type.name section="visualizations" %}
+{% endfor %}
