@@ -3,6 +3,7 @@
 {% if page.path == link_path %}
   {% assign current = "current" %}
 {% endif %}
+
 <a href="{{ site.baseurl }}/{{ include.url }}" {% if current %}class="usa-current"{% endif %}>
   {{ include.name }}
 </a>

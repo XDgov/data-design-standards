@@ -1,3 +1,12 @@
+body {
+
+  .sidenav {
+    @media (min-width: 951px) {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .sidenav-mobile {
   
   @media(min-width: $usds-medium-screen) {
@@ -72,6 +81,12 @@
       color: $census-color-orange-dark;
     }
   }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -0.1rem;
 }
 
 .usa-logo-text {
