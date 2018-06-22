@@ -16,11 +16,12 @@ guidance-recommended:
 - It is recommended to limit the number of categories to five or fewer.
 - It is recommended to round numbers in a legend for improved legibility.
 - It is recommended that a national average or median for comparison be placed close to the legend if it is being used.
-- It is recommended that county boundaries be less prominent than state boundaries when creating a county-level choropleth map.
+- It is recommended that choropleth maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
+- - It is not recommended avoid or limit the use of dots, lines, or hatching patterns on a choropleth map. 
 
 guidance-never:
-- Never use dots, lines, or hatching patterns on a choropleth map. 
 - Never enlarge or highlight D.C. when it is treated as a county equivalent, unless the map’s focus is specifically related to D.C.
+- Never use a qualitative or categorical color scheme to map numeric data.
 
 ---
 

@@ -24,19 +24,19 @@ lead: Legends identify the meaning of various elements in a data visualization a
   </p>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side legend-title-example">
-      <h4>{% include svg/warning.html %} Bad Example</h4>
+      <h4>{% include svg/warning.html %} Acceptable Example</h4>
       <h6 class="legend-title">Legend</h6>
-      <h5 class="usa-color-heading">Why it‘s Bad</h5>
+      <h5 class="usa-color-heading">Why it‘s Only Acceptable</h5>
       <p>
         The legend title missed an opportunity to include helpful information about the kind of data inside of the data visualization. If you are including a legend title, be sure to make it descriptive.
       </p>
     </div>
     <div class="usa-chart-card example-side-by-side legend-title-example">
-      <h4>{% include svg/success.html %} Good Example</h4>
+      <h4>{% include svg/success.html %} Preferred Example</h4>
       <h6 class="legend-title">Population per Square Mile</h6>
-      <h5 class="usa-color-heading">Why it‘s Better</h5>
+      <h5 class="usa-color-heading">Why it‘s Preferred</h5>
       <p>
-        Now that the legend title describes the type of data being visualized, users will have a clearer sense of what the data visualization is all about.
+        Now that the legend title describes the type of data being visualized, users will have a better sense of what the data visualization is all about.
       </p>
     </div>
   </div>
@@ -48,16 +48,16 @@ lead: Legends identify the meaning of various elements in a data visualization a
   </p>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side legend-number-example">
-      <h4>{% include svg/warning.html %} Bad Example</h4>
+      <h4>{% include svg/warning.html %} Acceptable Example</h4>
       <div class="dvs-legend-numbers">
         <h6 class="legend-title">Percentage of Voters</h6>
-        {% include components/legend-group.html color="census-blue-light" label="60-51" %}
-        {% include components/legend-group.html color="census-blue" label="70-61" %}
-        {% include components/legend-group.html color="census-blue-dark" label="80-71" %}
-        {% include components/legend-group.html color="census-blue-darker" label="90-81" %}
-        {% include components/legend-group.html color="census-blue-darkest" label="100-91" %}
+        {% include components/legend-group.html color="census-blue-light" label="51-60" %}
+        {% include components/legend-group.html color="census-blue" label="61-70" %}
+        {% include components/legend-group.html color="census-blue-dark" label="71-80" %}
+        {% include components/legend-group.html color="census-blue-darker" label="81-90" %}
+        {% include components/legend-group.html color="census-blue-darkest" label="91-100" %}
       </div>
-      <h5 class="usa-color-heading">Why it‘s Bad</h5>
+      <h5 class="usa-color-heading">Why it‘s Only Acceptable</h5>
       <p>
         By displaying the data in ascending order, the lower numbers appear at
         the top of the legend. This type of order deviates from best practices
@@ -65,16 +65,16 @@ lead: Legends identify the meaning of various elements in a data visualization a
       </p>
     </div>
     <div class="usa-chart-card example-side-by-side legend-number-example">
-      <h4>{% include svg/success.html %} Good Example</h4>
+      <h4>{% include svg/success.html %} Preferred Example</h4>
       <div class="dvs-legend-numbers">
         <h6 class="legend-title">Percentage of Voters</h6>
-        {% include components/legend-group.html color="census-blue-darkest" label="100-91" %}
-        {% include components/legend-group.html color="census-blue-darker" label="90-81" %}
-        {% include components/legend-group.html color="census-blue-dark" label="80-71" %}
-        {% include components/legend-group.html color="census-blue" label="70-61" %}
-        {% include components/legend-group.html color="census-blue-light" label="60-51" %}
+        {% include components/legend-group.html color="census-blue-darkest" label="91-100" %}
+        {% include components/legend-group.html color="census-blue-darker" label="81-90" %}
+        {% include components/legend-group.html color="census-blue-dark" label="71-80" %}
+        {% include components/legend-group.html color="census-blue" label="61-70" %}
+        {% include components/legend-group.html color="census-blue-light" label="51-60" %}
       </div>
-      <h5 class="usa-color-heading">Why it‘s Better</h5>
+      <h5 class="usa-color-heading">Why it‘s Preferred</h5>
       <p>
         Now that the data is displayed in descending order, the legend adheres
         to best practices and will result in more consistent and therefore more

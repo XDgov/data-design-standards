@@ -15,7 +15,7 @@ guidance-always:
 
 guidance-recommended:
 - It is recommend that you limit the number of class to five or fewer categories. Fewer symbols on the map are more easily distinguished by the eye and will make trends in the data easier to see.
-- It is recommended that county boundaries be less prominent than state boundaries when creating a county-level choropleth map.
+- It is recommended that proportional symbol maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
 
 guidance-not-recommended:
 - It is not recommended to have symbols on the map overlap. This can sometimes be appropriate depending on the type of symbol and scale of the map.

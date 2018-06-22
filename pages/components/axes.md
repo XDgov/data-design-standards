@@ -33,13 +33,13 @@ subnav:
   </p>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side">
-      <h4>{% include svg/warning.html %} Bad Example</h4>
+      <h4>{% include svg/warning.html %} Acceptable </h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
           <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
         </div>
         <div class="axis-title-example-desc">
-          <h5 class="usa-color-heading">Why it’s Bad</h5>
+          <h5 class="usa-color-heading">Why it’s Only Acceptable</h5>
           <p>
             The axis title missed an opportunity to include the unit of
             measurement for the tick marks in the y-axis. As a result, the tick
@@ -50,7 +50,7 @@ subnav:
       </div>
     </div>
     <div class="usa-chart-card example-side-by-side">
-      <h4>{% include svg/success.html %} Good Example</h4>
+      <h4>{% include svg/success.html %} Preferred Example</h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
           <canvas id="axis-title-good-example" role="img" aria-label="Percentage of Voters. 40, 45, 50, 55, 60"></canvas>
@@ -84,11 +84,11 @@ subnav:
   <h3>Examples</h3>
   <div class="clearfix component-examples">
     <div class="usa-chart-card example-side-by-side">
-      <h4>{% include svg/warning.html %} Bad Example</h4>
+      <h4>{% include svg/warning.html %} Acceptable Example</h4>
       <div>
         <canvas id="tick-marks-cluttered" class="dvs-canvas" role="img" aria-label="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"></canvas>
       </div>
-      <h5 class="usa-color-heading">Why it’s Bad</h5>
+      <h5 class="usa-color-heading">Why it’s Only Acceptable</h5>
       <p>
         Labelling every tick mark isn’t necessary and can often cause
         labels to clutter and overlap, especially in smaller visualizations or
@@ -96,7 +96,7 @@ subnav:
       </p>
     </div>
     <div class="usa-chart-card example-side-by-side">
-      <h4>{% include svg/success.html %} Good Example</h4>
+      <h4>{% include svg/success.html %} Preferred Example</h4>
       <div>
         <canvas id="tick-marks-good" role="img" aria-label="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"></canvas>
       </div>
