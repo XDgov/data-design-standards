@@ -11,6 +11,7 @@
 {% include_relative dvs-canvas.js %}
 
  {% include_relative charts/chartjs-plugin-usdvs.js %}
+ {% include_relative charts/chart-bar-horizontal.js %}
  {% include_relative charts/bar-charts.js %}
  {% include_relative charts/typography-chart.js %}
 
