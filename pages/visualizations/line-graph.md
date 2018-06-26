@@ -22,3 +22,23 @@ guidance-never:
 ---
 
 Line graphs can be used to show how data changes over time and are often used to communicate trends, such as how household income changes each year. The x-axis can display continuous or discrete data such as days, years, or categories, and the y-axis is typically a continuous variable but can also be discrete. Line graphs can also be used to compare multiple trend lines, whereas bar charts can only represent one trend line.
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">People without health insurance coverage in New York</h3>
+  </div>
+  <canvas id="chart-line"></canvas>
+  <div class="usa-source-container">
+    <div>
+      Survey/Program:
+      <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">
+        2016 American Community Survey 1-Year Estimates
+      </a>
+    </div>
+    <div>
+      Table:
+      <a href="https://data.census.gov/cedsci/" target="_blank">DP05</a>
+    </div>
+  </div>
+</div>
