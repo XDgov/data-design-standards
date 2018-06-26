@@ -11,14 +11,9 @@ guidance-always:
 - Always use the same size dot and ensure the size of the dots is appropriate of the scale and size of the map.
 - Always ensure that colors are distinguishable when viewed at scale if using more than one color.
 
-
 guidance-recommended:
 - It is recommended that dots be placed randomly within a geographic entity. Subject matter expertise can be used to place the dots in an alternative fashion.
 - It is recommended that dot distribution maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
-
-
-guidance-never:
-- Never use a dot distribution map with more than one other thematic map layer. When layering maps, ensure there is a high enough contrast between elements for the dots to be seen clearly.
 ---
 
 <p>
