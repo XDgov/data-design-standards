@@ -1,0 +1,9 @@
+{% if include.category == page.category %}
+  {% assign _expanded = "true" %}
+{% else %}
+  {% assign _expanded = "false" %}
+{% endif %}
+
+<button class="usa-accordion-button" aria-controls="{{ include.id }}" aria-expanded="{{ _expanded }}">
+  {{ include.label}}
+</button>

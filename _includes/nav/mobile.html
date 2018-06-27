@@ -4,9 +4,7 @@
   </button>
   <ul class="usa-sidenav-list usa-accordion">
     <li>
-      <button class="usa-accordion-button" aria-controls="nav-ui-visualization-types" aria-expanded="false">
-        Visualization Types
-      </button>
+      {% include nav/current-button.html label="Visualization Types" id="nav-ui-visualization-types" category="Visualizations" %}
 
       <ul id="nav-ui-visualization-types" class="usa-sidenav-sub_list" aria-hidden="true">
         {% for visualization_type in site.data.visualization_types %}
@@ -15,9 +13,7 @@
       </ul>
     </li>
     <li>
-      <button class="usa-accordion-button" aria-controls="nav-ui-components" aria-expanded="false">
-        Components
-      </button>
+      {% include nav/current-button.html label="Components" id="nav-ui-components" category="Components" %}
 
       <ul id="nav-ui-components" class="usa-sidenav-sub_list" aria-hidden="true">
         {% for component in site.data.components %}

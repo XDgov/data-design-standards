@@ -61,7 +61,11 @@ body {
 .site-header-navbar {
   @extend %clearfix;
   height: auto;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
+
+  @media(min-width: $usds-medium-screen ) {
+    padding: 2rem 0;    
+  }
 }
 
 .site-logo {

@@ -3,7 +3,11 @@
 }
 
 .usa-banner {
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.25rem;
+
+  @media(min-width: $usds-medium-screen) {
+    padding-bottom: 0.5rem;
+  }
 }
 
 .usa-banner-button {
@@ -20,20 +24,30 @@
   padding-top: 0;
 
   @media(min-width: $usds-small-screen) {
-    padding-top: 0.25rem;
+    padding-top: 0.1rem;
   }
 
   @media(min-width: $usds-medium-screen) {
     margin-left: 3rem;
+    padding-top: 0.25rem;
   }
 
   img {
     margin-right: 0.7rem;
-    width: 20px;
+    width: 18px;
+
+    @media(min-width: $usds-medium-screen) {
+      width: 20px;
+    }
   }
 
   p {
+    font-size: 1.1rem;
     margin: 0;
+
+    @media(min-width: $usds-medium-screen) {
+      font-size: 1.3rem;
+    }
   }
 }
 
