@@ -1,0 +1,19 @@
+.usa-feedback {
+  background-color: $census-color-orange-light;
+  box-sizing: border-box;
+  bottom: 1.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  position: fixed;
+  right: 2.5rem;
+
+  a {
+    color: $color-black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  div {
+    font-size: 1.2rem;
+  }
+}
