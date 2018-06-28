@@ -1,17 +1,10 @@
 .layout-components {
 
   .example-side-by-side {
-    margin-top: 2rem;
-
-    &:first-child {
-      margin-top: 0;
-    }
-
     @media(min-width: $usds-medium-screen) {
       float: left;
       display: block;
       margin-right: 6%;
-      margin-top: 0;
       width: 47%;
     }
 
