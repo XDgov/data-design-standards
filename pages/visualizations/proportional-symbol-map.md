@@ -3,6 +3,15 @@ permalink: /visualizations/proportional-symbol-map
 layout: styleguide
 title: Proportional Symbol Map
 category: Visualization types
+components:
+  - Agency Logo
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A proportional symbol map is a type of map that includes symbols that change in size based on the value they represent.
 tags:
 - Comparative

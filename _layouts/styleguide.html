@@ -31,6 +31,19 @@ layout: default
     {{ content }}
     {% if page.guidance-always != null or page.guidance-recommended != null or page.guidance-not-recommended != null or page.guidance-never != null %}
       <h2>Guidance</h2>
+      {% if page.components %}
+        <p>
+          In addition to the guidance provided in this section, relevant guidance can also be found in the
+          {% for componentName in page.components %}
+            <a href="{{ site.baseurl }}/components/{{ componentName | slugify}}">{{  componentName }}</a>{% unless forloop.last == true %},{% endunless %}
+          {% endfor %}
+          {% if page.components.size > 1 %}
+            sections.
+          {% else %}
+            section.
+          {% endif %}
+        </p>
+      {% endif %}
     {% endif %}
     
     {% include guidance.html guidanceHeading="Always" guidance=page.guidance-always %}

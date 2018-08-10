@@ -3,6 +3,16 @@ permalink: /visualizations/stacked-bar-chart
 layout: styleguide
 title: Stacked Bar Chart
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A stacked bar chart is a bar chart that includes subgroups of data in each bar.
 tags:
 - Comparative

@@ -3,6 +3,15 @@ permalink: /visualizations/dot-distribution-map
 layout: styleguide
 title: Dot Distribution Map
 category: Visualization types
+components:
+  - Agency Logo
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A dot distribution map is a type of map that uses the density of dot symbols that are the same size to show the presence of a feature or phenomenon.
 tags:
 - Distribution

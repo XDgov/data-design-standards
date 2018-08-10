@@ -4,6 +4,16 @@ layout: styleguide
 title: Bar Chart
 category: Visualization types
 lead: A bar chart displays categorical data with rectangular bars whose length or height corresponds to the value of each data point.
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 tags:
 - Comparative
 guidance-always:

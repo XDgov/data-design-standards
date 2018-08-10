@@ -3,6 +3,15 @@ permalink: /visualizations/treemap
 layout: styleguide
 title: Treemap
 category: Visualization types
+components:
+  - Agency Logo
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A treemap is a visualization that displays hierarchical data as different groups of nested rectangles.
 tags:
 - Comparative

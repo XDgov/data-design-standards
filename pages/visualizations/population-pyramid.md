@@ -3,6 +3,16 @@ permalink: /visualizations/population-pyramid
 layout: styleguide
 title: Population Pyramid
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A population pyramid is a graphical illustration of population distribution across different age groups and genders.
 tags:
 - Comparative

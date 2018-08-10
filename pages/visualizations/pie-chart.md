@@ -3,6 +3,16 @@ permalink: /visualizations/pie-chart
 layout: styleguide
 title: Pie Chart
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A pie chart is a ciruclar graph that presents values as proportionate slices.
 tags:
 - Comparative

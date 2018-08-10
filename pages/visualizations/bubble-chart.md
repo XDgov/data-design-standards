@@ -3,6 +3,16 @@ permalink: /visualizations/bubble-chart
 layout: styleguide
 title: Bubble Chart
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A bubble chart is a variation of a scatter plot that displays data points as bubbles.
 tags:
 - Correlation

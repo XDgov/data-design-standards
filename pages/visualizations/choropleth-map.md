@@ -3,6 +3,15 @@ permalink: /visualizations/choropleth-map
 layout: styleguide
 title: Choropleth Map
 category: Visualization types
+components:
+  - Agency Logo
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A choropleth map is a type of map in which geographic areas are assigned a color in relation to a data variable.
 tags:
 - Comparative

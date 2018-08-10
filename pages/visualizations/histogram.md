@@ -3,6 +3,16 @@ permalink: /visualizations/histogram
 layout: styleguide
 title: Histogram
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A histogram is a chart that displays numeric data in ranges, where each bar represents how frequently numbers fall into a particular range.
 tags:
 - Distribution

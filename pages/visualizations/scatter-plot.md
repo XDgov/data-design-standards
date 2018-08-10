@@ -3,6 +3,16 @@ permalink: /visualizations/scatter-plot
 layout: styleguide
 title: Scatter Plot
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A scatter plot is a two-dimensional chart that shows the relationship between two variables.
 tags:
 - Correlation

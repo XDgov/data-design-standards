@@ -3,6 +3,16 @@ permalink: /visualizations/box-and-whisker
 layout: styleguide
 title: Box and Whisker
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A box and whisker plot, or boxplot, is a graph that presents data in a five-number summary.
 tags:
 - Comparative

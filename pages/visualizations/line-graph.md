@@ -3,6 +3,16 @@ permalink: /visualizations/line-graph
 layout: styleguide
 title: Line Graph
 category: Visualization types
+components:
+  - Agency Logo
+  - Axes
+  - Colors
+  - Grids
+  - Labels
+  - Legends
+  - Source
+  - Titles
+  - Typography
 lead: A line graph is a chart that displays a series of data points connected by line segments.
 tags:
 - Distribution
