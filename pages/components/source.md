@@ -8,13 +8,14 @@ lead: Sources should be cited with all data visualizations so that users underst
 <p>
   When cited properly, sources help expert users access the underlying data for
   their own purposes. While many federal agencies have their own guidance for
-  formatting sources (see below), a good place to start is for your source
-  statement to include the following:
+  formatting sources (see below examples), you can start by ensuring that your
+  source statement:
 </p>
 <ul>
+  <li>Indicates the agency that provided the data.</li>
   <li>Indicates the program(s) that provided the data.</li>
   <li>Indicates the date of the source data.</li>
-  <li>If publicly accessible online, is linked to the source data.</li>
+  <li>If publicly accessible online, links to the source data.</li>
 </ul>
 <h2>Placement</h2>
 <p>
