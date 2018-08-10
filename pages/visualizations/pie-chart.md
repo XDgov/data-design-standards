@@ -23,7 +23,7 @@ guidance-not-recommended:
 - It is not recommended to include spaces between each slice, such as in an exploded pie chart.
 - It is not recommended to use multi-level pie charts as they are difficult to decipher.
 guidance-never:
-- Never use a 3D pie chart.
+- Never use three dimensional (3D) graphics as they distort the visual calculation of volume.
 ---
 <div class="usa-viz-warning">
   Before using a pie chart, consider using a

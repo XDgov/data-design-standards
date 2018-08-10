@@ -44,11 +44,11 @@ subnav:
     <h3>Examples</h3>
     <div class="component-examples clearfix">
       <div class="usa-chart-card example-side-by-side">
-        <h4>{% include svg/warning.html %} Bad Example</h4>
+        <h4>{% include svg/warning.html %} Acceptable Example</h4>
         <div class="usa-chart-header">
           <h3 class="usa-chart-title">Age in the United States</h3>
         </div>
-        <h5 class="usa-color-heading">Why it’s Bad</h5>
+        <h5 class="usa-color-heading">Why it’s Only Acceptable</h5>
         <p>
           While the title is short and to the point, it doesn’t reveal much
           about what’s inside the data visualization. This title could be paired

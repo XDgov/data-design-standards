@@ -25,14 +25,18 @@ guidance-recommended:
 
 guidance-not-recommended:
 - It is not recommended to include too many bars as the visualization will become difficult to understand.
-- It is not recommended to use bar charts when the changes in data values are miniscule.
+- It is not recommended to use bar charts when the changes in data values are relatively small.
 
 guidance-never:
 - Never omit the space between bars – otherwise the bar chart will appear to be a histogram.
+- Never use three dimensional (3D) graphics as they distort the visual calculation of volume.
 ---
 
 <p>
-  Bar charts can be displayed vertically in what’s called a column bar chart or they can be displayed horizontally. Bar charts are best used to compare a single category of data or several. When comparing more than one category of data, the bars can be grouped together to created a grouped bar chart.
+  Bar charts can be visualized using vertical or horizontal bars. Bar charts are best used to compare a single category of data or several. When comparing more than one category of data, the bars can be grouped together to created a grouped bar chart.
+</p>
+<p>
+  Bar charts use volume to demonstrate differences between each bar. Because of this, bar charts should always start at zero. When bar charts do not start at zero, it risks users misjudging the difference between data values.
 </p>
 
 <h2>Examples</h2>

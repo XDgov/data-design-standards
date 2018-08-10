@@ -39,7 +39,7 @@
                     },
                     scaleLabel: {
                       display: true,
-                      labelString: "Percentage"
+                      labelString: "Percent"
                     }
                 }],
                 xAxes: [{

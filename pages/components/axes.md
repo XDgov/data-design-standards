@@ -33,7 +33,7 @@ subnav:
   </p>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side">
-      <h4>{% include svg/warning.html %} Acceptable </h4>
+      <h4>{% include svg/warning.html %} Acceptable Example</h4>
       <div class="clearfix">
         <div class="axis-title-example-canvas">
           <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
