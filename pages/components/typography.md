@@ -26,7 +26,7 @@ subnav:
   <div class="usa-grid-full">
     <div class="usa-width-one-half">
       <p>
-        Robot is a sans-serif typeface developed by Google. With a variety of weights that read easily at all sizes, Roboto provides clear headers as well as highly-readable body text.
+        Roboto is a sans-serif typeface developed by Google. With a variety of weights that read easily at all sizes, Roboto provides clear headers as well as highly-readable body text.
       </p>
       <p>
         Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settle in to their natural width.

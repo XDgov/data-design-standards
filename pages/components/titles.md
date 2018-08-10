@@ -75,7 +75,7 @@ subnav:
   <p>
     The WCAG (Web Content Accessibility Guidelines) ensure that content is
     accessible by everyone. WCAG 2.0 AA conformance is required by the
-    <a href="https://www.section508.gov/content/build/website-accessibility-improvement/WCAG-conformance" target="_blank">Revised 508 Standards</a>, which means that conformance to
+    <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines" target="_blank">Revised 508 Standards</a>, which means that conformance to
     these guidelines is a requirement for all web-based data visualizations
     produced by the U.S. Government.
   </p>
