@@ -36,11 +36,29 @@
     
     li {
       &::before {
-        background-image: url("../img/alerts/warning-red.svg");
         height: 18px;
         left: -5px;
         top: 4px;
         width: 24px;
+      }
+    }
+  }
+
+
+  &.guidance-never {
+    
+    li {
+      &::before {
+        background-image: url("../img/alerts/warning-red.svg");
+      }
+    }
+  }
+
+  &.guidance-not-recommended {
+    
+    li {
+      &::before {
+        background-image: url("../img/alerts/warning-yellow.svg");
       }
     }
   }
@@ -212,7 +230,7 @@
   &.usa-icon-warning {
     
     .background {
-      fill: $usa-color-secondary-dark;
+      fill: $census-color-warning;
     }
   }
 }
