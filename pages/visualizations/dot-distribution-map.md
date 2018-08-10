@@ -12,13 +12,14 @@ guidance-always:
 - Always ensure that colors are distinguishable when viewed at scale if using more than one color.
 
 guidance-recommended:
-- It is recommended that dots be placed randomly within a geographic entity. Subject matter expertise can be used to place the dots in an alternative fashion.
+- It is recommended that dots be placed randomly within a geographic entity. Subject matter expertise can be used to place the dots in a systematic fashion.
 - It is recommended that dot distribution maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
 ---
 
 <p>
-  Each dot on the map represents more than one phenomena being mapped. The author of the map determines the value represented by each dot, and each dot is often placed arbitrarily on the map based on the aggregate totals of their respective source polygons. Dot distribution maps are used to convey the intensity of an attribute.
+  Dot distribution maps are used to convey the intensity of an attribute. Each dot on the map represents one or more phenomena being mapped. The author of the map determines the value represented by each dot, and each dot is often placed randomly on the map based on the aggregate totals of their respective source polygons.
 </p>
 <p>
-  A dot distribution map can be layered with other thematic map types underneath. For example, a choropleth map can be used underneath the dot distribution symbol to show two different data distributions.
+  A dot distribution map can be layered over other thematic map types. For example, a
+  <a href="{{ site.baseurl }}/visualizations/choropleth-map">choropleth map</a> can be used underneath the dot distribution symbol to show two different variables.
 </p>
