@@ -10,8 +10,15 @@ tags:
 - Geospatial
 guidance-always:
 - Always include a legend.
-- Always choose an appropriate symbol for your map
-- Always choose a method for grouping your data carefully when using a graduated symbol map
+- Always choose an appropriate symbol for your map.:
+  - Consider the relative size of all symbols. If the symbols overlap, is the map still legible?
+  - Consider the orientation of the symbol. If the symbol is not a circle, ensure the symbol is oriented properly.
+- Always choose a method for grouping your data carefully when using a graduated symbol map.:
+  - The Natural Breaks classification method groups data based on gaps in the data.
+  - The Equal Interval method divides the data range into equal intervals. This method works best when data are evently distributed. If the distribution is uneven, the predominant values will dominate the map.
+  - The Quantile method partitions the data so that every group has an equal number or nearly equal number of values. This can give a choropleth map an even, aesthetically pleasing color distribution.
+  - Subject matter expertise can be used to place data into groups.
+
 
 guidance-recommended:
 - It is recommend that you limit the number of class to five or fewer categories. Fewer symbols on the map are more easily distinguished by the eye and will make trends in the data easier to see.
