@@ -32,57 +32,11 @@ layout: default
     {% if page.guidance-always != null or page.guidance-recommended != null or page.guidance-not-recommended != null or page.guidance-never != null %}
       <h2>Guidance</h2>
     {% endif %}
-    {% if page.guidance-always != null %}
-      <h4>Always</h4>
-      <ul class="page-guidance usa-unstyled-list guidance-always">
-        {% for guidance in page.guidance-always %}
-          <li>
-            {% include svg/success.html %}
-            {{ guidance }}
-            {% if guidance.sub_guidance != null %}
-              <ul class="page-guidance guidance-always">
-                {% for sub_guidance in guidance.sub_guidance %}
-                  <li>{{ sub_guidance }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    {% if page.guidance-recommended != null %}
-      <h4>Recommended</h4>
-      <ul class="page-guidance usa-unstyled-list guidance-recommended">
-        {% for guidance in page.guidance-recommended %}
-          <li>
-            {% include svg/success.html %}
-            {{ guidance }}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    {% if page.guidance-not-recommended != null %}
-      <h4>Not Recommended</h4>
-      <ul class="page-guidance usa-unstyled-list guidance-not-recommended">
-        {% for guidance in page.guidance-not-recommended %}
-          <li>
-            {% include svg/warning.html %}
-            {{ guidance }}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    {% if page.guidance-never != null %}
-      <h4>Never</h4>
-      <ul class="page-guidance usa-unstyled-list guidance-never">
-        {% for guidance in page.guidance-never %}
-          <li>
-            {% include svg/warning.html %}
-            {{ guidance }}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
+    
+    {% include guidance.html guidanceHeading="Always" guidance=page.guidance-always %}
+    {% include guidance.html guidanceHeading="Recommended" guidance=page.guidance-recommended %}
+    {% include guidance.html guidanceHeading="Not Recommended" guidance=page.guidance-not-recommended %}
+    {% include guidance.html guidanceHeading="Never" guidance=page.guidance-never %}
 
 
   </div>

@@ -27,6 +27,21 @@ h6,
   font-family: $font-sans;
 }
 
+html {
+  font-family: $font-sans;
+}
+
+ul {
+  ul {
+    margin-bottom: 0;
+    margin-top: 0.25rem;
+  }
+}
+
+.serif {
+  font-family: $font-serif;
+}
+
 .typography-card {
   margin-bottom: 2rem;
 }
@@ -58,8 +73,8 @@ h6,
   }
 }
 
-html {
-  font-family: $font-sans;
+.usa-styled-list {
+  list-style-type: disc;
 }
 
 [href^="http"] {
@@ -84,10 +99,6 @@ html {
       width: 0.65em;
     }
   }
-}
-
-.serif {
-  font-family: $font-serif;
 }
 
 $font-sizes: 6,7,8,9,10,11,12,14,16,18,21,24,28,32,36,42,48,60;

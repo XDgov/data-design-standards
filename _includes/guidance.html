@@ -1,0 +1,21 @@
+{% assign guidanceArray = include.guidance %}
+{% if guidanceArray != null %}
+  <h4>{{ include.guidanceHeading}}</h4>
+  <ul class="page-guidance usa-unstyled-list guidance-{{ include.guidanceHeading | slugify  }}">
+    {% for guidance in guidanceArray %}
+      <li>
+        {% if guidance.first %}
+          {{ guidance.first.first }}
+
+          <ul class="usa-styled-list">
+            {% for subguidance in guidance.first[1] %}
+              <li>{{ subguidance }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          {{ guidance }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

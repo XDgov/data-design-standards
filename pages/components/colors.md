@@ -26,9 +26,9 @@ subnav:
     brand guidelines and to reference the Text Accessibility section below for
     guidance on using 508-compliant colors.
   </p>
-  <h4>Primary Colors</h4>
+  <h4>Featured Colors</h4>
   <p>
-    This palette’s primary colors are teal, navy, orange, and grey.
+    This palette’s featured colors are teal, navy, orange, and grey.
   </p>
   <div class="usa-grid-full">
     {% include colors/color-card.html cmyk="81, 24, 31, 0" hex="0095A8" name="census-color-teal" rgb="0, 149, 168" vanity_name="Teal" %}
