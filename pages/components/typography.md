@@ -17,8 +17,8 @@ subnav:
 <div id="typefaces">
   <h2>Typefaces</h2>
   <p>
-    The typefaces presented in this section adhere to 2018 U.S. Census Bureau
-    Identity and Branding Standards. If you are not a member of the U.S. Census
+    The typefaces presented in this section adhere to <a href="https://www2.census.gov/about/policies/cb-style-guide.pdf" target="_blank">2018 U.S. Census Bureau
+    Identity and Branding Standards</a>. If you are not a member of the U.S. Census
     Bureau, we recommend referencing your agency’s latest brand guidance for
     typeface recommendations. 
   </p>

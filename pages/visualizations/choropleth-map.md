@@ -31,7 +31,9 @@ guidance-recommended:
 - It is recommended to round numbers in a legend for improved legibility.
 - It is recommended that, if used, a national average or median for comparison be placed close to the map’s legend.
 - It is recommended that choropleth maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
-- It is recommended to avoid or limit the use of dots, lines, or hatching patterns on a choropleth map. 
+
+guidance-not-recommended:
+- It is not recommended to use dots, lines, or hatching patterns in a choropleth map. 
 
 guidance-never:
 - Never enlarge or highlight D.C. when it is treated as a county equivalent, unless the map’s focus is specifically related to D.C.
