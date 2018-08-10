@@ -41,14 +41,14 @@ subnav:
     Each of the four primary colors can be used to create a data visualization
     with a sequential color palette. This type of palette can be used when data
     values can be ordered from low to high. To reflect that the data is
-    sequential (also known as continous), all of the data values should be
+    sequential (also known as continuous), all of the data values should be
     variations of the same color hue, where lower values are lighter and higher
     values are darker.
   </p>
   <p>
     Sequential colors are most commonly used to render a single category of data,
     such as a bar chart, or when visualizing a complex set of data with many
-    categories, such as a choropleth map.
+    categories.
   </p>
   <h5 class="usa-color-heading">Teal Palette</h5>
   <div class="usa-grid-full usa-grid-colors">
