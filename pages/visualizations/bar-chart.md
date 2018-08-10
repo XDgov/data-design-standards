@@ -47,7 +47,7 @@ guidance-never:
   </div>
   <canvas id="barChart"></canvas>
   <div class="usa-source-container">
-    Survey/Program: <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">2016 American Community Survey 1-Year Estimates</a>
+    Source: <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">2016 American Community Survey 1-Year Estimates</a>
   </div>
 </div>
 <div class="usa-chart-card">
@@ -57,7 +57,7 @@ guidance-never:
   <canvas id="chart-bar-horizontal"></canvas>
   <div class="usa-source-container">
     <div>
-      Survey/Program:
+      Source:
       <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">
         2016 American Community Survey 1-Year Estimates
     </a>

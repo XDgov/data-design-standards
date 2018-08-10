@@ -41,7 +41,7 @@ Line graphs can be used to show how data changes over time and are often used to
   <canvas id="chart-line"></canvas>
   <div class="usa-source-container">
     <div>
-      Survey/Program:
+      Source:
       <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">
         2016 American Community Survey 1-Year Estimates
       </a>

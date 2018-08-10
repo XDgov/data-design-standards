@@ -30,7 +30,7 @@ subnav:
     <canvas id="component-grid-chart"></canvas>
     <div class="usa-source-container">
       <div>
-        Survey/Program:
+        Source:
         <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">
           2016 American Community Survey 1-Year Estimates
       </a>
