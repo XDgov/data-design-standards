@@ -3,7 +3,7 @@ permalink: /components/axes
 layout: components
 title: Axes
 category: Components
-lead: Axes provide vital reference information for users to associate datapoints with values, especially when datapoints are not labeled directly in a chart.
+lead: Axes provide vital reference information for users to associate data points with values, especially when data points are not labeled directly in a chart.
 subnav:
 - text: Titles
   href: "#axis-titles"
@@ -79,7 +79,7 @@ subnav:
   <p>
     When using tick marks, try not to label too many elements or use too many
     marks along an axis. If tick marks appear cluttered, users won’t be
-    able to determine the value of various datapoints.
+    able to determine the value of various data points.
   </p>
   <h3>Examples</h3>
   <div class="clearfix component-examples">
