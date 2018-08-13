@@ -13,7 +13,7 @@
     ctx.lineWidth = 1;
     ctx.strokeStyle = '#666666';
     ctx.fillStyle = "#666666";
-    ctx.font = "normal 9pt Roboto";
+    ctx.font = "normal 11pt Roboto";
 
     var barHeight = 20,
         lineEnd = scaleBarAlt.parentElement.offsetWidth - 1,
@@ -36,7 +36,7 @@
     ctx.fillText("0", lineStart - 3, barHeight + 20);
     ctx.fillText("50", lineStart + ((lineEnd / 8) * 2) - 8, barHeight + 20);
     ctx.fillText("100", lineStart + ((lineEnd / 8) * 4) - 8, barHeight + 20);
-    ctx.fillText("200 Feet", ((lineEnd / 8) * 4) + ((lineEnd / 8) * 4) - 47, barHeight + 20);
+    ctx.fillText("200 Feet", ((lineEnd / 8) * 4) + ((lineEnd / 8) * 4) - 60, barHeight + 20);
   }
 
   renderSingleDivisionScaleBar = function() {
@@ -48,7 +48,7 @@
     ctx.lineWidth = 0.5;
     ctx.strokeStyle = '#666666';
     ctx.fillStyle = "#666666";
-    ctx.font = "normal 9pt Roboto";
+    ctx.font = "normal 11pt Roboto";
 
     ctx.stroke();
     ctx.lineWidth = 1;
@@ -57,14 +57,9 @@
         lineEnd = scaleBarSingle.parentElement.offsetWidth - 26,
         lineStart = 3;
 
-    ctx.moveTo(lineStart, 0.5);
-    ctx.lineTo(lineEnd, 0.5);
-    ctx.lineTo(lineEnd, barHeight);
-    ctx.fillText("10 miles", lineEnd - 25, barHeight + 20);
-    ctx.lineTo(lineStart, barHeight);
+    ctx.fillRect(lineStart, 0.5, lineEnd, barHeight);
+    ctx.fillText("10 miles", lineEnd - 35, barHeight + 20);
     ctx.fillText("0", lineStart - 3, barHeight + 20);
-    ctx.lineTo(lineStart, 0.5);
-    ctx.stroke();
   }
 
   if(scaleBarSingle != null || scaleBarAlt != null) {
