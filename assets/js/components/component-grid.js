@@ -7,9 +7,9 @@
     var myChart = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Drove Alone", "Carpool", "Public transportation", "Walked", "Other means", "Worked at home"],
+            labels: ["Drove Alone", "Public transportation", "Carpool", "Walked", "Worked at home", "Other means"],
             datasets: [{
-                data: [52.6, 6.5, 28.4, 6.2, 2.0, 4.3],
+                data: [52.6, 28.4, 6.5, 6.2, 4.3, 2.0],
                 backgroundColor: [
                     'rgba(0, 149, 168, 1)',
                     'rgba(0, 149, 168, 1)',
