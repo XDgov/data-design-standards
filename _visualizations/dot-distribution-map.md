@@ -16,7 +16,7 @@ lead: A dot distribution map is a type of map that uses the density of dot symbo
 tags: [distribution]
 guidance-always:
 - Always include a legend that indicates how many units of data are represented with each dot.
-- Always use the same size dot and ensure the size of the dots is appropriate of the scale and size of the map.
+- Always use the same size dot and ensure the size of the dots is appropriate for the scale and size of the map.
 - Always ensure that colors are distinguishable when viewed at scale if using more than one color.
 
 guidance-recommended:

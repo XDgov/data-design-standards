@@ -13,7 +13,7 @@ components:
   - Source
   - Titles
   - Typography
-lead: A pie chart is a ciruclar graph that presents values as proportionate slices.
+lead: A pie chart is a circular graph that presents values as proportionate slices.
 tags: [comparative]
 guidance-always:
 - Always consider using a bar chart or displaying values directly before using a pie chart.
