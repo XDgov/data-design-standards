@@ -5,10 +5,8 @@ title: Labels
 category: Components
 lead: Labels make it easier for users to understand data visualizations by using text to reinforce visual concepts.
 subnav:
-- text: Data Labels
-  href: "#data-labels"
-- text: Annotations
-  href: "#annotations"
+- text: Chart Labels
+  href: "#chart-labels"
 - text: Map Labels
   href: "#map-labels"
 - text: Accessibility
@@ -20,8 +18,9 @@ subnav:
   or annotations. Where possible, labels should be used instead of legends or
   tooltips to make it easier for users to understand data visualizations.
 </p>
-<div id="data-labels">
-  <h2>Data Labels</h2>
+<div id="chart-labels">
+  <h2>Chart and Graph Labels</h2>
+  <h3>Data Labels</h3>
   <p>
     Data labels are applied directly to elements inside of a visualization to
     show the value of a datapoint or the category of the data. When using data
@@ -32,13 +31,17 @@ subnav:
     using a legend as this is the prefered method for representing categorical
     data.
   </p>
-</div>
-<div id="annotations">
-  <h2>Annotations</h2>
+  <h3>Annotations</h3>
   <p>
     Annotations can be used to help tell the story of a data visualization. Before
     choosing to use annotations, make sure they do not reduce a user’s ability
     to understand the data inside of your data visualization.
+  </p>
+  <h3>Typography</h3>
+  <p>
+    Labels in charts and graphs should be displayed in sentence case. Sentence
+    case is a type of letter casing, like uppercase or lowercase, where only the
+    first word and proper nouns are capitalized.
   </p>
 </div>
 <div id="map-labels">
