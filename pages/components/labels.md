@@ -17,7 +17,7 @@ subnav:
 <p> 
   Labels are traditionally used to label axes and legends, however, they can
   also be used inside of data visualizations to communicate categories, values,
-  or annotations. Where possible, labels should be used in favor of legends or
+  or annotations. Where possible, labels should be used instead of legends or
   tooltips to make it easier for users to understand data visualizations.
 </p>
 <div id="data-labels">
