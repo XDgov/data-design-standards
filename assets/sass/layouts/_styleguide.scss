@@ -105,14 +105,22 @@
   margin: 0.5rem 0 1.25rem;
   
   li {
-    background: $census-color-teal-dark;
-    border-radius: $census-border-radius;
-    color: $color-white;
     font-size: 1.2rem;
     display: inline-block;
     line-height: 2rem;
     margin-right: 1rem;
-    padding: 0.25rem 1rem 0.45rem;
+
+    a {
+      background: $census-color-teal-dark;
+      border-radius: $census-border-radius;
+      color: $color-white;
+      padding: 0.25rem 1rem 0.45rem;
+      text-decoration: none;
+
+      &:hover {
+        background: darken($census-color-teal-dark, 10);
+      }
+    }
   }
 }
 

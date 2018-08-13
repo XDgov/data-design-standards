@@ -32,9 +32,20 @@ sass:
   sass_dir: assets/sass/
 
 collections:
+  category:
+    output: true
   components:
     output: true
     permalink: /:path/
+  visualizations:
+    output: true
+
+defaults:
+  scope:
+    path: ""
+    type: category
+  values:
+    layout: "category"
 
 exclude:
   - /node_modules/

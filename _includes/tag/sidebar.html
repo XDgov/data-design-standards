@@ -1,0 +1,9 @@
+{% assign tags =  site.visualizations | map: 'tags' | join: ','  | split: ',' | uniq %}
+
+<ul class="usa-sidenav-sub_list">
+  {% for tag in tags %}
+    <li>
+      <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag }}</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+{% assign currentTag = page.title | slugify  %}
+{% assign visualizationIds = "" | split: ""  %}
+
+{% for visualizationType in site.visualizations %}
+  {% if visualizationType.tags contains currentTag %}
+    {% assign visualizationIds = visualizationIds | push: visualizationType.id %}
+  {% endif %}
+{% endfor %}
+
+{% assign tagVisualizations = visualizationIds | uniq | sort %}
+
+<aside class="sidenav sticky">
+  <h4>Browse by Function</h4>
+  <ul class="usa-sidenav-list">
+    {% include nav/tags-sidenav.html %}
+  </ul>
+</aside>
+
+
+<main id="main-content" class="main-content">
+  <div class="styleguide-content usa-content">
+    <header>
+      <p class="site-subheading">Visualization Tags</p>
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <ul class="usa-unstyled-list">
+      {% for vizId in tagVisualizations %}
+        {% assign viz = site.visualizations | where:"id", vizId  | first %}
+        <li class="viz-card">
+          <h3>
+            <a href="{{ site.baseurl }}{{ vizId}}">{{ viz.title }}</a>
+          </h3>
+          <div class="tags">
+            {% for tag in viz.tags %}
+              <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag | capitalize }}</a>{% unless forloop.last == true %},{% endunless %}
+
+            {% endfor %}
+          </div>
+          <p>
+            {{ viz.lead }}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</main>

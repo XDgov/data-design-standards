@@ -13,8 +13,7 @@ components:
   - Titles
   - Typography
 lead: A dot distribution map is a type of map that uses the density of dot symbols that are the same size to show the presence of a feature or phenomenon.
-tags:
-- Distribution
+tags: [distribution]
 guidance-always:
 - Always include a legend that indicates how many units of data are represented with each dot.
 - Always use the same size dot and ensure the size of the dots is appropriate of the scale and size of the map.

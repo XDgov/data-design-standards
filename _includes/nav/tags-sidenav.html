@@ -1,0 +1,5 @@
+{% assign tags =  site.visualizations | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+
+{% for tag in tags %}
+  {% include nav/tag-list-item.html tag=tag %}
+{% endfor %}

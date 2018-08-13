@@ -14,8 +14,7 @@ components:
   - Titles
   - Typography
 lead: A histogram is a chart that displays numeric data in ranges, where each bar represents how frequently numbers fall into a particular range.
-tags:
-- Distribution
+tags: [distribution]
 guidance-always:
 - Always include the frequency measurement on the y-axis and ranges on the x-axis.
 - Always start the y-axis at zero.

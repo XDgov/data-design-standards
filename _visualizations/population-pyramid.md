@@ -14,8 +14,7 @@ components:
   - Titles
   - Typography
 lead: A population pyramid is a graphical illustration of population distribution across different age groups and genders.
-tags:
-- Comparative
+tags: [comparative]
 guidance-always:
 - Always place the y-axis in the middle of the x-axis at the zero marker.
 - Always display males on the left and females on the right.

@@ -13,10 +13,7 @@ components:
   - Titles
   - Typography
 lead: A proportional symbol map is a type of map that includes symbols that change in size based on the value they represent.
-tags:
-- Comparative
-- Distribution
-- Geospatial
+tags: [comparative, distribution, geospatial]
 guidance-always:
 - Always include a legend.
 - Always choose an appropriate symbol for your map.:

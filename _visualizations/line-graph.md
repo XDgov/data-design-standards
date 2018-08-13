@@ -14,8 +14,7 @@ components:
   - Titles
   - Typography
 lead: A line graph is a chart that displays a series of data points connected by line segments.
-tags:
-- Distribution
+tags: [distribution]
 guidance-always:
 - Always start the y-axis at zero.
 - Always label each line.

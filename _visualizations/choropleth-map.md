@@ -13,10 +13,7 @@ components:
   - Titles
   - Typography
 lead: A choropleth map is a type of map in which geographic areas are assigned a color in relation to a data variable.
-tags:
-- Comparative
-- Distribution
-- Geospatial
+tags: [correlation, distribution, geospatial]
 guidance-always:
 - Always include a legend.
 - Always choose an appropriate method of grouping your data if it is numeric.:

@@ -14,9 +14,7 @@ components:
   - Titles
   - Typography
 lead: A scatter plot is a two-dimensional chart that shows the relationship between two variables.
-tags:
-- Correlation
-- Distribution
+tags: [correlation, distribution]
 guidance-always:
 - Always include a legend if more than one set of values is being visualized.
 

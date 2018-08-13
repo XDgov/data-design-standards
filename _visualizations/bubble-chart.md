@@ -14,9 +14,7 @@ components:
   - Titles
   - Typography
 lead: A bubble chart is a variation of a scatter plot that displays data points as bubbles.
-tags:
-- Correlation
-- Distribution
+tags: [correlation, distribution]
 guidance-always:
 - Always include a legend if more than one category of data is being visualized.
 - Always ensure that smaller dots are visible when overlapping with larger dots.:

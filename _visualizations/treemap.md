@@ -13,9 +13,7 @@ components:
   - Titles
   - Typography
 lead: A treemap is a visualization that displays hierarchical data as different groups of nested rectangles.
-tags:
-- Comparative
-- Distribution
+tags: [comparative, distribution]
 guidance-always:
 - Always use adjacent colors with varying contrasts.
 - Always ensure that any text displayed in each rectangle has a sufficient contrast ratio.

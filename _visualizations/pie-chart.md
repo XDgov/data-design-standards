@@ -14,8 +14,7 @@ components:
   - Titles
   - Typography
 lead: A pie chart is a ciruclar graph that presents values as proportionate slices.
-tags:
-- Comparative
+tags: [comparative]
 guidance-always:
 - Always consider using a bar chart or displaying values directly before using a pie chart.
 - Always include a legend or label slices directly.

@@ -20,7 +20,11 @@ layout: default
       {% if page.tags != null %}
         <ul class="usa-unstyled-list page-tags">
           {% for tag in page.tags %}
-            <li>{{ tag }}</li>
+            <li>
+              <a href="{{ site.baseurl }}/tags/{{ tag }}">
+                {{ tag | sentence | capitalize }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
       {% endif %}

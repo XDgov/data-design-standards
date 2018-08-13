@@ -14,9 +14,7 @@ components:
   - Titles
   - Typography
 lead: A box and whisker plot, or boxplot, is a graph that presents data in a five-number summary.
-tags:
-- Comparative
-- Distribution
+tags: [comparative, distribution]
 guidance-always:
 - Always label median, lower and upper quartiles, lowest and highest observations clearly.
 - Always include a box centered on the median with left/bottom side ending at the lower quartile and right/top side at the upper quartile.

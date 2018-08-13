@@ -14,8 +14,7 @@ components:
   - Titles
   - Typography
 lead: A stacked bar chart is a bar chart that includes subgroups of data in each bar.
-tags:
-- Comparative
+tags: [comparative]
 guidance-always:
 - Always begin the bar lengths at zero.
 - Always include a legend along with labels.

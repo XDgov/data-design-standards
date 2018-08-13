@@ -14,8 +14,7 @@ components:
   - Source
   - Titles
   - Typography
-tags:
-- Comparative
+tags: [comparative]
 guidance-always:
 - Always use independent categories of data.
 - Always label each category of data.

@@ -1,0 +1,11 @@
+<li>
+  {% assign current = nil %}
+  {% assign link_path = 'pages/tags' | append: include.section | append: "/" | append: tag | append: ".md" %}
+  {% if page.path == link_path %}
+    {% assign current = "current" %}
+  {% endif %}
+
+  <a href="{{ site.baseurl }}/tags/{{ tag }}" {% if current %}class="usa-current"{% endif %}>
+    {{ include.tag | capitalize }}
+  </a>
+</li>
