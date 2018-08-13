@@ -3,7 +3,7 @@ permalink: /components/legends
 layout: components
 title: Legends
 category: Components
-lead: Legends identify the meaning of various elements in a data visualization and can be used as an alternative to labelling data directly.
+lead: Legends identify the meaning of various elements in a data visualization and can be used as an alternative to labeling data directly.
 ---
 <p>
   Legends are commonly used with data visualizations when there is more than one color or line type being used – most commonly in maps. By moving labels outside of a visualization, legends can help to reduce clutter and make your data visualization more user-friendly as a result.
@@ -20,7 +20,7 @@ lead: Legends identify the meaning of various elements in a data visualization a
 <div id="placement">
   <h2>Title</h2>
   <p>
-    A legend title is not necessary to include. When it is included however, it should be descriptive and reinforce the title or subtitle of the visualization. Instead of using a generic title like “Legend” or “Key,” try using a title that captures the meaning of the data being labelled, such as “Population per Square Mile.”
+    A legend title is not necessary to include. When it is included however, it should be descriptive and reinforce the title or subtitle of the visualization. Instead of using a generic title like “Legend” or “Key,” try using a title that captures the meaning of the data being labeled, such as “Population per Square Mile.”
   </p>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side legend-title-example">

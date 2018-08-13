@@ -90,7 +90,7 @@ subnav:
       </div>
       <h5 class="usa-color-heading">Why it’s Only Acceptable</h5>
       <p>
-        Labelling every tick mark isn’t necessary and can often cause
+        labeling every tick mark isn’t necessary and can often cause
         labels to clutter and overlap, especially in smaller visualizations or
         when viewed on smaller screen sizes.
       </p>
