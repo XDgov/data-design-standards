@@ -18,15 +18,14 @@ tags: [distribution]
 guidance-always:
 - Always start the y-axis at zero.
 - Always label each line.
+- Always ensure that each line is legible.
 
 guidance-recommended:
-- It is recommended that you include five or fewer lines to avoid confusion.
 - It is recommended that you forgo a legend if only a single line is present.
 
 guidance-not-recommended:
 - It is not recommended that you use horizontal lines unless conveying exact amounts.
 guidance-never:
-- Never include more than five lines.
 - Never use a legend for a graph with a single line.
 ---
 
