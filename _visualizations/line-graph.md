@@ -28,8 +28,9 @@ guidance-not-recommended:
 guidance-never:
 - Never use a legend for a graph with a single line.
 ---
-
-Line graphs can be used to show how data changes over time and are often used to communicate trends, such as how household income changes each year. The x-axis can display continuous or discrete data such as days, years, or categories, and the y-axis is typically a continuous variable but can also be discrete. Line graphs can also be used to compare multiple trend lines, whereas bar charts can only represent one trend line.
+<p>
+  Line graphs can be used to show how data changes over time and are often used to communicate trends, such as how household income changes each year. The x-axis can display continuous or discrete data such as days, years, or categories, and the y-axis is typically a continuous variable but can also be discrete. Line graphs can also be used to compare multiple trend lines, whereas bar charts can only represent one trend line.
+</p>
 
 <h2>Examples</h2>
 <div class="usa-chart-card">

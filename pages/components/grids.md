@@ -45,7 +45,7 @@ subnav:
 <div id="graticules">
   <h2>Grids in Maps</h2>
   <p>
-    Grids can be displayed in two ways on a map: either as a traditional grid or as a graticule. Traditional grids correspond to grid systems outside of latitude and longitude, such as the military grid system. Unless you are an expert cartography, we highly recommend avoiding these types of grids.
+    Grids can be displayed in two ways on a map: either as a traditional grid or as a graticule. Traditional grids correspond to grid systems outside of latitude and longitude, such as the military grid system. Unless you are an expert cartographer, we highly recommend avoiding these types of grids.
   </p>
   <p>
     Alternatively, <strong>graticules</strong> are lines showing the latitude and longitude of the earth on a map. Graticules can help contextualize a map for users but aren’t always necessary. When using graticules, be sure to follow the grid lines guidance above to ensure the lines don’t distract from the contents of the map.

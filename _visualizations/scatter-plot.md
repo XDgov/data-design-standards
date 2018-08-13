@@ -30,4 +30,4 @@ guidance-never:
 - Never include more than 2 sets of values.
 ---
 
-To do this, a series of values are plotted on an x-axis and a y-axis, with each axis representing a variable and each value represented as a dot. Scatter plots often include an explanatory variable, such as years of education, and what might be considered a response variable, such as annual income. When the dots are plotted against these two axes, scatter plots communicate the strength and type of relationship that exists between these variables.
+To do this, a series of values are plotted on an x-axis and a y-axis, with each axis representing a variable and each value representing a dot. Scatter plots often include an explanatory variable, such as years of education, and what might be considered a response variable, such as annual income. When the dots are plotted against these two axes, scatter plots communicate the strength and type of relationship that exists between these variables.
