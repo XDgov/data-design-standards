@@ -27,7 +27,8 @@ guidance-always:
 
 
 guidance-recommended:
-- It is recommend that you limit the number of classes to five or fewer categories. Fewer symbols on the map are more easily distinguished by the eye and will make trends in the data easier to see.
+- It is recommend that you limit the number of classes to five or fewer categories.:
+  - Fewer symbols on the map are more easily distinguished by the eye and will make trends in the data easier to see.
 - It is recommended that proportional symbol maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
 
 guidance-not-recommended:

@@ -53,16 +53,18 @@ subnav:
   </p>
   <h3>Labeling States</h3>
   <p>
-    When labeling states in a United States-based map, always use the 2-letter
-    USPS abbreviation. Each label should be easy to ready without interfering
-    with the map’s content.
+    When labeling states in a United States-based map it is important to be
+    consistent. For small format or page-sized maps, the 2-letter USPS
+    abbreviation is preferred. Each label should be easy to ready without
+    interfering with the map’s content.
   </p>
   <h3>Styling Map Labels</h3>
   <p>
     When labeling different geographic area types in a map, try using different
-    fonts, colors, and text properties to differentiate each label type. Using
-    identical typography for different geographic labels may result in users
-    confusing different types of labels.
+    fonts and font styles, such as bold, italics, color, size, and  casing
+    (such as uppercase or sentence case). Using identical typography for
+    different geographic labels may result in users confusing different types of
+    labels.
   </p>
 </div>
 <div id="accessibility">

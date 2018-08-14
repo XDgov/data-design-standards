@@ -25,7 +25,6 @@ guidance-always:
 guidance-recommended:
 - It is recommended to limit the number of categories to five or fewer.:
   - Fewer categories on a map helps users to better understand what is being visualized and allows for trends in the data to be more easily identified.
-- It is recommended to round numbers in a legend for improved legibility.
 - It is recommended that, if used, a national average or median for comparison be placed close to the map’s legend.
 - It is recommended that choropleth maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
 
