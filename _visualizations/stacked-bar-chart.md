@@ -33,4 +33,9 @@ guidance-never:
 - Never depict more than five subgroups.
 ---
 
-The length of each bar communicates the total value of a group which is a sum of it’s subgroup values, and the length of each subgroup represents their individual values. Stacked bar charts are best used to compare data between groups and between subgroups.
+<p>
+  The length of each bar communicates the total value of a group which is a sum of it’s subgroup values, and the length of each subgroup represents their individual values. Stacked bar charts are best used to compare data between groups and between subgroups.
+</p>
+<p>
+  Stacked bar charts are best for depicting large changes of a subgroup or for gathering a quick, high level view of the content. Stacked bar charts are not optimal for conveying detailed or subtle changes in the subgroup values. As the subgroups get further from the axis, the values become harder to determine.
+</p>
