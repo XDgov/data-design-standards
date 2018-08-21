@@ -1,3 +1,15 @@
+.layout-styleguide {
+  .aka {
+    color: $census-color-grey-dark;
+    font-size: 1.5rem;
+    margin: 0;
+
+    .aka-lead {
+      color: $census-color-grey-darkest;
+    }
+  }
+}
+
 .main-content {
   display: inline-block; // starting: not scrolled
   margin-top: 4rem; // starting: not scrolled
@@ -102,7 +114,7 @@
 }
 
 .page-tags {
-  margin: 0.5rem 0 1.25rem;
+  margin: 0.5rem 0 1rem;
   
   li {
     font-size: 1.2rem;
@@ -221,6 +233,14 @@
 
 .usa-chart-title {
   margin: 0 0 0.25rem;
+}
+
+.usa-content {
+  p {
+    &.aka {
+      max-width: none;
+    }
+  }
 }
 
 .usa-icon {

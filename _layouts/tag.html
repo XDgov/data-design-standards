@@ -31,20 +31,7 @@ layout: default
     <ul class="usa-unstyled-list">
       {% for vizId in tagVisualizations %}
         {% assign viz = site.visualizations | where:"id", vizId  | first %}
-        <li class="viz-card">
-          <h3>
-            <a href="{{ site.baseurl }}{{ vizId}}">{{ viz.title }}</a>
-          </h3>
-          <div class="tags">
-            {% for tag in viz.tags %}
-              <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag | capitalize }}</a>{% unless forloop.last == true %},{% endunless %}
-
-            {% endfor %}
-          </div>
-          <p>
-            {{ viz.lead }}
-          </p>
-        </li>
+        {% include tag/viz-card.html viz=viz %}
       {% endfor %}
     </ul>
   </div>

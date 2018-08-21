@@ -2,6 +2,7 @@
 permalink: /visualizations/line-graph
 layout: styleguide
 title: Line Graph
+aka: [Line Chart]
 category: Visualization types
 components:
   - Agency Logo

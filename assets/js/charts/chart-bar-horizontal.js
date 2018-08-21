@@ -24,6 +24,20 @@
             legend: {
               display: false
             },
+            plugins: {
+              datalabels: {
+                anchor: "end",
+                align: "end",
+                color: "rgba(0, 149, 168, 1)",
+                font: {
+                  size: 14,
+                  weight: "bold"
+                },
+                formatter: function(value, context) {
+                  return value + "%";
+                }
+              }
+            },
             scales: {
                 yAxes: [{
                     barThickness : 50,

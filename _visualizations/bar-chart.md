@@ -2,6 +2,7 @@
 permalink: /visualizations/bar-chart
 layout: styleguide
 title: Bar Chart
+aka: [Bar Graph]
 category: Visualization types
 lead: A bar chart displays categorical data with rectangular bars whose length or height corresponds to the value of each data point.
 components:

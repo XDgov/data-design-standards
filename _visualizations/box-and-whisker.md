@@ -2,6 +2,7 @@
 permalink: /visualizations/box-and-whisker
 layout: styleguide
 title: Box and Whisker
+aka: [Boxplot]
 category: Visualization types
 components:
   - Agency Logo
@@ -13,7 +14,7 @@ components:
   - Source
   - Titles
   - Typography
-lead: A box and whisker plot, or boxplot, is a graph that presents the distribution of a category of data.
+lead: A box and whisker plot is a graph that presents the distribution of a category of data.
 tags: [comparative, distribution]
 guidance-always:
 - Always clearly label median, lower and upper quartiles, lowest and highest observations.

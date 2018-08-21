@@ -28,6 +28,17 @@ layout: default
           {% endfor %}
         </ul>
       {% endif %}
+
+      {% if page.aka.size > 0 %}
+        <p class="aka">
+          <span class="aka-lead">
+            Also known as:
+          </span>
+          {% for alias in page.aka %}
+            {{ alias | downcase }}{% unless forloop.last == true %},{% endunless %}
+          {% endfor %}
+        </p>
+      {% endif %}
     </header>
 
     {% include lead.html text=page.lead %}

@@ -1,4 +1,18 @@
 .layout-tag {
+
+  p {
+    &.aka-lead {
+      font-size: 1.5rem;
+      margin-bottom: 0;
+      max-width: none;
+    }
+  }
+  .aka {
+    color: $census-color-grey;
+    font-size: 1.5rem;
+    marign-top: 0;
+  }
+
   .sidenav {
     h4 {
       color: $census-color-grey-darker;

@@ -2,6 +2,7 @@
 permalink: /visualizations/dot-distribution-map
 layout: styleguide
 title: Dot Distribution Map
+aka: [Dot Density Map]
 category: Visualization types
 components:
   - Agency Logo

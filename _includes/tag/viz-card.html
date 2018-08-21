@@ -1,0 +1,24 @@
+<li class="viz-card">
+  <h3>
+    <a href="{{ site.baseurl }}{{ vizId}}">{{ include.viz.title }}</a>
+  </h3>
+  <div class="tags">
+    {% for tag in include.viz.tags %}
+      <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag | capitalize }}</a>{% unless forloop.last == true %},{% endunless %}
+
+    {% endfor %}
+  </div>
+  <p>
+    {{ include.viz.lead }}
+  </p>
+  {% if include.viz.aka.size > 0 %}
+    <p class="aka-lead">
+      Also known as:
+      <span class="aka">
+        {% for alias in include.viz.aka %}
+          {{ alias }}{% unless forloop.last == true %},{% endunless %}
+        {% endfor %}
+      </span>
+    </p>
+  {% endif %}
+</li>

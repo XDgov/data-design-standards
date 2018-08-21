@@ -24,6 +24,11 @@
             legend: {
               display: false
             },
+            plugins: {
+              datalabels: {
+                display: false
+              }
+            },
             scales: {
                 yAxes: [{
                     gridLines: {

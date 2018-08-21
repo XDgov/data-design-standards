@@ -2,6 +2,7 @@
 permalink: /visualizations/population-pyramid
 layout: styleguide
 title: Population Pyramid
+aka: [Age-sex Pyramid]
 category: Visualization types
 components:
   - Agency Logo

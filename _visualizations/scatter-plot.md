@@ -2,6 +2,7 @@
 permalink: /visualizations/scatter-plot
 layout: styleguide
 title: Scatter Plot
+aka: [Scatterplot, Scatter Graph, Scatter Chart, Scattergram, Scatter Diagram]
 category: Visualization types
 components:
   - Agency Logo

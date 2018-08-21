@@ -2,6 +2,7 @@
 permalink: /visualizations/stacked-bar-chart
 layout: styleguide
 title: Stacked Bar Chart
+aka: [Stacked Bar Graph]
 category: Visualization types
 components:
   - Agency Logo
