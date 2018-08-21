@@ -18,7 +18,7 @@ lead: A line graph is a chart that displays a series of data points connected by
 tags: [distribution]
 guidance-always:
 - Always start the y-axis at zero.
-- Always label each line.
+- Always label each line if there is more than one line.
 - Always ensure that each line is legible.
 
 guidance-recommended:
