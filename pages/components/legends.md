@@ -61,7 +61,8 @@ lead: Legends identify the meaning of various elements in a data visualization a
       <p>
         By displaying the data in ascending order, the lower numbers appear at
         the top of the legend. This type of order deviates from best practices
-        in usability and will result in inconsistent ordering across legends.
+        in usability. It is also important to maintain consistent ordering across
+        legends, especially when displaying visualizations in a series.
       </p>
     </div>
     <div class="usa-chart-card example-side-by-side legend-number-example">
@@ -78,7 +79,7 @@ lead: Legends identify the meaning of various elements in a data visualization a
       <p>
         Now that the data is displayed in descending order, the legend adheres
         to best practices and will result in more consistent and therefore more
-        user-friendly data visualizations.
+        user-friendly data visualizations. 
       </p>
     </div>
   </div>
