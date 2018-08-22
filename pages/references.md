@@ -22,7 +22,7 @@ lead: These standards are informed by the following works.
 ## Textbooks
 - Muzner, Tamara. 2014. _Visualization Analysis and Design._ CRC Press.
 - Tufte, Edward R. 1990. [Envisioning information](https://doi.org/10.1002/aic.690390220){:target="_blank"}.
-- Tufte, Edward R. 2001. [The visual display of quantitative information. Cheshire, Conn: Graphics Press](https://doi.org/10.1086/601626){:target="_blank"}.
+- Tufte, Edward R. 2001. [The visual display of quantitative information](https://doi.org/10.1086/601626){:target="_blank"}. Graphics Press.
 
 ## Color
 - Cynthia Brewer, Mark Harrower and The Pennsylvania State University. [ColorBrewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
