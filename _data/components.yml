@@ -5,6 +5,7 @@
 - name: Labels
 - name: Legends
 - name: Scale Bars
+- name: Small Multiples
 - name: Source
 - name: Titles
 - name: Typography
