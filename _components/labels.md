@@ -43,6 +43,16 @@ subnav:
     case is a type of letter casing, like uppercase or lowercase, where only the
     first word and proper nouns are capitalized.
   </p>
+  <div class="clearfix component-examples">
+    <div class="usa-chart-card example-side-by-side">
+      <h4>Example: Sentence Casing vs. Other Casings</h4>
+      <div class="label-example-container">
+        <div class="label-example-preferred label-example">{% include svg/success.html %} Under 5 years <span>– Sentence case</span></div>
+        <div class="label-example">{% include svg/warning.html %} Under 5 Years <span>– Title case</span></div>
+        <div class="label-example">{% include svg/warning.html %} under 5 years <span>– Lowercase</span></div>
+      </div>
+    </div>
+  </div>
 </div>
 <div id="map-labels">
   <h2>Map Labels</h2>
@@ -51,13 +61,23 @@ subnav:
     For example, a United States-based thematic map may not need labels if the
     map is showing general trends.
   </p>
-  <h3>Labeling States</h3>
+  <h3>Labeling States, Territories, and Districts</h3>
   <p>
-    When labeling states in a United States-based map it is important to be
-    consistent. For small format or page-sized maps, the 2-letter USPS
-    abbreviation is preferred. Each label should be easy to ready without
-    interfering with the map’s content.
+    When labeling states, territories, or districts in a United States-based map,
+    it is important to be consistent. For small format or page-sized maps, the
+    2-letter USPS abbreviation is preferred. Each label should be easy to ready
+    without interfering with the map’s content.
   </p>
+  <div class="clearfix component-examples">
+    <div class="usa-chart-card example-side-by-side">
+      <h4>Example: Label for Washington, D.C.</h4>
+      <div class="label-example-container">
+        <div class="label-example-preferred label-example">{% include svg/success.html %} DC <span>– USPS Abbreviation</span></div>
+        <div class="label-example">{% include svg/warning.html %} D.C.</div>
+        <div class="label-example">{% include svg/warning.html %} Wash. D.C.</div>
+      </div>
+    </div>
+  </div>
   <h3>Styling Map Labels</h3>
   <p>
     When labeling different geographic area types in a map, try using different

@@ -1,0 +1,13 @@
+.label-example {
+  margin-bottom: 0.75rem;
+
+  span {
+    color: $census-color-grey;
+    font-size: 1.3rem;
+  }
+}
+
+.label-example-preferred {
+  border-bottom: 1px solid $census-color-grey-lightest;
+  padding-bottom: 0.75rem;
+}
