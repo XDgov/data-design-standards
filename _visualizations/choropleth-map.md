@@ -40,3 +40,13 @@ guidance-never:
 <p>
   Choropleth maps are best used to display the geographic distribution of data. You can also use a choropleth map to make comparisons between geographic areas, but be aware that any geographic patterns will depend on the method used to group your data. The data in a choropleth map can be categorical or numeric.
 </p>
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">Static Choropleth Map of the United States</h3>
+  </div>
+  <div class="usa-chart-static">
+    <img src="../assets/img/examples/choropleth-map/Choropleth_Map_ACS2015_5yr_RuralPoverty.jpg" alt="Percentage of Rural Population in Poverty for the United States: 2011-2015">
+  </div>
+</div>

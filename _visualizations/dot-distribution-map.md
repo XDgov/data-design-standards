@@ -32,3 +32,13 @@ guidance-recommended:
   A dot distribution map can be layered over other thematic map types. For example, a
   <a href="{{ site.baseurl }}/visualizations/choropleth-map">choropleth map</a> can be used underneath the dot distribution symbol to show two different variables.
 </p>
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">Static Dot Distribution Map of New York City</h3>
+  </div>
+  <div class="usa-chart-static">
+    <img src="../assets/img/examples/dot-density-map/Dot_Density_NY_hispanic_dotdistribution.jpg" alt="Residential Distribution of Four Hispanic Subgroups, New York City: 2010">
+  </div>
+</div>

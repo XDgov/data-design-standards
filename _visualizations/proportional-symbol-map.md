@@ -38,3 +38,13 @@ guidance-not-recommended:
 <p>
   Proportional symbol maps are typically used to show counts or totals and can be used to visualize classed or unclassed data. When using classed data, the map becomes a type of proportional symbol map called a graduated symbol map. The difference between these two types of maps is that graduated symbol maps use range grading, whereas proportional symbol maps use absolute scale or apparent magnitude scaling.
 </p>
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">Static Proportional Symbol Map of Oklahoma</h3>
+  </div>
+  <div class="usa-chart-static">
+    <img src="../assets/img/examples/proportional-symbol-map/Proportional_Symbol_OTSA_percent_AIAN_circles_map.jpg" alt="Oaklahoma: Number and Percentage of People who Self-Identified as American Indian or Alaska Native (AIAN) Alone or in Combination by OTSA">
+  </div>
+</div>
