@@ -60,11 +60,18 @@ layout: default
         </p>
       {% endif %}
     {% endif %}
-    
-    {% include guidance.html guidanceHeading="Always" guidance=page.guidance-always %}
-    {% include guidance.html guidanceHeading="Recommended" guidance=page.guidance-recommended %}
-    {% include guidance.html guidanceHeading="Not Recommended" guidance=page.guidance-not-recommended %}
-    {% include guidance.html guidanceHeading="Never" guidance=page.guidance-never %}
+
+    {% if page.guidance-always != null or if page.guidance-never != null  %}
+      <h3>Requirements</h3>
+      {% include guidance.html guidanceHeading="Always" guidance=page.guidance-always %}
+      {% include guidance.html guidanceHeading="Never" guidance=page.guidance-never %}
+    {% endif %}
+    {% if page.guidance-recommended != null or if page.guidance-not-recommended != null  %}
+      <h3>Recommendations</h3>
+      {% include guidance.html guidanceHeading="Recommended" guidance=page.guidance-recommended %}
+      {% include guidance.html guidanceHeading="Not Recommended" guidance=page.guidance-not-recommended %}
+    {% endif %}
+  
 
 
   </div>
