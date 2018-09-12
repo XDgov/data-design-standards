@@ -61,12 +61,12 @@ layout: default
       {% endif %}
     {% endif %}
 
-    {% if page.guidance-always != null or if page.guidance-never != null  %}
+    {% if page.guidance-always != null or page.guidance-never != null %}
       <h3>Requirements</h3>
       {% include guidance.html guidanceHeading="Always" guidance=page.guidance-always %}
       {% include guidance.html guidanceHeading="Never" guidance=page.guidance-never %}
     {% endif %}
-    {% if page.guidance-recommended != null or if page.guidance-not-recommended != null  %}
+    {% if page.guidance-recommended != null or page.guidance-not-recommended != null  %}
       <h3>Recommendations</h3>
       {% include guidance.html guidanceHeading="Recommended" guidance=page.guidance-recommended %}
       {% include guidance.html guidanceHeading="Not Recommended" guidance=page.guidance-not-recommended %}
