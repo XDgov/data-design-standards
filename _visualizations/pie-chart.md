@@ -19,6 +19,10 @@ tags: [comparative]
 guidance-always:
 - Always consider using a bar chart or displaying values directly before using a pie chart.
 - Always include a legend or label slices directly.
+- Always ensure that the values of the slices total to 100%.
+guidance-recommended:
+- If you are not presenting the proportion of a total, it is recommended to use a bar chart.
+- If differences between the sizes of slices are subtle, it is recommended to use a bar chart.
 guidance-not-recommended:
 - It is not recommended to include large gaps between each slice, such as in an exploded pie chart.
 - It is not recommended to use multi-level pie charts as they are difficult to decipher.
