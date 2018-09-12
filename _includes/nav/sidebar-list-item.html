@@ -1,7 +1,7 @@
 <li>
   {% assign current = nil %}
   {% assign path = include.name | slugify %}
-  {% assign link_path = 'pages/' | append: include.section | append: "/" | append: path | append: ".md" %}
+  {% assign link_path = '_' | append: "components/" | append: path | append: ".md" %}
   {% if page.path == link_path %}
     {% assign current = "current" %}
   {% endif %}

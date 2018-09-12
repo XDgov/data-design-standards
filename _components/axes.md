@@ -9,6 +9,8 @@ subnav:
   href: "#axis-titles"
 - text: Tick Marks
   href: "#tick-marks"
+- text: Comparing Visualizations
+  href: "#comparing-visualizations"
 ---
 <p>
   Typically charts contain two axes: an x-axis and a y-axis. In many cases, one
@@ -108,4 +110,13 @@ subnav:
       </p>
     </div>
   </div>
+</div>
+<div id="comparing-visualizations">
+  <h2>Comparing Visualizations</h2>
+  <p>
+    When creating data visualizations that are designed to be compared, ensure
+    that the axes are consistent across each visualization. This allows users to
+    accurately compare the data across each without having to consider the
+    variances resulting from axes with different start and end values.
+  </p>
 </div>
