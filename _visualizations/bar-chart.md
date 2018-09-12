@@ -19,6 +19,7 @@ tags: [comparative]
 guidance-always:
 - Always use independent categories of data.
 - Always label each category of data.
+- When visualizing data between 0% and 100%, always start the tick marks at 0%.
 
 guidance-recommended:
 - It is recommended to use bar charts when comparing large changes in data values.
