@@ -33,6 +33,7 @@ subnav:
     conjunction with titles and subtitles, users will be able to more easily
     understand what a visualization is about.
   </p>
+  <h3>Examples</h3>
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/warning.html %} Acceptable Example</h4>
