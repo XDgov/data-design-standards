@@ -42,15 +42,12 @@ guidance-never:
 <h2>Examples</h2>
 <div class="usa-chart-card">
   <div class="usa-chart-header">
-    <h3 class="usa-chart-title">Average Percent Population Change in Cities and Towns Since 2010</h3>
-    <h4 class="usa-chart-subtitle">Population between 10,000 and 49,999</h4>
+    <h3 class="usa-chart-title">2018 Annual Sales</h3>
+    <h4 class="usa-chart-subtitle">By Quarter</h4>
   </div>
   <canvas id="chart-pie"></canvas>
   <div class="usa-source-container">
     <div>
-      Source: 
-        <a href="https://www.census.gov/programs-surveys/poptest.html" target="_blank">
-          U.S. Census Bureau. Vintage 2017 Population Estimates
-        </a>
+      Source: None (fictional data)
   </div>
 </div>

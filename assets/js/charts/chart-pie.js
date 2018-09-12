@@ -9,7 +9,7 @@
       type: 'pie',
       data: {
         datasets: [{
-          data: [1.1, 2.1, 7.6, 8.1],
+          data: [58.6, 22.9, 10, 8.6],
           backgroundColor: [
             "#0095A8",
             "#112E51",
@@ -18,10 +18,10 @@
           ],
         }],
         labels: [
-          "Northeast",
-          "Midwest",
-          "South",
-          "West"
+          "1st Qtr",
+          "2nd Qtr",
+          "3rd Qtr",
+          "4th Qtr"
         ]
       },
       options: {
