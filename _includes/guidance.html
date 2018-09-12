@@ -13,7 +13,7 @@
             {% endfor %}
           </ul>
         {% else %}
-          {{ guidance }}
+          {{ guidance | replace: "!BASEURL!", site.baseurl | markdownify }}
         {% endif %}
       </li>
     {% endfor %}

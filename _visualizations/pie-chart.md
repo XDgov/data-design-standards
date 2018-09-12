@@ -17,7 +17,7 @@ components:
 lead: A pie chart is a circular graph that presents values as proportionate slices.
 tags: [comparative]
 guidance-always:
-- Always consider using a bar chart or displaying values directly before using a pie chart.
+- Always consider using a [bar chart](!BASEURL!/visualizations/bar-chart) or displaying values directly before using a pie chart.
 - Always include a legend or label slices directly.
 - Always ensure that the values of the slices total to 100%.
 guidance-recommended:
@@ -37,7 +37,7 @@ guidance-never:
 
 <p>
   Pie charts are one of the most commonly used data visualizations but are often
-  not the most effective way to compare data values. This is mainly due to the 
+  not the most effective way to compare data values. This is mainly due to the
   size of each slice and the number of data categories being represented. Pie
   charts can also be represented as a doughnut chart, which is generally better
   for users to compare the size of each slice or arc.
