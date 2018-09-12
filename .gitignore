@@ -2,3 +2,5 @@
 _site
 .sass-cache
 .jekyll-metadata
+# github-pages will be updated out of band, so doesn't really help to lock versions
+Gemfile.lock
