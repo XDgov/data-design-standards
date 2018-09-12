@@ -35,6 +35,18 @@ lead: A collection of common terms in data visualization.
 </div>
 <div id="s">
   <h2>S</h2>
+  <h3>Section 508</h3>
+  <p>
+    Section 508 refers to the official standards under section 508 of the
+    Rehabilitation Act that addresses access for people with physical, sensory,
+    or cognitive disabilities. In the case of data visulaizations, these
+    standards ensure that all data visualizations in documents, presentations,
+    applications, and websites are discernable by all users.
+  </p>
+  <p>
+    Section 508 compliance is covered in a number of areas in the Data Visualization Standards,
+    such as <a href="{{ site.baseurl }}/components/titles">titles</a>, <a href="{{ site.baseurl }}/components/colors">colors</a>, and <a href="{{ site.baseurl }}/components/labels">labels</a>.
+  </p>
   <h3>Sequential Colors</h3>
   <p>
     <a href="{{ site.baseurl }}/components/colors">Sequential colors</a>
