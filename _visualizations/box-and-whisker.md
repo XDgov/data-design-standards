@@ -21,7 +21,7 @@ guidance-always:
 - Always include a box centered on the median with left/bottom side ending at the lower quartile and right/top side at the upper quartile.
 - Always include a horizontal line running through the center of the box beginning at the lowest observation and ending at the highest observation
 guidance-recommended:
-- It is recommended to use bar charts when comparing large changes in data values.
+- It is recommended to use [bar charts](!BASEURL!/visualizations/bar-chart) when comparing large changes in data values.
 guidance-not-recommended:
 - It is not recommended to remove outliers without making note of it.
 guidance-never:
