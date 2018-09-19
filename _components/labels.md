@@ -31,6 +31,42 @@ subnav:
     using a legend as this is the prefered method for representing categorical
     data.
   </p>
+  <div class="component-examples clearfix">
+    <div class="usa-chart-card example-side-by-side">
+      <h4>{% include svg/warning.html %} Failed Example</h4>
+      <div class="clearfix">
+        <div class="axis-title-example-canvas">
+          <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
+        </div>
+        <div class="axis-title-example-desc">
+          <h5 class="usa-color-heading">Why it Fails</h5>
+          <p>
+            The axis title missed an opportunity to include the unit of
+            measurement for the tick marks in the y-axis. As a result, the tick
+            marks include a percentage symbol after each labeled tick and the
+            title isn’t that useful.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="usa-chart-card example-side-by-side">
+      <h4>{% include svg/success.html %} Preferred Example</h4>
+      <div class="clearfix">
+        <div class="axis-title-example-canvas">
+          <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
+        </div>
+        <div class="axis-title-example-desc">
+          <h5 class="usa-color-heading">Why it’s Preferred</h5>
+          <p>
+            The axis title missed an opportunity to include the unit of
+            measurement for the tick marks in the y-axis. As a result, the tick
+            marks include a percentage symbol after each labeled tick and the
+            title isn’t that useful.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   <h3>Annotations</h3>
   <p>
     Annotations can be used to help tell the story of a data visualization. Before
