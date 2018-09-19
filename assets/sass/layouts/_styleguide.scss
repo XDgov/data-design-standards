@@ -214,6 +214,14 @@
   }
 }
 
+.usa-agency-logo {
+  padding-top: 2rem;
+  
+  img {
+    max-width: 10rem;
+  }
+}
+
 .usa-chart-card {
   @extend %card;
   margin: 2rem 0 3rem;
