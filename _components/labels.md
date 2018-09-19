@@ -34,34 +34,31 @@ subnav:
   <div class="component-examples clearfix">
     <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/warning.html %} Failed Example</h4>
-      <div class="clearfix">
-        <div class="axis-title-example-canvas">
-          <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
-        </div>
-        <div class="axis-title-example-desc">
+      <div class="clearfix data-label-example-container">
+        <canvas id="data-label-fail" role="img" aria-label="Example: 50%"></canvas>
+        <div>
           <h5 class="usa-color-heading">Why it Fails</h5>
           <p>
-            The axis title missed an opportunity to include the unit of
-            measurement for the tick marks in the y-axis. As a result, the tick
-            marks include a percentage symbol after each labeled tick and the
-            title isn’t that useful.
+            While it is acceptable to place text labels inside of visualization
+            elements, the text color must contrast the background element enough
+            to meet Section 508 guidelines. For more information, refer to the
+            <a href="components/colors#text-accessibility">color accessibility</a>
+            guidance.
           </p>
         </div>
       </div>
     </div>
     <div class="usa-chart-card example-side-by-side">
       <h4>{% include svg/success.html %} Preferred Example</h4>
-      <div class="clearfix">
-        <div class="axis-title-example-canvas">
-          <canvas id="axis-title-bad-example" role="img" aria-label="Voters. 40%, 45%, 50%, 55%, 60%"></canvas>
-        </div>
-        <div class="axis-title-example-desc">
+      <div class="clearfix data-label-example-container">
+        <canvas id="data-label-success" role="img" aria-label="Example: 50%"></canvas>
+        <div>
           <h5 class="usa-color-heading">Why it’s Preferred</h5>
           <p>
-            The axis title missed an opportunity to include the unit of
-            measurement for the tick marks in the y-axis. As a result, the tick
-            marks include a percentage symbol after each labeled tick and the
-            title isn’t that useful.
+            In this example, the color of the background elements has been
+            changed to meet the minimum contrast ratio when paired with white
+            text. Alternatively, text elements can also
+            be displayed just outside of visualization elements.
           </p>
         </div>
       </div>

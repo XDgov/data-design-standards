@@ -22,3 +22,4 @@
  {% include_relative components/axis-title.js %}
  {% include_relative components/component-grid.js %}
  {% include_relative components/component-scale-bar.js %}
+ {% include_relative components/labels-data.js %}

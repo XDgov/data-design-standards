@@ -19,7 +19,6 @@
         lineEnd = scaleBarAlt.parentElement.offsetWidth - 1,
         lineStart = 3;
 
-    console.log(lineEnd);
     ctx.rect(lineStart, 0.5, lineEnd / 8, barHeight);
     ctx.stroke();
     ctx.fillRect(lineStart, 0.5, lineEnd / 8, barHeight);
