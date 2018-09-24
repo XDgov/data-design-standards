@@ -53,5 +53,6 @@ guidance-never:
   <div class="usa-source-container">
     <div>
       Source: None (fictional data)
+    </div>
   </div>
 </div>

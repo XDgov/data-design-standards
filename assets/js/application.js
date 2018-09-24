@@ -14,6 +14,7 @@
  {% include_relative charts/chartjs-plugin-usdvs.js %}
  {% include_relative charts/chart-bar.js %}
  {% include_relative charts/chart-bar-horizontal.js %}
+ {% include_relative charts/chart-bar-stacked.js %}
  {% include_relative charts/chart-line.js %}
  {% include_relative charts/chart-pie.js %}
  {% include_relative charts/typography-chart.js %}

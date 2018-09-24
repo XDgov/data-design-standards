@@ -39,3 +39,16 @@ guidance-never:
 <p>
   Stacked bar charts are best for depicting large changes of a subgroup or for gathering a quick, high level view of the content. Stacked bar charts are not optimal for conveying detailed or subtle changes in the subgroup values. As the subgroups get further from the axis, the values become harder to determine.
 </p>
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">Population by Region</h3>
+  </div>
+  <canvas id="chart-bar-stacked"></canvas>
+  <div class="usa-source-container">
+    <div>
+      Source: None (fictional data)
+    </div>
+  </div>
+</div>
