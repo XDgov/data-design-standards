@@ -115,10 +115,10 @@ subnav:
 <div id="comparing-visualizations">
   <h2>Comparing Visualizations</h2>
   <p>
-    When creating data visualizations that are designed to be compared, ensure
-    that the axes are consistent across each visualization. This allows users to
-    accurately compare the data across each without having to consider the
-    variances resulting from axes with different start and end values.
+    When creating data visualizations that are designed to be compared, always
+    use consistent axes. This allows users to accurately compare the data across
+    each without having to consider the variances resulting from axes with
+    different start and end values.
   </p>
   <h3>Examples</h3>
   <div class="clearfix component-examples">
