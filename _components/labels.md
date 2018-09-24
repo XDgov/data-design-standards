@@ -53,7 +53,7 @@ subnav:
       <div class="clearfix data-label-example-container">
         <canvas id="data-label-success" role="img" aria-label="Example: 50%"></canvas>
         <div>
-          <h5 class="usa-color-heading">Why it’s Preferred</h5>
+          <h5 class="usa-color-heading">Why it Meets the Requirements</h5>
           <p>
             In this example, the color of the background elements has been
             changed to meet the minimum contrast ratio when paired with white

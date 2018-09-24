@@ -93,7 +93,7 @@ subnav:
       </div>
       <h5 class="usa-color-heading">Why it’s Only Acceptable</h5>
       <p>
-        labeling every tick mark isn’t necessary and can often cause
+        Labeling every tick mark isn’t necessary and can often cause
         labels to clutter and overlap, especially in smaller visualizations or
         when viewed on smaller screen sizes.
       </p>
@@ -120,4 +120,47 @@ subnav:
     accurately compare the data across each without having to consider the
     variances resulting from axes with different start and end values.
   </p>
+  <h3>Examples</h3>
+  <div class="clearfix component-examples">
+    <div class="usa-chart-card example-side-by-side">
+      <h4>{% include svg/warning.html %} Failed Example</h4>
+      <div>
+        <h5>Bar Example</h5>
+        <canvas id="axes-comparison-bad-first" class="dvs-canvas" role="img"></canvas>
+        <h5>Bar Example 2</h5>
+        <canvas id="axes-comparison-bad-second" class="dvs-canvas" role="img"></canvas>
+      </div>
+      <h5 class="usa-color-heading">Why it Fails</h5>
+      <p>
+        In both examples, it appears that the "Col 1" values (left-most bars)
+        are nearly identical. However, if you look closely at the tick
+        marks on each y-axis, you'll see that the "Col 1" value in the
+        second example is thirty percentage points less than it is in the first example.
+      </p>
+      <p>
+        A data visualization is designed to add visual dimension to data, but
+        if the visualized elements give users false impressions of the data,
+        than the data visualization isn’t useful. For these reasons, it is
+        important that the y-axis be consistent across all data visualizations
+        that are designed for comparison.
+      </p>
+    </div>
+    <div class="usa-chart-card example-side-by-side">
+      <h4>{% include svg/success.html %} Preferred Example</h4>
+      <div>
+        <h5>Bar Example 3</h5>
+        <canvas id="axes-comparison-good-first" class="dvs-canvas" role="img"></canvas>
+        <h5>Bar Example 4</h5>
+        <canvas id="axes-comparison-good-second" class="dvs-canvas" role="img"></canvas>
+      </div>
+      <h5 class="usa-color-heading">Why it Meets the Requirements</h5>
+      <p>
+        Using the same data as the first set of examples, these preferred
+        examples feature a consistent y-axis that make it easier to
+        distinguish differences between each chart. The result produces a pair
+        of data visualizations where the changes in values correspond to the
+        changes in each visualization.
+      </p>
+    </div>
+  </div>
 </div>

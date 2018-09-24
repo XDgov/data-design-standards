@@ -18,6 +18,7 @@
  {% include_relative charts/chart-pie.js %}
  {% include_relative charts/typography-chart.js %}
 
+ {% include_relative components/axis-comparisons.js %}
  {% include_relative components/axis-tick-marks.js %}
  {% include_relative components/axis-title.js %}
  {% include_relative components/component-grid.js %}
