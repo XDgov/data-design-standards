@@ -51,20 +51,3 @@ guidance-never:
     Source: <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">2016 American Community Survey 1-Year Estimates</a>
   </div>
 </div>
-<div class="usa-chart-card">
-  <div class="usa-chart-header">
-    <h3 class="usa-chart-title">Population by Age Range</h3>
-  </div>
-  <canvas id="chart-bar-horizontal"></canvas>
-  <div class="usa-source-container">
-    <div>
-      Source:
-      <a href="https://www.census.gov/programs-surveys/acs/" target="_blank">
-        2016 American Community Survey 1-Year Estimates
-    </a>
-    <div>
-      Table:
-      <a href="https://data.census.gov/cedsci/" target="_blank">DP05</a>
-    </div>
-  </div>
-</div>

@@ -5,7 +5,6 @@
       dataLabelCanvasHeight = 100,
       dataLabelHeight = 35,
       dataLabelLineStart = 3;
-      dataLabelLineEnd = dataLabelFail.parentElement.offsetWidth - 100;
 
   renderDataLabelBars = function(fill, elem) {
     makeHiDPICanvas(elem, dataLabelCanvasHeight);
@@ -26,7 +25,8 @@
 
   if(dataLabelFail != null || dataLabelSuccess != null) {
 
-    var dataLabelTimeout;
+    var dataLabelTimeout,
+        dataLabelLineEnd = dataLabelFail.parentElement.offsetWidth - 100;
 
     window.addEventListener('load', function(){
       if(dataLabelSuccess != null) {
