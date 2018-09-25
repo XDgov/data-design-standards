@@ -25,3 +25,4 @@
  {% include_relative components/component-grid.js %}
  {% include_relative components/component-scale-bar.js %}
  {% include_relative components/labels-data.js %}
+ {% include_relative components/small-multiples.js %}

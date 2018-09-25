@@ -2,7 +2,7 @@
 
   var axisBadTitle = document.getElementById("axis-title-bad-example"),
       axisGoodTitle = document.getElementById("axis-title-good-example");
-  canvasHeight = 200;
+      canvasHeight = 200;
 
   renderBadAxisTitle = function() {
     makeHiDPICanvas(axisBadTitle, canvasHeight);
