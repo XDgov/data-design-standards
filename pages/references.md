@@ -27,3 +27,4 @@ lead: These standards are informed by the following works.
 - Cynthia Brewer, Mark Harrower and The Pennsylvania State University. [ColorBrewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 - Davenport, J. 2012. [Colors in Visualizations, a Rainbow of References](http://www.ifweassume.com/2012/12/colors-in-visualizations-rainbow-of.html)
 - Skau, D. 2013. [Web-based color tools](http://blog.visual.ly/web-based-color-tools/).
+- Center for Persons with Disabilities, Utah State University. [WebAIM: Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
