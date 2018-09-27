@@ -118,6 +118,10 @@
                 gridLines: {
                   display: false
                 },
+                scaleLabel: {
+                  display: true,
+                  labelString: "Percent"
+                },
                 stacked: true,
                 ticks: {
                     autoSkip: false,
@@ -167,6 +171,10 @@
             xAxes: [{
                 gridLines: {
                   display: false
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: "Percent"
                 },
                 stacked: true,
                 ticks: {
@@ -218,6 +226,10 @@
                 gridLines: {
                   display: false
                 },
+                scaleLabel: {
+                  display: true,
+                  labelString: "Percent"
+                },
                 stacked: true,
                 ticks: {
                     autoSkip: false,
@@ -262,11 +274,15 @@
               },
               ticks: {
                 fontColor: "#364850",
-              },
+              }
             }],
             xAxes: [{
                 gridLines: {
                   display: false
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: "Percent"
                 },
                 stacked: true,
                 ticks: {
