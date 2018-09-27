@@ -33,9 +33,6 @@ title: Home
         <li>
           Download Our Code Library
         </li>
-        <li>
-          Download Templates for Popular Visualization Software
-        </li>
       </ul>
     </div>
   </div>
