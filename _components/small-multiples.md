@@ -16,15 +16,17 @@ lead: Small multiples are a series of small visualizations that allow users to s
   <div class="usa-chart-card example-side-by-side">
     <h4>{% include svg/warning.html %} Acceptable Example</h4>
     <div>
-      <h5 class="usa-chart-title">Population by Region</h5>
+      <h5 class="usa-chart-title">Quarterly Population Rates by Regional Office</h5>
       <canvas id="sm-chart-bar-stacked"></canvas>
     </div>
     <h5 class="usa-color-heading">Why it’s Only Acceptable</h5>
     <p>
-      While stacked bar charts are an acceptable visualization type, they can
-      also be difficult for users to compare changes across different categories
-      of data. The resulting data visualization requires more time and energy
-      for users to understand.
+      Choosing the right data visualization depends on a number of factors, one
+      of which is intent. In this case, the intent of this visualization is to
+      visualize quarterly population rates by regional office. A stacked bar
+      chart excels at showing broader changes in data across several categories,
+      but when it comes to understanding granular changes in data, it requires
+      more time and energy for users to understand.
     </p>
   </div>
   <div class="usa-chart-card example-side-by-side">
@@ -32,19 +34,19 @@ lead: Small multiples are a series of small visualizations that allow users to s
     <div>
       <div class="small-multiple-examples clearfix">
         <div class="sm-example-container">
-          <h5 class="usa-chart-title">Population by Region - Q1</h5>
+          <h5 class="usa-chart-title">Quarterly Population Rates for Atlanta</h5>
           <canvas id="sm-chart-bar-q1"></canvas>
         </div>
         <div class="sm-example-container">
-          <h5 class="usa-chart-title">Population by Region - Q2</h5>
+          <h5 class="usa-chart-title">Quarterly Population Rates for Chicago</h5>
           <canvas id="sm-chart-bar-q2"></canvas>
         </div>
         <div class="sm-example-container">
-          <h5 class="usa-chart-title">Population by Region - Q3</h5>
+          <h5 class="usa-chart-title">Quarterly Population Rates for Denver</h5>
           <canvas id="sm-chart-bar-q3"></canvas>
         </div>
         <div class="sm-example-container">
-          <h5 class="usa-chart-title">Population by Region - Q4</h5>
+          <h5 class="usa-chart-title">Quarterly Population Rates for New York</h5>
           <canvas id="sm-chart-bar-q4"></canvas>
         </div>
       </div>

@@ -29,10 +29,6 @@
               label: 'NY',
               data: [3, 3, 2, 4],
               backgroundColor: "#6DA1E0"
-            }, {
-              label: 'PHI',
-              data: [2, 4, 3, 4],
-              backgroundColor: "#112E51"
             }
           ]
         },
@@ -87,10 +83,10 @@
     var mySmBarChart = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Atl", "Chi", "Den", "NY", "Phi"],
+            labels: ["Q1", "Q2", "Q3", "Q4"],
             datasets: [{
-              label: 'Q1',
-              data: [2, 3, 3, 3, 2],
+              label: 'Atlanta',
+              data: [2, 4, 3, 3],
               backgroundColor: "#00BED6"
             }
           ]
@@ -141,10 +137,10 @@
     var mySmBarChart2 = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Atl", "Chi", "Den", "NY", "Phi"],
+            labels: ["Q1", "Q2", "Q3", "Q4"],
             datasets: [{
-              label: 'Q1',
-              data: [4, 2, 2, 3, 4],
+              label: 'Chicago',
+              data: [3, 2, 3, 2],
               backgroundColor: "#00BED6"
             }
           ]
@@ -195,10 +191,10 @@
     var mySmBarChart3 = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Atl", "Chi", "Den", "NY", "Phi"],
+            labels: ["Q1", "Q2", "Q3", "Q4"],
             datasets: [{
-              label: 'Q1',
-              data: [3, 3, 4, 2, 3],
+              label: 'Denver',
+              data: [3, 2, 4, 5],
               backgroundColor: "#00BED6"
             }
           ]
@@ -249,10 +245,10 @@
     var mySmBarChart4 = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["Atl", "Chi", "Den", "NY", "Phi"],
+            labels: ["Q1", "Q2", "Q3", "Q4"],
             datasets: [{
-              label: 'Q1',
-              data: [3, 2, 5, 4, 4],
+              label: 'NY',
+              data: [3, 3, 2, 4],
               backgroundColor: "#00BED6"
             }
           ]
