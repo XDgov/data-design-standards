@@ -42,7 +42,7 @@ subnav:
             While it is acceptable to place text labels inside of visualization
             elements, the text color must contrast the background element enough
             to meet Section 508 guidelines. For more information, refer to the
-            <a href="components/colors#text-accessibility">color accessibility</a>
+            <a href="colors#text-accessibility">color accessibility</a>
             guidance.
           </p>
         </div>

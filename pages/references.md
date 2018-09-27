@@ -8,7 +8,6 @@ lead: These standards are informed by the following works.
 
 ## Overviews
 ### Standards, general recommendations, and styleguides
-- Consumer Financial Projection Bureau. 2017. [Data visualization](https://github.com/cfpb/design-manual). In _CFPB Styleguide_.
 - IBM. [Data visualization](https://www.ibm.com/design/language/experience/data-visualization/chart-models). In _IBM Design Language_
 - International Business Communication Standards Association. [IBCS Standards](https://www.hichert.com/standards/).
 - Kelleher, C., Wagener, T.. 2011. [Ten guidelines for effective data visualization in scientific publications](https://doi.org/10.1016/j.envsoft.2010.12.006){:target="_blank"}. _Environmental Modelling & Software_.
