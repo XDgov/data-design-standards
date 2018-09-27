@@ -33,3 +33,10 @@ guidance-never:
 ---
 
 Population pyramids consist of a series of histogram bars on opposing sides, with one side representing male and the other female. Each row (or bin) of a population pyramid represents an age group and together they form the shape of a pyramid.
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-static">
+    <img src="../assets/img/examples/pop-pyramid/pop-pyramid.jpg" alt="A Century of Populartion Change in the Age and Sex Composition of the Nation. Year: 2000">
+  </div>
+</div>
