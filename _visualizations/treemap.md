@@ -31,3 +31,13 @@ guidance-not-recommended:
 <p>
   Treemaps can be used to represent data that has a tree-like hierarchical relationship, such as age distribution within different groups of people or categories of exports in a country’s economy.
 </p>
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">Static Treemap</h3>
+  </div>
+  <div class="usa-chart-static">
+    <img src="../assets/img/examples/treemap/treemap.jpg" alt="Four in Ten Electric Power Generation Establishments Convert Renewable Energy">
+  </div>
+</div>
