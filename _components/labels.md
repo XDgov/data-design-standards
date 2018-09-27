@@ -55,7 +55,7 @@ subnav:
         <div>
           <h5 class="usa-color-heading">Why it Meets the Requirements</h5>
           <p>
-            In this example, the color of the background elements has been
+            In this example, the background color has been
             changed to meet the minimum contrast ratio when paired with white
             text. Alternatively, text elements can also
             be displayed just outside of visualization elements.
