@@ -27,3 +27,13 @@ guidance-never:
 ---
 
 Like a bar chart, histograms consist of a series of vertical bars along the x-axis. Histograms are most commonly used to depict what a set of data looks like in aggregate. At a quick glance, histograms tell whether a dataset has values that are clustered around a small number of ranges or are more spread out.
+
+<h2>Examples</h2>
+<div class="usa-chart-card">
+  <div class="usa-chart-header">
+    <h3 class="usa-chart-title">Static Histogram</h3>
+  </div>
+  <div class="usa-chart-static">
+    <img src="../assets/img/examples/histogram/Histogram.jpg" alt="Item 1: Percentage of Population Aged 65 and Older">
+  </div>
+</div>
