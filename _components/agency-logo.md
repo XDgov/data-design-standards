@@ -12,7 +12,7 @@ lead: Including your agency’s logo can help users quickly determine the origin
   If your agency logo is presented elsewhere in a website that users will be viewing your data visualization in, including the logo next to your visualization is not necessary. For print-based data visualizations, your agency logo should always be included.
 </p>
 <p>
-  For more information on logo placement, spacing, and styling, refer to your agency’s most recent brand guidelines.
+  For more information on logo placement, spacing, and styling, refer to your agency’s most recent brand guidelines. For U.S. Census Bureau employees, you can find the Corporate Identity and Branding Standards <a href="https://www.census.gov/about/policies/style-guide.html" target="_blank">here</a>.
 </p>
 <h2>Example</h2>
 <div class="usa-chart-card">
