@@ -11,6 +11,17 @@ subnav:
   href: "#map-labels"
 - text: Accessibility
   href: "#accessibility"
+
+guidance-always:
+- Always be consistent when labeling states, territories, or districts in a United States-based map.
+- Always use labels that are easily readable without interfering with the map’s content. 
+
+guidance-recommended:
+- It is recommended to use the 2-letter USPS abbreviation for states in a small format or page-sized maps.
+- It is recommended to use different fonts and font styles to differentiate geographic area types.
+
+guidance-not-recommended:
+- It is not recommended to use grid systems outside of latitude and longitude, such as the military grid system (unless you are an expert cartographer).
 ---
 <p> 
   Labels are traditionally used to label axes and legends, however, they can

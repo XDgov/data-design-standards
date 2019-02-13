@@ -21,9 +21,6 @@ guidance-always:
 - Always label each line if there is more than one line.
 - Always ensure that each line is legible.
 
-guidance-recommended:
-- It is recommended that you forgo a legend if only a single line is present.
-
 guidance-not-recommended:
 - It is not recommended that you use horizontal lines unless conveying exact amounts.
 guidance-never:

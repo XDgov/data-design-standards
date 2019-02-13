@@ -9,6 +9,15 @@ subnav:
   href: "#grid-lines"
 - text: Grids in Maps
   href: "#graticules"
+
+guidance-always:
+- Always render grid lines in a color, such as gray, that doesn’t clutter the data visualization and maintaines enough contrast to be visible. 
+
+guidance-never:
+- Never overlap data points with grid lines. Grid lines should instead be rendered in the background. 
+
+guidance-not-recommended:
+- It is not recommended to use grid systems outside of latitude and longitude, such as the military grid system (unless you are an expert cartographer).
 ---
 <p>
   When used in traditional data visualizations, such as line graphs or bar charts, grids help users trace data points to their corresponding value in the x or y-axis. Alternatively, when grids are used in maps, grids provide useful location data outside of the depicted geographic boundaries, such as county or state lines.
