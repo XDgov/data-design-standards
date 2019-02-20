@@ -16,22 +16,22 @@ components:
 lead: A bubble chart is a variation of a scatter plot that displays data points as bubbles.
 tags: [correlation, distribution]
 guidance-always:
-- Always include a legend if more than one category of data is being visualized.
-- Always ensure that smaller dots are visible when overlapping with larger dots.:
+- Include a legend if more than one category of data is being visualized.
+- Ensure that smaller dots are visible when overlapping with larger dots.:
   - Either by placing smaller dots above larger dots or by making the larger dots transparent.
 
 guidance-recommended:
-- It is recommended that the title explain the unit of analysis.
-- It is recommended that you include point labels or markers for specific observations.
+- Use a Title that includes the unit of analysis.
+- Include point labels or markers for specific observations.
 
 guidance-not-recommended:
-- It is not recommended to use a bubble chart if there are an excessive number of values that result in the dots appearing illegible.
+- Use a bubble chart if there are an excessive number of values that result in the dots appearing illegible.
 
 guidance-never:
-- Never let larger values obscure smaller values.
-- Never use symbols for point markers that do not have a proportionate width and height.:
+- Let larger values obscure smaller values.
+- Use symbols for point markers that do not have a proportionate width and height.:
   - A symbol that has an equal width and height is a more accurate way to present a given data value.
-- Never include more than 3 sets of values in a static bubble chart.
+- Include more than 3 sets of values in a static bubble chart.
 ---
 
 <p>

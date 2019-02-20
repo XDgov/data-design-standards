@@ -17,20 +17,20 @@ components:
   - Typography
 tags: [comparative]
 guidance-always:
-- Always use independent categories of data.
-- Always label each category of data.
-- When visualizing data between 0% and 100%, always start the tick marks at 0%.
+- Use independent categories of data.
+- Label each category of data.
+- When visualizing data between 0% and 100%, start tick marks at 0%.
 
 guidance-recommended:
-- It is recommended to use bar charts when comparing large changes in data values.
+- Using bar charts when comparing large changes in data values.
 
 guidance-not-recommended:
-- It is not recommended to include too many bars as the visualization will become difficult to understand.
-- It is not recommended to use bar charts when the changes in data values are relatively small.
+- Including too many bars as the visualization will become difficult to understand.
+- Using bar charts when the changes in data values are relatively small.
 
 guidance-never:
-- Never omit the space between bars – otherwise the bar chart will appear to be a histogram.
-- Never use three dimensional (3D) graphics as they distort the visual calculation of volume.
+- Omit the space between bars – otherwise the bar chart will appear to be a histogram.
+- Use three dimensional (3D) graphics as they distort the visual calculation of volume.
 ---
 
 <p>
