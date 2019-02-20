@@ -16,13 +16,13 @@ components:
 lead: A dot distribution map is a type of map that uses the density of dot symbols that are the same size to show the presence of a feature or phenomenon.
 tags: [distribution]
 guidance-always:
-- Always include a legend that indicates how many units of data are represented with each dot.
-- Always use the same size dot and ensure the size of the dots is appropriate for the scale and size of the map.
-- Always ensure that colors are distinguishable when viewed at scale if using more than one color.
+- Include a legend that shows how many units of data are represented with each dot.
+- Use the same size dots and ensure the size of each dot is appropriate for the scale and size of the map.
+- Ensure that colors are distinguishable.
 
 guidance-recommended:
-- It is recommended that dots be placed randomly within a geographic entity. Subject matter expertise can be used to place the dots in a systematic fashion.
-- It is recommended that dot distribution maps of the United States use an Albers equal-area projection, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
+- Place dots randomly within a geographic entity. Alternatively, dots can be placed in a systematic fashion using subject-matter expertise.
+- Use an Albers equal-area projection when creating a map of the United States, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
 ---
 
 <p>
