@@ -11,6 +11,17 @@ subnav:
   href: "#tick-marks"
 - text: Comparing Visualizations
   href: "#comparing-visualizations"
+
+guidance-always:
+- Label each axis.
+- Be consistent in how you label tick marks.
+- Use consistent axes for data visualizations that are being compared.
+
+guidance-recommended:
+- Add the unit of measurement to the axis title (i.e. "Percentage of Voters").
+- Reduce clutter by not labeling every tick mark.
+- Use different size tick marks (like a ruler) when not labeling each tick mark, i.e. use a longer tick mark for every 5th mark.
+
 ---
 <p>
   Typically charts contain two axes: an x-axis and a y-axis. In many cases, one
