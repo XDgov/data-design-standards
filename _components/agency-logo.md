@@ -5,13 +5,13 @@ title: Agency Logo
 category: Components
 lead: Including your agency’s logo can help users quickly determine the origin of your data visualization.
 guidance-always:
-- Always follow agency brand guidelines for logo spacing and styling.
+- Follow agency brand guidelines for logo spacing and styling.
 
 guidance-never:
 - Never overlap a logo with any elements inside of a data visualization.
 
 guidance-recommended:
-- It is recommended to place the agency logo in the bottom-left corner of a data visualization.
+- Place the agency logo in the bottom-left corner of a data visualization.
 ---
 <p>
   When designing data visualizations for sharing, place your agency’s logo in a corner just outside of the data visualization, either in the top-right corner or below the source information. The size and placement of your agency’s logo should not disrupt the contents of a data visualization or its corresponding components.

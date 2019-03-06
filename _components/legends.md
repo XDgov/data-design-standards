@@ -9,7 +9,7 @@ guidance-always:
 - Display numeric values in descending order (highest to lowest).
 
 guidance-never:
-- Display numeric values in ascending order (lowest to highest).
+- Never display numeric values in ascending order (lowest to highest).
 
 guidance-recommended:
 - Place legends below or parallel to a data visualization.

@@ -18,7 +18,7 @@ guidance-always:
 - Use fonts that are designed for readability.
 
 guidance-never:
-- Use script or handwritten-style fonts in a data visualization.
+- Never use script or handwritten-style fonts in a data visualization.
 
 guidance-recommended:
 - Refer to your agency’s brand guidelines for typography guidance.

@@ -6,11 +6,11 @@ category: Components
 lead: Small multiples are a series of small visualizations that allow users to simply and quickly interpret changes across each visualization.
 
 guidance-recommended:
-- It is recommended that the graphs be ordered in some logical manner, e.g. time.
-- If it makes sense for the type of chart used and if space allows, it is recommended to align the charts in a single row or column so that the viewer can make comparisons along a single baseline.
+- Graphs should be ordered in some logical manner, e.g. time.
+- If it makes sense for the type of chart used and if space allows, align the charts in a single row or column so that the viewer can make comparisons along a single baseline.
 
 guidance-not-recommended:
-- It is not recommended to use any scale bars not mentioned in this guidance unless you are an expert cartographer.
+- Don’t use any scale bars not mentioned in this guidance unless you are an expert cartographer.
 ---
 <p>
   Small multiples are best used when representing simple visualizations that include a small number of dimensions. Because small multiples are used to compare differences across visualizations, the visualization type used and the data compared should be consistent across the entire series of visualizations.

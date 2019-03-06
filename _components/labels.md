@@ -13,12 +13,12 @@ subnav:
   href: "#accessibility"
 
 guidance-always:
-- Always be consistent when labeling states, territories, or districts in a United States-based map.
-- Always use labels that are easily readable without interfering with the map’s content. 
+- Be consistent when labeling states, territories, or districts in a United States-based map.
+- Use labels that are easily readable without interfering with the map’s content. 
 
 guidance-recommended:
-- It is recommended to use the 2-letter USPS abbreviation for states in a small format or page-sized maps.
-- It is recommended to use different fonts and font styles to differentiate geographic area types.
+- Use the 2-letter USPS abbreviation for states in a small format or page-sized maps.
+- Use different fonts and font styles to differentiate geographic area types.
 ---
 <p> 
   Labels are traditionally used to label axes and legends, however, they can

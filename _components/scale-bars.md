@@ -9,13 +9,13 @@ subnav:
   href: "#types"
 
 guidance-always:
-- Always place the scale bar in a way that does not distrupt the content of the map.
+- Place the scale bar in a way that does not distrupt the content of the map.
 
 guidance-recommended:
-- It is recommended to use single division or alternating scale bars.
+- Use single division or alternating scale bars.
 
 guidance-not-recommended:
-- It is not recommended to use any scale bars not mentioned in this guidance unless you are an expert cartographer.
+- Don’t use any scale bars not mentioned in this guidance unless you are an expert cartographer.
 ---
 <p>
   While scale can be indicated as a ratio or in words (i.e. 1:10, or “One inch to ten miles”), scale bars allow users to measure distances in maps directly. Scale bars should be kept small and simple so that they do not detract from maps. 
