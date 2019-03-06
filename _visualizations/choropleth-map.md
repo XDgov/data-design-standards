@@ -30,11 +30,11 @@ guidance-recommended:
 - Use an Albers equal-area projection when creating a map of the United States, including insets of Alaska, Hawaii, and Puerto Rico, if applicable.
 
 guidance-not-recommended:
-- Use dots, lines, or hatching patterns in a choropleth map. 
+- Don't use dots, lines, or hatching patterns in a choropleth map.
 
 guidance-never:
-- Enlarge or highlight D.C. when it is treated as a county equivalent, unless the map’s focus is specifically related to D.C.
-- Use a qualitative or categorical color scheme to map numeric data.
+- Never enlarge or highlight D.C. when it is treated as a county equivalent, unless the map’s focus is specifically related to D.C.
+- Never use a qualitative or categorical color scheme to map numeric data.
 
 ---
 

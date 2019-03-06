@@ -22,15 +22,12 @@ guidance-always:
 - When visualizing data between 0% and 100%, start tick marks at 0%.
 
 guidance-recommended:
-- Using bar charts when comparing large changes in data values.
-
-guidance-not-recommended:
-- Including too many bars as the visualization will become difficult to understand.
-- Using bar charts when the changes in data values are relatively small.
+- Use bar charts when comparing large changes in data values.
+- Limit the number of bars or else a bar chart becomes difficult to understand.
 
 guidance-never:
-- Omit the space between bars – otherwise the bar chart will appear to be a histogram.
-- Use three dimensional (3D) graphics as they distort the visual calculation of volume.
+- Never omit the space between bars – otherwise the bar chart will appear to be a histogram.
+- Never use three dimensional (3D) graphics as they distort the visual calculation of volume.
 ---
 
 <p>

@@ -15,14 +15,14 @@ components:
 lead: A treemap is a visualization that displays hierarchical data as different groups of nested rectangles.
 tags: [comparative, distribution]
 guidance-always:
-- Always use adjacent colors with varying contrasts.
-- Always ensure that any text displayed in each rectangle has a sufficient contrast ratio.
+- Use adjacent colors with varying contrasts.
+- Ensure that any text displayed in each rectangle has a sufficient contrast ratio.
 
 guidance-recommended:
-- It is recommended to keep a straight edge on each side of the diagram.
+- Keep a straight edge on each side of the diagram.
 
 guidance-not-recommended:
-- It is not recommended to include patterns or images in each rectangle.
+- Don’t include patterns or images in each rectangle.
 ---
 
 <p>

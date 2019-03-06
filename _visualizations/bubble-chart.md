@@ -25,13 +25,12 @@ guidance-recommended:
 - Include point labels or markers for specific observations.
 
 guidance-not-recommended:
-- Use a bubble chart if there are an excessive number of values that result in the dots appearing illegible.
+- Don't use a bubble chart if there are an excessive number of values that result in the dots appearing illegible.
 
 guidance-never:
-- Let larger values obscure smaller values.
-- Use symbols for point markers that do not have a proportionate width and height.:
+- Never use symbols for point markers that do not have a proportionate width and height.:
   - A symbol that has an equal width and height is a more accurate way to present a given data value.
-- Include more than 3 sets of values in a static bubble chart.
+- Never include more than 3 sets of values in a static bubble chart.
 ---
 
 <p>

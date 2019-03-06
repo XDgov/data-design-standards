@@ -17,15 +17,11 @@ components:
 lead: A pie chart is a circular graph that presents values as proportionate slices.
 tags: [comparative]
 guidance-always:
-- Always consider using a [bar chart](!BASEURL!/visualizations/bar-chart) or displaying values directly before using a pie chart.
-- Always include a legend or label slices directly.
-- Always ensure that the values of the slices total to 100%.
-guidance-recommended:
-- If you are not presenting the proportion of a total, it is recommended to use a [bar chart](!BASEURL!/visualizations/bar-chart).
-- If differences between the sizes of slices are subtle, it is recommended to use a [bar chart](!BASEURL!/visualizations/bar-chart).
+- Include a legend or label slices directly.
+- Ensure that the values of the slices total to 100%.
 guidance-not-recommended:
-- It is not recommended to include large gaps between each slice, such as in an exploded pie chart.
-- It is not recommended to use multi-level pie charts as they are difficult to decipher.
+- Don't include large gaps between each slice, such as in an exploded pie chart.
+- Don't use multi-level pie charts as they are difficult to decipher.
 guidance-never:
 - Never use three dimensional (3D) graphics as they distort the visual calculation of volume.
 ---

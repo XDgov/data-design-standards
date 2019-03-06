@@ -23,9 +23,10 @@ guidance-always:
 - Use at least three intervals/ranges.
 
 guidance-not-recommended:
-- Orient a histogram upside down.
+- Don't orient a histogram upside down.
+
 guidance-never:
-- Add spacing between bars as the bars span an entire range of values.
+- Never add spacing between bars. Bars span the entire range of values for the continuous variable.
 ---
 
 Like a bar chart, histograms consist of a series of vertical bars along the x-axis. Histograms are most commonly used to depict what a set of data looks like in aggregate. At a quick glance, histograms tell whether a dataset has values that are clustered around a small number of ranges or are more spread out.

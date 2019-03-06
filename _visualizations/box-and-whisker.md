@@ -22,13 +22,13 @@ guidance-always:
 - Include a horizontal line running through the center of the box beginning at the lowest observation and ending at the highest observation
 
 guidance-recommended:
-- Using [bar charts](!BASEURL!/visualizations/bar-chart) when comparing large changes in data values.
+- Use [bar charts](!BASEURL!/visualizations/bar-chart) when comparing large changes in data values.
 
 guidance-not-recommended:
-- Removing outliers without making note of it.
+- Don't remove outliers without making note of it.
 
 guidance-never:
-- Use a box and whisker plot to represent dissimilar data.
+- Never use a box and whisker plot to represent dissimilar data.
 ---
 
 <p>
