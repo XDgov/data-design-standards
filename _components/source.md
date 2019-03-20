@@ -35,7 +35,7 @@ guidance-always:
   <h3>Example</h3>
   <div class="component-examples clearfix">
     <div class="usa-chart-card">
-      <p class="usa-chart-source">U.S. Census Bureau, Statistical Quality Standards – Standard E2-2#2, p.88, July 2013, <a href="https://www.census.gov/content/dam/Census/about/about-the-bureau/policies_and_notices/quality/statistical-quality-standards/Quality_Standards.pdf">https://www.census.gov/content/dam/Census/about/about-the-bureau/policies_and_notices/quality/statistical-quality-standards/Quality_Standards.pdf</a>, Accessed on February 13, 2019.</p>
+      <div class="usa-source-container">Source: U.S. Census Bureau, Statistical Quality Standards – Standard E2-2#2, p.88, July 2013, <a href="https://www.census.gov/content/dam/Census/about/about-the-bureau/policies_and_notices/quality/statistical-quality-standards/Quality_Standards.pdf">https://www.census.gov/content/dam/Census/about/about-the-bureau/policies_and_notices/quality/statistical-quality-standards/Quality_Standards.pdf</a>, Accessed on February 13, 2019.</div>
     </div>
   </div>
 </div>

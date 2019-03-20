@@ -42,13 +42,13 @@ guidance-never:
 <h2>Examples</h2>
 <div class="usa-chart-card">
   <div class="usa-chart-header">
-    <h3 class="usa-chart-title">2018 Annual Sales</h3>
-    <h4 class="usa-chart-subtitle">By Quarter</h4>
+    <h3 class="usa-chart-title">Management in U.S. Manufacturing</h3>
+    <h4 class="usa-chart-subtitle">How many key performance indicators were monitored at this establishment?</h4>
   </div>
   <canvas id="chart-pie"></canvas>
   <div class="usa-source-container">
-    <div>
-      Source: None (fictional data)
-    </div>
+    <p>
+      Source: U.S. Census Bureau, Massachusetts Institute of Technology, National Bureau of Economic Research, and Stanford University; 2015 Management and Organizational Practices Survey (MOPS). Accessed in March 2019. 
+    </p>
   </div>
 </div>
