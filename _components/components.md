@@ -3,7 +3,7 @@ permalink: /components/
 layout: components
 title: Components
 category: Components
-lead: Our system of visualization components are designed to help you create beautiful, user-friendly data visualizations for novices and experts alike.
+lead: Our system of visualization components is designed to help you create beautiful, user-friendly data visualizations for novices and experts alike.
 ---
 <p>
   From charts to maps, every data visualization is made up of a set of design choices. Whether it be the choice of color or the choice of font, these small decisions can have a big impact on how your data is perceived.

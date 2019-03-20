@@ -18,7 +18,7 @@ guidance-always:
 - Place subtitles directly below the title when a subtitle is included.
 
 guidance-recommended:
-- Include a subtitle to users with more context about the data visualization.
+- Include a subtitle to give users with more context about the data visualization.
 - A title should contain no more than 2 lines of text or 8 words.
 - Place titles directly above or immediately adjacent to your data visualization.
 ---

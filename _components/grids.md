@@ -11,7 +11,7 @@ subnav:
   href: "#graticules"
 
 guidance-always:
-- Render grid lines in a color, such as gray, that doesn’t clutter the data visualization and maintaines enough contrast to be visible. 
+- Render grid lines in a color, such as gray, that doesn’t clutter the data visualization and maintains enough contrast to be visible. 
 
 guidance-never:
 - Never overlap data points with grid lines. Grid lines should instead be rendered in the background. 

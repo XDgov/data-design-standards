@@ -18,7 +18,7 @@ guidance-always:
 
 guidance-recommended:
 - Refer to your agency’s brand guidelines to determine what colors to use.
-- Be consistent in how you use color to label data across data visualiations.
+- Be consistent in how you use color to label data across data visualizations.
 ---
 
 <div id="palette">

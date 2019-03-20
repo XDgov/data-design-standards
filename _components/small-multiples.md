@@ -6,7 +6,7 @@ category: Components
 lead: Small multiples are a series of small visualizations that allow users to simply and quickly interpret changes across each visualization.
 
 guidance-recommended:
-- Graphs should be ordered in some logical manner, e.g. time.
+- Order graphs in some logical manner, e.g. time.
 - If it makes sense for the type of chart used and if space allows, align the charts in a single row or column so that the viewer can make comparisons along a single baseline.
 
 guidance-not-recommended:
