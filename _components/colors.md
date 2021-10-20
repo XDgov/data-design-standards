@@ -11,6 +11,14 @@ subnav:
   href: "#color-accessibility"
 - text: Text Accessibility
   href: "#text-accessibility"
+
+guidance-always:
+- Use 508-compliant color schemes in your data visualizations.
+- Use a neutral background.
+
+guidance-recommended:
+- Refer to your agency’s brand guidelines to determine what colors to use.
+- Be consistent in how you use color to label data across data visualizations.
 ---
 
 <div id="palette">

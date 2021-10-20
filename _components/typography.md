@@ -13,6 +13,15 @@ subnav:
   href: "#spacing"
 - text: Typesetting
   href: "#typesetting"
+
+guidance-always:
+- Use fonts that are designed for readability.
+
+guidance-never:
+- Never use script or handwritten-style fonts in a data visualization.
+
+guidance-recommended:
+- Refer to your agency’s brand guidelines for typography guidance.
 ---
 <div id="typefaces">
   <h2>Typefaces</h2>

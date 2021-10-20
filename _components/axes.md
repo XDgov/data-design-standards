@@ -11,11 +11,22 @@ subnav:
   href: "#tick-marks"
 - text: Comparing Visualizations
   href: "#comparing-visualizations"
+
+guidance-always:
+- Label each axis.
+- Be consistent in how you label tick marks.
+- Use consistent axes for data visualizations that are being compared.
+
+guidance-recommended:
+- Add the unit of measurement to the axis title (i.e. "Percentage of Voters").
+- Reduce clutter by not labeling every tick mark.
+- Use different size tick marks (like a ruler) when not labeling each tick mark, i.e. use a longer tick mark for every 5th mark.
+
 ---
 <p>
   Typically charts contain two axes: an x-axis and a y-axis. In many cases, one
-  axis is used to establish the continous interval of a dataset (i.e. time),
-  while the other axis is used to map a datapoint against a value (i.e. a
+  axis is used to establish the continuous interval of a dataset (i.e. time),
+  while the other axis is used to map a data point against a value (i.e. a
   percentage, dollar amount, or integer).
 </p>
 <p>
@@ -75,7 +86,7 @@ subnav:
   <p>
     Tick marks are used to indicate a reference value at a given point in a
     chart. Tick marks function similar to the lines on a ruler – not all tick
-    marks need to be labeled, but they do need to establish a continous interval
+    marks need to be labeled, but they do need to establish a continuous interval
     by ensuring the number of tick marks between each labeled tick mark is
     always the same.
   </p>

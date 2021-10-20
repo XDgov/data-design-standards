@@ -17,18 +17,18 @@ components:
 lead: A stacked bar chart is a bar chart that includes subgroups of data in each bar.
 tags: [comparative]
 guidance-always:
-- Always begin the bar lengths at zero.
-- Always include a legend along with labels.
-- Always maintain an even amount of space between bars.
+- Begin the bar lengths at zero.
+- Include a legend along with labels.
+- Maintain an even amount of space between bars.
 
 guidance-recommended:
-- It is recommended that you order groups by their total value or the values of a selected subgroup.
-- It is recommended that you include no more than five subgroups.
-- It is recommended that you use a sequential or diverging color scheme if the subgroups have an order.
-- It is recommended that you use a qualitative color scheme if the subgroups do not have an order.
+- Order groups by their total value or the values of a selected subgroup.
+- Include no more than five subgroups.
+- Use a sequential or diverging color scheme if the subgroups have an order.
+- Use a qualitative color scheme if the subgroups do not have an order.
 
 guidance-not-recommended:
-- It is not recommended that you order groups by their alphabetical label.
+- Don’t order groups by their alphabetical label.
 guidance-never:
 - Never depict more than five subgroups.
 ---

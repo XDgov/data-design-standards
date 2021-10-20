@@ -17,15 +17,13 @@ components:
 lead: A line graph is a chart that displays a series of data points connected by line segments.
 tags: [distribution]
 guidance-always:
-- Always start the y-axis at zero.
-- Always label each line if there is more than one line.
-- Always ensure that each line is legible.
-
-guidance-recommended:
-- It is recommended that you forgo a legend if only a single line is present.
+- Start the y-axis at zero.
+- Label each line if there is more than one line.
+- Ensure that each line is legible.
 
 guidance-not-recommended:
-- It is not recommended that you use horizontal lines unless conveying exact amounts.
+- Don't use horizontal lines unless conveying exact amounts.
+
 guidance-never:
 - Never use a legend for a graph with a single line.
 ---

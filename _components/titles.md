@@ -11,6 +11,16 @@ subnav:
   href: "#subtitles"
 - text: Accessibility
   href: "#accessibility"
+
+guidance-always:
+- Include a title with your data visualization.
+- Write a user-friendly title that tells people what your data visualization is about.
+- Place subtitles directly below the title when a subtitle is included.
+
+guidance-recommended:
+- Include a subtitle to give users with more context about the data visualization.
+- A title should contain no more than 2 lines of text or 8 words.
+- Place titles directly above or immediately adjacent to your data visualization.
 ---
 <p>
   In addition to a traditional title element, data visualizations can also

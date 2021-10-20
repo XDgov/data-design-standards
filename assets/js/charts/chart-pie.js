@@ -9,7 +9,7 @@
       type: 'pie',
       data: {
         datasets: [{
-          data: [58.6, 22.9, 10, 8.6],
+          data: [7.95, 47.97, 34.65, 9.43],
           backgroundColor: [
             "#0095A8",
             "#112E51",
@@ -18,10 +18,10 @@
           ],
         }],
         labels: [
-          "1st Qtr",
-          "2nd Qtr",
-          "3rd Qtr",
-          "4th Qtr"
+          "1-2 key performance indicators",
+          "3-9 key performance indicators",
+          "10 or more key performance indicators",
+          "No key performance indicators"
         ]
       },
       options: {

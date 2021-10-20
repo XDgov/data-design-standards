@@ -17,14 +17,15 @@ components:
 lead: A scatter plot is a two-dimensional chart that shows the relationship between two variables.
 tags: [correlation, distribution]
 guidance-always:
-- Always include a legend if more than one set of values is being visualized.
+- Include a legend if more than one set of values is being visualized.
 
 guidance-recommended:
-- It is recommended that the title explain the unit of analysis.
-- It is recommended that you include point labels or markers for specific observations.
+- The title should explain the unit of analysis.
+- Include point labels or markers for specific observations.
 
 guidance-not-recommended:
-- It is not recommended to use a scatter plot chart if there are an excessive number of overlapping values.
+- Don’t use a scatter plot chart if there are an excessive number of overlapping values.
+
 guidance-never:
 - Never overlap labels for points.
 - Never use complex symbols as point markers.

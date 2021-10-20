@@ -288,6 +288,10 @@
   color: $census-color-grey-dark;
   font-size: 1.3rem;
   margin-top: 1rem;
+
+  a {
+    word-break: break-all;
+  }
 }
 
 .usa-viz-warning {

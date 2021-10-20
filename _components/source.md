@@ -4,6 +4,8 @@ layout: components
 title: Source
 category: Components
 lead: Sources should be cited with all data visualizations so that users understand where the underlying data comes from.
+guidance-always:
+- Follow the U.S. Census Bureau’s (or your agency’s, if different) citation styles. 
 ---
 <p>
   When cited properly, sources help expert users access the underlying data for
@@ -24,38 +26,16 @@ lead: Sources should be cited with all data visualizations so that users underst
 </p>
 <h2>Agency Guidance</h2>
 <p>
-  Below is a growing list of source citation guidance from organizations across
-  the federal government:
+  The U.S. Census Bureau’s style for citing references is:
 </p>
-<ul>
-  <li>
-    <a href="https://www.cdc.gov/nchs/products/citations.htm" target="_blank">
-      Center for Disease Control (CDC)
-    </a>
-  </li>
-  <li>
-    <a href="http://www.loc.gov/teachers/usingprimarysources/citing.html" target="_blank">
-      Library of Congress
-    </a>
-  </li>
-  <li>
-    <a href="https://www.ncbi.nlm.nih.gov/geo/info/linking.html" target="_blank">
-      National Center for Biotechnology Information (NCBI)
-    </a>
-  </li>
-  <li>
-    <a href="https://www.nps.gov/mwac/hopewell/v6n1/lpdf/citing_internet_sources.pdf" target="_blank">
-      National Park Service (NPS)
-    </a>
-  </li>
-  <li>
-    <a href="https://www.usfa.fema.gov/data/library/research/cite.html" target="_blank">
-      U.S. Fire Administration (USFA)
-    </a>
-  </li>
-  <li>
-    <a href="https://www2.usgs.gov/datamanagement/describe/citation.php" target="_blank">
-      U.S. Geological Survey (USGS)
-    </a>
-  </li>
-</ul>
+<p>
+  U.S. Census Bureau, [Program/Publication], [Page number], [Posted date/Date of source data], [URL], Accessed on [Date]. 
+</p>
+<div id="examples">
+  <h3>Example</h3>
+  <div class="component-examples clearfix">
+    <div class="usa-chart-card">
+      <div class="usa-source-container">Source: U.S. Census Bureau, Statistical Quality Standards – Standard E2-2#2, p.88, July 2013, <a href="https://www.census.gov/content/dam/Census/about/about-the-bureau/policies_and_notices/quality/statistical-quality-standards/Quality_Standards.pdf">https://www.census.gov/content/dam/Census/about/about-the-bureau/policies_and_notices/quality/statistical-quality-standards/Quality_Standards.pdf</a>, Accessed on February 13, 2019.</div>
+    </div>
+  </div>
+</div>
