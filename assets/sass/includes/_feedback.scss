@@ -3,17 +3,18 @@
   box-sizing: border-box;
   bottom: 1.5rem;
   font-size: 1.5rem;
+  max-width: 28rem;
   padding: 1rem 1.5rem;
   position: fixed;
   right: 2.5rem;
 
-  a {
+  div {
     color: $color-black;
     font-weight: bold;
     text-decoration: none;
   }
 
-  div {
+  p {
     font-size: 1.2rem;
   }
 }
